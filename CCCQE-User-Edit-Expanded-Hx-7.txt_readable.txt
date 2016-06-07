@@ -1,0 +1,1777 @@
+
+
+Bright Futures-4 Years
+
+
+
+  HEALTH
+
+
+	Health Status:  [Dropdown List]
+		good
+		fair
+		poor
+
+	ER Visits:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		>5
+
+	Reason for ER visit:  [Dropdown List]
+		abdominal pain
+		asthma
+		coughing
+		dehydration
+		diarrhea
+		ear pain
+		fever
+		fracture
+		headache
+		ingestion
+		laceration
+		rash
+		seizure
+		shortness of breath
+		sore throat
+		trauma
+		URI
+		UTI
+		vomiting
+		wheezing
+
+	Hospitalizations:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		>5
+
+	Discharge Diagnosis:  [Dropdown List]
+		ALTE
+		appendicitis
+		asthma
+		bronchiolitis
+		dehydration
+		gastroenteritis
+		ingestion
+		pneumonia
+		pyelonephritis
+		trauma
+		rule out sepsis
+		seizure
+		surgery
+
+	Immunization Reaction:  [Dropdown List]
+		no reaction
+		reaction
+		fever
+		local reaction
+
+	Dental Visit-last 6 months  [Dropdown List]
+		yes
+		no
+
+	Brushing Teeth  [Dropdown List]
+		once a day
+		twice a day
+		after each meal
+		no
+
+	Flossing  [Dropdown List]
+		once a day
+		twice a day
+		after each meal
+		no
+
+
+  HOME/FAMILY
+
+
+	Lives with:  [Dropdown List]
+		mother
+		father
+		mother & father
+		grandmother
+		grandfather
+		grandparents
+		aunt
+		uncle
+		foster parents
+		adoptive parents
+		other:
+
+	Guardian:  [Dropdown List]
+		mother
+		father
+		mother & father
+		grandmother
+		grandfather
+		grandparents
+		aunt
+		uncle
+		foster parents
+		adoptive parents
+		other:
+
+	# of Siblings:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+
+	Lives In:  [Dropdown List]
+		apartment
+		house
+		shelter
+		homeless
+		other: 
+
+	# of Bedrooms:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		>6
+
+	Shares Bedroom:  [Dropdown List]
+		no
+		yes
+
+	Passive Smoke Exposure:  [Dropdown List]
+		yes
+		no
+
+	Passive Smoke Counseling:  [Dropdown List]
+		not indicated; no passive smoke exposure
+		to avoid passive smoke exposure
+		advised to quit smoking and to avoid smoke exposure
+
+	Caregiver Relationships:  [Dropdown List]
+		good with mother
+		poor with mother
+		mother not involved
+		good with father
+		poor with father
+		father not involved
+		in foster care
+
+	Father Involvement:  [Dropdown List]
+		involved
+		not involved
+		occasional involvement
+		where abouts unknown
+		incarcerated
+		deceased
+
+	Relationship with Siblings:  [Dropdown List]
+		good
+		fair
+		poor
+		only child
+
+	Discipline Type:  [Dropdown List]
+		verbal
+		time out
+		spanking
+		other: 
+
+	History of Abuse:  [Dropdown List]
+		no
+		yes
+		physical
+		emotional
+		sexual
+
+	History of Neglect:  [Dropdown List]
+		no
+		yes
+
+	Substance use exposure in home:  [Dropdown List]
+		yes: see Social History
+		no
+
+	Domestic Violence:  [Dropdown List]
+		no domestic violence
+		history of domestic violence
+		current domestic violence
+		unable to assess
+
+	CPS/DSS:  [Dropdown List]
+		no active case
+		active case
+		currently investigating
+		unfounded case
+		closed case
+		shelter care order in place
+
+	Foster Care:  [Dropdown List]
+		no
+		yes - since: 
+
+	# of Placements:  [Dropdown List]
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		>10
+
+	Parental Stress:  [Dropdown List]
+		no
+		yes
+		coping well
+
+	Pets in Home:  [Dropdown List]
+		yes
+		no
+
+	Type of Pets:  [Dropdown List]
+		cat
+		dog
+		rabbit
+		guinea pig
+		hamster
+		bird
+		reptile
+
+	Diet:  [List Box]
+		all four food groups
+		not all four food groups
+		picky eater
+		good appetite
+		junk food
+		fast food/carryout
+
+	Milk:  [List Box]
+		whole Milk
+		2% Milk
+		1% Milk
+		Fat Free Milk
+		Soy Milk
+		adequate calcium intake
+		inadequate calcium intake
+		Cow's milk formula
+		Soy based formula
+		thickened with rice cereal
+		Lactose free
+		Hydrolyzed protein
+		WIC recipient
+
+	Drinks:  [List Box]
+		no juice
+		juice <8 oz/day
+		juice 8-16 oz/day
+		juice >16 oz/day
+		water
+
+	Carbonated/Caffeine Drinks:  [List Box]
+		no carbonated
+		yes carbonated
+		no caffeine
+		yes caffeine
+		<8 oz/day
+		8-16 oz/day
+		>16 oz/day
+
+	Elimination:  [List Box]
+		regular
+		irregular
+		soft BM's
+		hard BM's
+		constipation
+		diarrhea
+		voiding normal
+		problems voiding
+
+	Toilet Training:  [List Box]
+		done
+		daytime only
+		in process
+		refusing
+		withholding
+		none
+		no concerns
+		has concerns
+
+	Sleep:  [List Box]
+		no problems
+		has problems
+		problem falling asleep
+		frequent awakenings
+		nightmares
+		co-bedding
+		no co-bedding
+		in own room
+		shares room
+		in parent's room
+
+	Activities:  [List Box]
+		outdoor play
+		likes to be read to
+		playgroup
+
+	TV/Computer/Video:  [List Box]
+		>2 hours total/day
+		<2 hours total/day
+		has computer at home
+		has video games at home
+		content monitored
+		content not monitored
+		exposure to media violence
+		plays violent video games
+
+	Friends:  [List Box]
+		yes
+		no
+		many friends
+		few friends
+		no friends
+
+	School:  [List Box]
+		not in school
+		IEP (Individualized Education Plan)
+		special education
+		suspended
+		teacher with concerns
+		teacher without concerns
+		public
+		private
+		chartered
+		home school
+
+	Child Care:  [List Box]
+		at home with parent/guardian
+		stays with kin
+		babysitter
+		daycare
+		early intervention
+
+	Developmental Concerns:  [List Box]
+		no
+		yes
+		formal assessment completed
+		ages & stages completed
+		Denver Developmental II completed
+
+	Behavior Concerns:  [List Box]
+		no
+		yes
+		MCHAT completed
+		Vanderbilt completed
+		Conner completed
+
+	Vision/Hearing:  [List Box]
+		no concerns with vision
+		no concerns with hearing
+		concerns with vision
+		concerns with hearing
+		failed last vision screen
+		failed last hearing screen^no concerns with vision
+		no concerns with hearing
+
+	Gross Motor Assessment:  [List Box]
+		hops
+		balances 2-3 secs.
+		heel-toe walk
+		catches bounced ball
+		^hops
+		balances 2-3 secs.
+		heel-toe walk
+		catches bounced ball
+		
+
+	Fine Motor Assessment:  [List Box]
+		copies circle
+		copies square
+		draws person-3 to 6 parts
+		brushes teeth-no help
+		dresses self-no help
+		^copies circle
+		copies square
+		draws person-3 to 6 parts
+		brushes teeth-no help
+		dresses self-no help
+		
+
+	Communication:  [List Box]
+		speech 100% understandable
+		names 4 colors
+		knows 3 adjectives
+		knows 4 actions
+		knows made of (spoon-shoe-door)
+		knows 2-3 opposites (hot-cold/big-little)^speech 100% understandable
+		names 4 colors
+		knows 3 adjectives
+		knows 4 actions
+		knows made of (spoon-shoe-door)
+		knows 2-3 opposites (hot-cold/big-little)
+
+	Social:  [List Box]
+		plays games with rules
+		toilets alone
+		dresses self
+		plays in group
+		separates easily^plays games with rules
+		toilets alone
+		dresses self
+		plays in group
+		separates easily
+
+	Lead Risk Factors:  [List Box]
+		no
+		yes
+
+	TB Risk Factors:  [List Box]
+		no
+		yes
+
+	CV Risk Assessment:  [List Box]
+
+	positive for  [Dropdown List]
+		no risk factors
+		FH CAD male <55 years
+		FH CAD female <65 years
+		mother w/high cholesterol
+		father w/high cholesterol
+		overweight
+		smoker
+		lack of exercise
+		high blood pressure
+		high cholesterol
+		diabetes
+
+	ANTICIPATORY GUIDANCE:  [List Box]
+		discussed with caregiver
+		verbalized understanding
+		reviewed
+		minimum 3 categories reviewed
+		handout(s) given^discussed with caregiver
+		minimum 3 categories reviewed
+
+	BARRIERS TO COUNSELING:  [List Box]
+		none
+		cognitive
+		visually impaired
+		hearing impaired
+		low literacy
+		English as a second language
+		physical
+		cultural diversity
+		interpreter required
+		interpreter utilized
+
+	INJURY/ILLNESS PREVENT:  [List Box]
+		car seat/booster seat
+		crib safety
+		falls
+		burns
+		water heater/hot liquids
+		smoke detector/fire safety plan
+		sun safety
+		violence/guns
+		sharp/small objects
+		child proofing
+		poison control #
+		electrical outlets/cords
+		falls
+		stairs
+		no walkers
+		water safety
+		lead risks
+
+	HEALTHY/SAFE HABITS:  [List Box]
+		age-appropriate book given
+		good sleep habits
+		passive smoking
+		skin care
+		limit TV
+		reading
+		bedwetting
+		nightmares
+		leg aches
+		fears
+		normal sexual curiosity-simple answers
+		masturbation
+		Oedipal complex
+		use sunscreen
+		tick prevention
+		second hand smoke
+
+	NUTRITION:  [List Box]
+		healthy food choice
+		limit carbonated beverages
+		limit caffeine
+		limit fat
+		limit fast foods
+		elimination/toileting
+		WIC status
+
+	SCHOOL READINESS:  [List Box]
+		school readiness
+		enrolled in Pre-K/K
+		school avoidance
+		management of aggression
+		promote self-help skills
+		caution with strangers/animals
+
+	PARENTING:  [List Box]
+		family relationships
+		discipline/limits
+		stranger anxiety
+		praise and encourage
+		autonomy
+		avoid spanking/slapping
+		allow separation
+		promote initiative/creativity
+		awareness of ADD/learning disabilities
+
+	ORAL HEALTH:  [List Box]
+		clean teeth
+		teeth brushing
+		dentist every 6 months
+		fluoride in water^clean teeth
+		teeth brushing
+		dentist every 6 months
+
+	IMMUNIZATIONS:  [List Box]
+		reviewed
+		up to date
+		counseled on risks and benefits
+		deferred due to illness
+		catch-up needed
+		refused-counseled on risks of refusal
+		refusal consent signed
+
+	HOME CHILDPROOFED:  [List Box]
+		yes
+		no
+		counseled
+
+	CAR SEAT USED:  [List Box]
+		yes
+		no
+		counseled
+		car seat
+		booster seat
+
+	HOME SAFETY:  [List Box]
+		smoke detector
+		no smoke detector
+		carbon monoxide monitor
+		no carbon monoxide monitor
+		fire extinguisher
+		no fire extinguisher
+		firearms in home-safety addressed
+
+
+Bright Futures-5 Years
+
+
+
+  HEALTH
+
+
+	Health Status:  [Dropdown List]
+		good
+		fair
+		poor
+
+	ER Visits:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		>5
+
+	Reason for ER visit:  [Dropdown List]
+		abdominal pain
+		asthma
+		coughing
+		dehydration
+		diarrhea
+		ear pain
+		fever
+		fracture
+		headache
+		ingestion
+		laceration
+		rash
+		seizure
+		shortness of breath
+		sore throat
+		trauma
+		URI
+		UTI
+		vomiting
+		wheezing
+
+	Hospitalizations:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		>5
+
+	Discharge Diagnosis:  [Dropdown List]
+		ALTE
+		appendicitis
+		asthma
+		bronchiolitis
+		dehydration
+		gastroenteritis
+		ingestion
+		pneumonia
+		pyelonephritis
+		trauma
+		rule out sepsis
+		seizure
+		surgery
+
+	Immunization Reaction:  [Dropdown List]
+		no reaction
+		reaction
+		fever
+		local reaction
+
+	Dental Visit-last 6 months  [Dropdown List]
+		yes
+		no
+
+	Brushing Teeth  [Dropdown List]
+		once a day
+		twice a day
+		after each meal
+		no
+
+	Flossing  [Dropdown List]
+		once a day
+		twice a day
+		after each meal
+		no
+
+
+  HOME/FAMILY
+
+
+	Lives with:  [Dropdown List]
+		mother
+		father
+		mother & father
+		grandmother
+		grandfather
+		grandparents
+		aunt
+		uncle
+		foster parents
+		adoptive parents
+		other:
+
+	Guardian:  [Dropdown List]
+		mother
+		father
+		mother & father
+		grandmother
+		grandfather
+		grandparents
+		aunt
+		uncle
+		foster parents
+		adoptive parents
+		other:
+
+	# of Siblings:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+
+	Lives In:  [Dropdown List]
+		apartment
+		house
+		shelter
+		homeless
+		other: 
+
+	# of Bedrooms:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		>6
+
+	Shares Bedroom:  [Dropdown List]
+		no
+		yes
+
+	Passive Smoke Exposure:  [Dropdown List]
+		yes
+		no
+
+	Passive Smoke Counseling:  [Dropdown List]
+		not indicated; no passive smoke exposure
+		to avoid passive smoke exposure
+		advised to quit smoking and to avoid smoke exposure
+
+	Caregiver Relationships:  [Dropdown List]
+		good with mother
+		poor with mother
+		mother not involved
+		good with father
+		poor with father
+		father not involved
+		in foster care
+
+	Father Involvement:  [Dropdown List]
+		involved
+		not involved
+		occasional involvement
+		where abouts unknown
+		incarcerated
+		deceased
+
+	Relationship with Siblings:  [Dropdown List]
+		good
+		fair
+		poor
+		only child
+
+	Discipline Type:  [Dropdown List]
+		verbal
+		time out
+		spanking
+		other: 
+
+	History of Abuse:  [Dropdown List]
+		no
+		yes
+		physical
+		emotional
+		sexual
+
+	History of Neglect:  [Dropdown List]
+		no
+		yes
+
+	Substance use exposure in home:  [Dropdown List]
+		yes: see Social History
+		no
+
+	Domestic Violence:  [Dropdown List]
+		no domestic violence
+		history of domestic violence
+		current domestic violence
+		unable to assess
+
+	CPS/DSS:  [Dropdown List]
+		no active case
+		active case
+		currently investigating
+		unfounded case
+		closed case
+		shelter care order in place
+
+	Foster Care:  [Dropdown List]
+		no
+		yes - since: 
+
+	# of Placements:  [Dropdown List]
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		>10
+
+	Parental Stress:  [Dropdown List]
+		no
+		yes
+		coping well
+
+	Pets in Home:  [Dropdown List]
+		yes
+		no
+
+	Type of Pets:  [Dropdown List]
+		cat
+		dog
+		rabbit
+		guinea pig
+		hamster
+		bird
+		reptile
+
+	Diet:  [List Box]
+		all four food groups
+		not all four food groups
+		picky eater
+		good appetite
+		junk food
+		fast food/carryout
+
+	Milk:  [List Box]
+		whole Milk
+		2% Milk
+		1% Milk
+		Fat Free Milk
+		Soy Milk
+		adequate calcium intake
+		inadequate calcium intake
+
+	Drinks:  [List Box]
+		no juice
+		juice <8 oz/day
+		juice 8-16 oz/day
+		juice >16 oz/day
+		water
+
+	Carbonated/Caffeine Drinks:  [List Box]
+		no carbonated
+		yes carbonated
+		no caffeine
+		yes caffeine
+		<8 oz/day
+		8-16 oz/day
+		>16 oz/day
+
+	Elimination:  [List Box]
+		regular
+		irregular
+		soft BM's
+		hard BM's
+		constipation
+		diarrhea
+		voiding normal
+		problems voiding
+
+	Toilet Training:  [List Box]
+		done
+		daytime only
+		in process
+		refusing
+		withholding
+		none
+		no concerns
+		has concerns
+
+	Sleep:  [List Box]
+		no problems
+		has problems
+		problem falling asleep
+		frequent awakenings
+		nightmares
+		co-bedding
+		no co-bedding
+		in own room
+		shares room
+		in parent's room
+
+	Activities:  [List Box]
+		outdoor play
+		likes to be read to
+		playgroup
+		sports
+		dance
+		gymnastics
+		music
+		art
+		likes to read
+
+	TV/Computer/Video:  [List Box]
+		>2 hours total/day
+		<2 hours total/day
+		has computer at home
+		has video games at home
+		content monitored
+		content not monitored
+		exposure to media violence
+		plays violent video games
+
+	Friends:  [List Box]
+		yes
+		no
+		many friends
+		few friends
+		no friends
+
+	School:  [List Box]
+		not in school
+		IEP (Individualized Education Plan)
+		special education
+		suspended
+		teacher with concerns
+		teacher without concerns
+		public
+		private
+		chartered
+		home school
+
+	Grade Level:  [List Box]
+		daycare
+		pre-K
+		ready for school
+		Head Start
+		Early Childhood Intervention
+
+	School Performance:  [List Box]
+		good
+		fair
+		poor
+		IEP (Individualized Education Plan)
+		special education
+
+	Developmental Concerns:  [List Box]
+		no
+		yes
+		formal assessment completed
+		ages & stages completed
+		Denver Developmental II completed
+
+	Behavior Concerns:  [List Box]
+		no
+		yes
+		MCHAT completed
+		Vanderbilt completed
+		Conner completed
+
+	Vision/Hearing:  [List Box]
+		no concerns with vision
+		no concerns with hearing
+		concerns with vision
+		concerns with hearing
+		failed last vision screen
+		failed last hearing screen^no concerns with vision
+		no concerns with hearing
+
+	Gross Motor Assessment:  [List Box]
+		balances 4-5 seconds
+		heel-toe walk
+		hops
+		catches bounced ball^balances 4-5 seconds
+		heel-toe walk
+		hops
+		catches bounced ball
+
+	Fine Motor Assessment:  [List Box]
+		copies circle
+		copies square
+		draws person-6 parts
+		brushes teeth-no help
+		dresses self-no help^copies circle
+		copies square
+		draws person-6 parts
+		brushes teeth-no help
+		dresses self-no help
+
+	Communication:  [List Box]
+		fluent sentences
+		counts 5 blocks
+		names 4 colors
+		knows 3 adjectives
+		knows 4 actions
+		knows made of (spoon-shoe-door)
+		knows 2-3 opposites (hot-cold/big-little)^fluent sentences
+		counts 5 blocks
+		names 4 colors
+		knows 3 adjectives
+		knows 4 actions
+		knows made of (spoon-shoe-door)
+		knows 2-3 opposites (hot-cold/big-little)
+
+	Social:  [List Box]
+		prepares cereal
+		follows rules
+		toilets alone
+		dresses self
+		plays in group
+		separates easily^prepares cereal
+		follows rules
+		toilets alone
+		dresses self
+		plays in group
+		separates easily
+
+	Lead Risk Factors:  [List Box]
+		no
+		yes
+
+	TB Risk Factors:  [List Box]
+		no
+		yes
+
+	CV Risk Assessment:  [List Box]
+
+	positive for  [Dropdown List]
+		no risk factors
+		FH CAD male <55 years
+		FH CAD female <65 years
+		mother w/high cholesterol
+		father w/high cholesterol
+		overweight
+		smoker
+		lack of exercise
+		high blood pressure
+		high cholesterol
+		diabetes
+
+	ANTICIPATORY GUIDANCE:  [List Box]
+		discussed with caregiver
+		verbalized understanding
+		reviewed
+		minimum 3 categories reviewed
+		handout(s) given^discussed with caregiver
+		minimum 3 categories reviewed
+
+	BARRIERS TO COUNSELING:  [List Box]
+		none
+		cognitive
+		visually impaired
+		hearing impaired
+		low literacy
+		English as a second language
+		physical
+		cultural diversity
+		interpreter required
+		interpreter utilized
+
+	INJURY/ILLNESS PREVENT:  [List Box]
+		car seat/booster seat
+		falls
+		burns
+		water heater/hot liquids
+		smoke detector/fire safety plan
+		sun safety
+		violence/guns
+		sharp/small objects
+		child proofing
+		poison control #
+		electrical outlets/cords
+		falls
+		stairs
+		no walkers
+		water safety
+		lead risks
+
+	HEALTHY/SAFE HABITS:  [List Box]
+		age-appropriate book given
+		good sleep habits
+		passive smoking
+		skin care
+		limit TV
+		reading
+		bedwetting
+		nightmares
+		leg aches
+		fears
+		normal sexual curiosity-simple answers
+		masturbation
+		Oedipal complex
+		use sunscreen
+		tick prevention
+		second hand smoke
+
+	NUTRITION:  [List Box]
+		healthy food choice
+		limit carbonated beverages
+		limit caffeine
+		limit fat
+		limit fast foods
+		elimination/toileting
+		WIC status
+
+	SCHOOL READINESS:  [List Box]
+		school readiness
+		enrolled in Pre-K/K
+		school avoidance
+		management of aggression
+		promote self-help skills
+		caution with strangers/animals
+
+	PARENTING:  [List Box]
+		family relationships
+		discipline/limits
+		stranger anxiety
+		praise and encourage
+		autonomy
+		avoid spanking/slapping
+		allow separation
+		promote initiative/creativity
+		awareness of ADD/learning disabilities
+
+	ORAL HEALTH:  [List Box]
+		clean teeth
+		teeth brushing
+		dentist every 6 months
+		fluoride in water^clean teeth
+		teeth brushing
+		dentist every 6 months
+
+	IMMUNIZATIONS:  [List Box]
+		reviewed
+		up to date
+		counseled on risks and benefits
+		deferred due to illness
+		catch-up needed
+		refused-counseled on risks of refusal
+		refusal consent signed
+
+	HOME CHILDPROOFED:  [List Box]
+		yes
+		no
+		counseled
+
+	CAR SEAT USED:  [List Box]
+		yes
+		no
+		counseled
+		car seat
+		booster seat
+
+	HOME SAFETY:  [List Box]
+		smoke detector
+		no smoke detector
+		carbon monoxide monitor
+		no carbon monoxide monitor
+		fire extinguisher
+		no fire extinguisher
+		firearms in home-safety addressed
+
+
+Bright Futures-6-10 Years
+
+
+
+  HEALTH
+
+
+	Health Status:  [Dropdown List]
+		good
+		fair
+		poor
+
+	ER Visits:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		>5
+
+	Reason for ER visit:  [Dropdown List]
+		abdominal pain
+		asthma
+		coughing
+		dehydration
+		diarrhea
+		ear pain
+		fever
+		fracture
+		headache
+		ingestion
+		laceration
+		rash
+		seizure
+		shortness of breath
+		sore throat
+		trauma
+		URI
+		UTI
+		vomiting
+		wheezing
+
+	Hospitalizations:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		>5
+
+	Discharge Diagnosis:  [Dropdown List]
+		ALTE
+		appendicitis
+		asthma
+		bronchiolitis
+		dehydration
+		gastroenteritis
+		ingestion
+		pneumonia
+		pyelonephritis
+		trauma
+		rule out sepsis
+		seizure
+		surgery
+
+	Immunization Reaction:  [Dropdown List]
+		no reaction
+		reaction
+		fever
+		local reaction
+
+	Dental Visit-last 6 months  [Dropdown List]
+		yes
+		no
+
+	Brushing Teeth  [Dropdown List]
+		once a day
+		twice a day
+		after each meal
+		no
+
+	Flossing  [Dropdown List]
+		once a day
+		twice a day
+		after each meal
+		no
+
+
+  HOME/FAMILY
+
+
+	Lives with:  [Dropdown List]
+		mother
+		father
+		mother & father
+		grandmother
+		grandfather
+		grandparents
+		aunt
+		uncle
+		foster parents
+		adoptive parents
+		other:
+
+	Guardian:  [Dropdown List]
+		mother
+		father
+		mother & father
+		grandmother
+		grandfather
+		grandparents
+		aunt
+		uncle
+		foster parents
+		adoptive parents
+		other:
+
+	# of Siblings:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+
+	Lives In:  [Dropdown List]
+		apartment
+		house
+		shelter
+		homeless
+		other: 
+
+	# of Bedrooms:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		>6
+
+	Shares Bedroom:  [Dropdown List]
+		no
+		yes
+
+	Passive Smoke Exposure:  [Dropdown List]
+		yes
+		no
+
+	Passive Smoke Counseling:  [Dropdown List]
+		not indicated; no passive smoke exposure
+		to avoid passive smoke exposure
+		advised to quit smoking and to avoid smoke exposure
+
+	Caregiver Relationships:  [Dropdown List]
+		good with mother
+		poor with mother
+		mother not involved
+		good with father
+		poor with father
+		father not involved
+		in foster care
+
+	Father Involvement:  [Dropdown List]
+		involved
+		not involved
+		occasional involvement
+		where abouts unknown
+		incarcerated
+		deceased
+
+	Relationship with Siblings:  [Dropdown List]
+		good
+		fair
+		poor
+		only child
+
+	Discipline Type:  [Dropdown List]
+		verbal
+		time out
+		spanking
+		other: 
+
+	History of Abuse:  [Dropdown List]
+		no
+		yes
+		physical
+		emotional
+		sexual
+
+	History of Neglect:  [Dropdown List]
+		no
+		yes
+
+	Substance use exposure in home:  [Dropdown List]
+		yes: see Social History
+		no
+
+	Domestic Violence:  [Dropdown List]
+		no domestic violence
+		history of domestic violence
+		current domestic violence
+		unable to assess
+
+	CPS/DSS:  [Dropdown List]
+		no active case
+		active case
+		currently investigating
+		unfounded case
+		closed case
+		shelter care order in place
+
+	Foster Care:  [Dropdown List]
+		no
+		yes - since: 
+
+	# of Placements:  [Dropdown List]
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		>10
+
+	Parental Stress:  [Dropdown List]
+		no
+		yes
+		coping well
+
+	Pets in Home:  [Dropdown List]
+		yes
+		no
+
+	Type of Pets:  [Dropdown List]
+		cat
+		dog
+		rabbit
+		guinea pig
+		hamster
+		bird
+		reptile
+
+	Diet/Food:  [List Box]
+		all four food groups
+		not all four food groups
+		frequent fast food
+		frequent junk food
+		picky eater
+		good appetite
+
+	Milk:  [List Box]
+		whole Milk
+		2% Milk
+		1% Milk
+		Fat Free Milk
+		Soy Milk
+		adequate calcium intake
+		inadequate calcium intake
+
+	Drinks:  [List Box]
+		no juice
+		juice <8 oz/day
+		juice 8-16 oz/day
+		juice >16 oz/day
+		water
+
+	Carbonated/Caffeine Drinks:  [List Box]
+		no carbonated
+		yes carbonated
+		no caffeine
+		yes caffeine
+		<8 oz/day
+		8-16 oz/day
+		>16 oz/day
+
+	Elimination:  [List Box]
+		no problems or concerns
+		problems or concerns noted
+		enuresis
+		encopresis
+
+	Sleep:  [List Box]
+		<8hrs/night
+		8hrs or more/night
+		no problems
+		has problems
+		problem falling asleep
+		frequent awakenings
+		nightmares
+		co-bedding
+		no co-bedding
+		in own room
+		shares room
+		in parent's room
+
+	Exercise:  [List Box]
+		none
+		jumps rope
+		runs
+		jogs
+		rides bike
+		swims
+
+	Sports:  [List Box]
+		football
+		baseball
+		basketball
+		hockey
+		soccer
+		swimming
+		gymnastics
+		track & field
+		cross country
+		cheerleading
+		tennis
+		lacrosse
+		competitive
+		recreational
+
+	Activities:  [List Box]
+		plays instrument
+		band
+		clubs
+		in after-school programs
+		Boys and Girls Club
+		Boy Scouts
+		Girl Scouts
+		photography
+		art
+		drama
+
+	TV/Computer/Video:  [List Box]
+		>2 hours total/day
+		<2 hours total/day
+		has computer at home
+		has video games at home
+		content monitored
+		content not monitored
+		exposure to media violence
+		plays violent video games
+
+	Friends:  [List Box]
+		many friends
+		few friends
+		no friends
+		has someone to talk to with issues
+		no one to talk to with issues
+		positive role model
+		no positive role model
+
+	Mental Health:  [List Box]
+		high self esteem
+		low self esteem
+		positive body image
+		negative body image
+		suicidal ideation
+		homicidal ideation
+		feelings of sadness
+		feelings of loneliness
+		poor appetite
+		feeling blue/depressed
+		anxiety
+
+	School:  [List Box]
+		not in school
+		teacher with concerns
+		teacher without concerns
+		public
+		private
+		chartered
+		home school
+
+	Grade Level:  [List Box]
+		kindergarten
+		1
+		2
+		3
+		4
+		5
+		6
+		pre-K
+		readiness
+
+	School Performance:  [List Box]
+		excellent
+		good
+		fair
+		poor
+		failing
+		delinquency
+		history of suspensions
+		multiple suspensions
+		not in school
+		IEP (Individualized Education Plan)
+		special education
+
+	Special Education:  [List Box]
+		no
+		yes
+		being evaluated
+		IEP requested
+		IEP in place
+
+	Future Career Goals:  [List Box]
+		work
+		college
+		military
+		associate degree
+
+	Behavior Concerns:  [List Box]
+		no
+		yes
+		MCHAT completed
+		Vanderbilt completed
+		Conner completed
+
+	Vision/Hearing:  [List Box]
+		no concerns with vision
+		no concerns with hearing
+		concerns with vision
+		concerns with hearing
+		failed last vision screen
+		failed last hearing screen^no concerns with vision
+		no concerns with hearing
+
+	TB Risk Factors:  [List Box]
+		no
+		yes
+
+	CV Risk Assessment:  [List Box]
+
+	positive for  [Dropdown List]
+		no risk factors
+		FH CAD male <55 years
+		FH CAD female <65 years
+		mother w/high cholesterol
+		father w/high cholesterol
+		overweight
+		smoker
+		lack of exercise
+		high blood pressure
+		high cholesterol
+		diabetes
+
+	ANTICIPATORY GUIDANCE:  [List Box]
+		discussed with caregiver
+		verbalized understanding
+		reviewed
+		minimum 3 categories reviewed
+		handout(s) given^discussed with caregiver
+		minimum 3 categories reviewed
+
+	BARRIERS TO COUNSELING:  [List Box]
+		none
+		cognitive
+		visually impaired
+		hearing impaired
+		low literacy
+		English as a second language
+		physical
+		cultural diversity
+		interpreter required
+		interpreter utilized
+
+	NUTRITION:  [List Box]
+		family meals
+		healthy food choices
+		limit high fat/high sugar foods
+		choose foods from food guide pyramid
+
+	SOCIAL COMPETENCE:  [List Box]
+		reading
+		hobbies
+		family time
+		limits-consequences
+		family rules
+		respect of authority
+		conflict/anger resolution
+		friendships
+		team/group activities
+		positive adult interactions
+		responsibility for self
+		responsibility for school
+		family vs. peer activities
+		caution with strangers/animals
+		teach address and phone number
+		competitiveness
+
+	COMMUNITY:  [List Box]
+		resources and referrals
+		school & community involvement
+		safe after school care
+		discussing current events
+		social responsibility
+
+	PARENTING/FAMILY:  [List Box]
+		listen
+		open communication
+		show interest in school/activities
+		show affection-respect-love
+		praise and encourage
+		individual attention
+		reasonable expectations
+		increased autonomy in decisions
+		give allowance
+		assist in handling money
+
+	INJURY/ILLNESS PREVENT:  [List Box]
+		booster seat
+		seat belts
+		front seat/air bag dangers
+		rear seat until age 12
+		water safety
+		bike-skating safety
+		helmet use
+		sun safety
+		home safety
+		smoke alarms/fire extinguishers
+		gun safety
+		stranger safety
+		increased risk taking
+		neighborhood safety
+		matches
+		poisoning/poison control #
+		fall prevention
+
+	HEALTHY/SAFE HABITS:  [List Box]
+		age-appropriate book given
+		smoke free home/car
+		adequate sleep
+		physical activity
+		limited TV/computer/video games
+		personal hygiene
+		supervise activities with friends
+		avoid alcohol/tobacco/drugs/inhalants
+		use sunscreen
+		tick prevention
+
+	SEXUALITY ED:  [List Box]
+		books about sexuality
+		sex education
+		delaying sexual activity
+		prepare for physical changes
+		masturbation
+		modesty
+
+	PLAY/COMMUNICATION:  [List Box]
+		organized sports
+		protective equipment in sports
+		hobbies
+
+	ORAL HEALTH:  [List Box]
+		clean teeth
+		teeth brushing
+		flossing
+		dentist every 6 months
+		fluoride in water^clean teeth
+		teeth brushing
+		flossing
+		dentist every 6 months
+
+	IMMUNIZATIONS:  [List Box]
+		reviewed
+		up to date
+		counseled on risks and benefits
+		deferred due to illness
+		catch-up needed
+		refused-counseled on risks of refusal
+		refusal consent signed
+
+	CAR RESTRAINT USED:  [List Box]
+		yes
+		no
+		counseled
+		car seat
+		booster seat
+		seat belt
+
+	HOME SAFETY:  [List Box]
+		smoke detector
+		no smoke detector
+		carbon monoxide monitor
+		no carbon monoxide monitor
+		fire extinguisher
+		no fire extinguisher
+		firearms in home-safety addressed

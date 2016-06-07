@@ -1,0 +1,2194 @@
+
+
+Bright Futures-17-21 Years Male
+
+
+
+  HEALTH
+
+
+	Health Status:  [Dropdown List]
+		good
+		fair
+		poor
+
+	ER Visits:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		>5
+
+	Reason for ER visit:  [Dropdown List]
+		abdominal pain
+		asthma
+		coughing
+		dehydration
+		diarrhea
+		ear pain
+		fever
+		fracture
+		headache
+		ingestion
+		laceration
+		rash
+		seizure
+		shortness of breath
+		sore throat
+		trauma
+		URI
+		UTI
+		vomiting
+		wheezing
+
+	Hospitalizations:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		>5
+
+	Discharge Diagnosis:  [Dropdown List]
+		ALTE
+		appendicitis
+		asthma
+		bronchiolitis
+		dehydration
+		gastroenteritis
+		ingestion
+		pneumonia
+		pyelonephritis
+		trauma
+		rule out sepsis
+		seizure
+		surgery
+
+	Immunization Reaction:  [Dropdown List]
+		no reaction
+		reaction
+		fever
+		local reaction
+
+	Dental Visit-last 6 months  [Dropdown List]
+		yes
+		no
+
+	Brushing Teeth  [Dropdown List]
+		once a day
+		twice a day
+		after each meal
+		no
+
+	Flossing  [Dropdown List]
+		once a day
+		twice a day
+		after each meal
+		no
+
+
+  HOME/FAMILY
+
+
+	Lives with:  [Dropdown List]
+		mother
+		father
+		mother & father
+		grandmother
+		grandfather
+		grandparents
+		aunt
+		uncle
+		foster parents
+		adoptive parents
+		other:
+
+	Guardian:  [Dropdown List]
+		mother
+		father
+		mother & father
+		grandmother
+		grandfather
+		grandparents
+		aunt
+		uncle
+		foster parents
+		adoptive parents
+		other:
+
+	# of Siblings:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+
+	Lives In:  [Dropdown List]
+		apartment
+		house
+		shelter
+		homeless
+		other: 
+
+	# of Bedrooms:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		>6
+
+	Shares Bedroom:  [Dropdown List]
+		no
+		yes
+
+	Passive Smoke Exposure:  [Dropdown List]
+		yes
+		no
+
+	Passive Smoke Counseling:  [Dropdown List]
+		not indicated; no passive smoke exposure
+		to avoid passive smoke exposure
+		advised to quit smoking and to avoid smoke exposure
+
+	Caregiver Relationships:  [Dropdown List]
+		good with mother
+		poor with mother
+		mother not involved
+		good with father
+		poor with father
+		father not involved
+		in foster care
+
+	Father Involvement:  [Dropdown List]
+		involved
+		not involved
+		occasional involvement
+		where abouts unknown
+		incarcerated
+		deceased
+
+	Relationship with Siblings:  [Dropdown List]
+		good
+		fair
+		poor
+		only child
+
+	Discipline Type:  [Dropdown List]
+		verbal
+		time out
+		spanking
+		other: 
+
+	History of Abuse:  [Dropdown List]
+		no
+		yes
+		physical
+		emotional
+		sexual
+
+	History of Neglect:  [Dropdown List]
+		no
+		yes
+
+	Substance use exposure in home:  [Dropdown List]
+		yes: see Social History
+		no
+
+	Domestic Violence:  [Dropdown List]
+		no domestic violence
+		history of domestic violence
+		current domestic violence
+		unable to assess
+
+	CPS/DSS:  [Dropdown List]
+		no active case
+		active case
+		currently investigating
+		unfounded case
+		closed case
+		shelter care order in place
+
+	Foster Care:  [Dropdown List]
+		no
+		yes - since: 
+
+	# of Placements:  [Dropdown List]
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		>10
+
+	Parental Stress:  [Dropdown List]
+		no
+		yes
+		coping well
+
+	Pets in Home:  [Dropdown List]
+		yes
+		no
+
+	Type of Pets:  [Dropdown List]
+		cat
+		dog
+		rabbit
+		guinea pig
+		hamster
+		bird
+		reptile
+
+
+  SUBSTANCE USE
+
+
+	Tobacco Exposure:  [Dropdown List]
+		no tobacco use in home or friends
+		parent/guardian using tobacco
+		friends using tobacco
+		parents and friends using tobacco
+
+	Tobacco Use:  [Dropdown List]
+		never
+		current-occasional
+		current-frequent
+		current-daily
+		tried-not using
+		quit
+
+	Type of Tobacco:  [Dropdown List]
+		cigarettes
+		cigars
+		cloves
+		smokeless
+		chew
+		black and milds
+
+	Packs/Day (20 cigs./pack):  [Dropdown List]
+		1/4
+		1/2
+		1
+		>1
+
+	Age Started:  [Dropdown List]
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+
+	Tobacco Cessation Counseling:  [Dropdown List]
+
+	Alcohol Exposure:  [Dropdown List]
+		no alcohol use in home or friends
+		parent/guardian uses occasionally
+		parent/guardian using regularly
+		parent/guardian alcohol abuse
+		friends using alcohol
+
+	Alcohol Use:  [Dropdown List]
+		never used
+		tried-not currently using
+		weekend drinker
+		weekday drinker
+		binge drinker
+		daily
+
+	Drinks/Occ (1oz=1beer=3oz wine):  [Dropdown List]
+		1
+		2
+		3
+		4
+		5
+		6
+		>6
+
+	C-Felt need to cut down:  [Dropdown List]
+		yes
+		no
+
+	A-Been annoyed by complaints:  [Dropdown List]
+		yes
+		no
+
+	G-Felt guilty about drinking:  [Dropdown List]
+		yes
+		no
+
+	E-Needed eye opener in morning:  [Dropdown List]
+		yes
+		no
+
+	CAGE Assessment Results:  [Dropdown List]
+		0-no problem
+		1-suggests possible problem
+		2-high likelihood of problem
+		3-high likelihood of problem
+		4-high likelihood of problem
+
+	Alcohol Counseling:  [Dropdown List]
+		not indicated; patient does not drink
+		not indicated; use of alcohol is not excessive or problematic
+		to decrease amount and/or frequency of alcohol intake
+		to STOP drinking
+
+	Marijuana Exposure:  [Dropdown List]
+		no marijuana use in home or friends
+		parent/guardian using marijuana regularly
+		friends using marijuana
+		marijuana use in community
+
+	Marijuana Use:  [Dropdown List]
+		never used
+		tried-not currently using
+		occasional-gets from friends
+		occasional-buys
+		regular
+		daily
+		selling
+
+	Illicit Drug Exposure:  [Dropdown List]
+		no illicit drug use in home or friends
+		parent/guardian using illicit drug regularly
+		friends using illicit drug
+		illicit drug use in community
+
+	Illicit Drug Use:  [Dropdown List]
+		never used
+		tried-not currently using
+		occasional-gets from friends
+		occasional-buys
+		regular
+		daily
+		selling
+
+	Type of Drugs Used:  [Dropdown List]
+		cocaine
+		crack
+		prescription pills
+		Ritalin
+		methamphetamine
+		inhalants
+		PCP
+		mushrooms
+		LSD
+		Ecstasy
+		Ketamine
+		Rohypnol
+		cold medicines
+		heroin inhaled
+		heroin IV
+		stimulants (uppers-speed)
+		depressants (downers-barbiturates)
+		steroids
+		multiple:  
+
+
+  SEXUALITY
+
+
+	Exposure to Sex:  [Dropdown List]
+		no friends are sexually active
+		friends are sexually active
+		exposure to media sex
+		reads pornographic magazines
+		watches pornography
+
+	Sexually Active:  [Dropdown List]
+		no
+		yes
+		never had sexual contact
+		previous sexual contact but no current
+		yes-regular sexual contact
+		nonconsensual sex
+
+	Type of Sexual Practice:  [Dropdown List]
+		oral
+		vaginal
+		oral and vaginal
+		anal (receptive)
+		anal (insertive)
+		anal (insertive & receptive)
+		oral and anal (insertive)
+		oral and anal (receptive)
+		oral and anal (insertive & receptive)
+		oral-vaginal-anal (receptive)
+		oral-vaginal-anal (insertive)
+		oral-vaginal-anal (insertive & receptive)
+
+	Sexual Preference:  [Dropdown List]
+		men
+		women
+		both men and women
+
+	Age of first sexual contact:  [Dropdown List]
+		21
+		20
+		19
+		18
+		17
+		16
+		15
+		14
+		13
+		12
+		11
+
+	Lifetime Partners:  [Dropdown List]
+		0
+		1
+		2-5
+		6-10
+		11-15
+		>15
+
+	Condom Use:  [Dropdown List]
+		always
+		frequently
+		occasional
+		never
+
+	Pregnancy Prevention:  [Dropdown List]
+		abstinence
+		none
+		OCP
+		combination injections
+		Depo Provera
+		IUD
+		IUD-progestin
+		Levonorgestrel patch
+		barrier-condoms
+		barrier-diaphragm
+		barrier-cervical cap
+		rhythm method
+		spermicide
+		BTL
+		Norplant
+		emergency contraception
+		Mirena
+		Implanon
+		NuvaRing
+		vasectomy
+		natural family planning
+
+	History of STD:  [Dropdown List]
+		no
+		yes
+		yes-chlamydia
+		yes-gonorrhea
+		yes-trichomonas
+		yes-syphilis
+		yes-herpes
+		yes-HPV
+		yes-HIV
+		yes-multiple: 
+
+	High Risk Behavior:  [Dropdown List]
+		no
+		multiple sex partners
+		sex for money/trade
+		forced sex
+		anal sex
+		no condom use
+		group sex
+
+	Children:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+
+	GAPS Screen  [Dropdown List]
+		yes
+		no
+
+	Diet/Food:  [List Box]
+		all four food groups
+		not all four food groups
+		frequent fast food
+		frequent junk food
+		picky eater
+		good appetite
+
+	Milk:  [List Box]
+		whole Milk
+		2% Milk
+		1% Milk
+		Fat Free Milk
+		Soy Milk
+		adequate calcium intake
+		inadequate calcium intake
+
+	Drinks:  [List Box]
+		no juice
+		juice <8 oz/day
+		juice 8-16 oz/day
+		juice >16 oz/day
+		water
+
+	Carbonated/Caffeine Drinks:  [List Box]
+		no carbonated
+		yes carbonated
+		no caffeine
+		yes caffeine
+		<8 oz/day
+		8-16 oz/day
+		>16 oz/day
+
+	Elimination:  [List Box]
+		no problems or concerns
+		problems or concerns noted
+		enuresis
+		encopresis
+
+	Sleep:  [List Box]
+		<8hrs/night
+		8hrs or more/night
+		no problems
+		has problems
+		problem falling asleep
+		frequent awakenings
+		nightmares
+		co-bedding
+		no co-bedding
+		in own room
+		shares room
+		in parent's room
+
+	Exercise:  [List Box]
+		none
+		jumps rope
+		runs
+		jogs
+		rides bike
+		swims
+
+	Sports:  [List Box]
+		football
+		baseball
+		basketball
+		hockey
+		soccer
+		swimming
+		gymnastics
+		track & field
+		cross country
+		cheer leading
+		tennis
+		lacrosse
+		competitive
+		recreational
+
+	Activities:  [List Box]
+		plays instrument
+		band
+		clubs
+		in after-school programs
+		Boys and Girls Club
+		Boy Scouts
+		Girl Scouts
+		photography
+		art
+		drama
+
+	TV/Computer/Video:  [List Box]
+		>2 hours total/day
+		<2 hours total/day
+		has computer at home
+		has video games at home
+		content monitored
+		content not monitored
+		exposure to media violence
+		plays violent video games
+
+	Friends:  [List Box]
+		many friends
+		few friends
+		no friends
+		has someone to talk to with issues
+		no one to talk to with issues
+		positive role model
+		no positive role model
+
+	Mental Health:  [List Box]
+		high self esteem
+		low self esteem
+		positive body image
+		negative body image
+		suicidal ideation
+		homicidal ideation
+		feelings of sadness
+		feelings of loneliness
+		poor appetite
+		feeling blue/depressed
+		anxiety
+
+	School:  [List Box]
+		not in school
+		teacher with concerns
+		teacher without concerns
+		public
+		private
+		chartered
+		home school
+
+	Grade Level:  [List Box]
+		9
+		10
+		11
+		12
+		college
+
+	School Performance:  [List Box]
+		excellent
+		good
+		fair
+		poor
+		failing
+		delinquency
+		history of suspensions
+		multiple suspensions
+		not in school
+		IEP (Individualized Education Plan)
+		special education
+
+	Special Education:  [List Box]
+		no
+		yes
+		being evaluated
+		IEP requested
+		IEP in place
+
+	Future Career Goals:  [List Box]
+		work
+		college
+		military
+		associate degree
+
+	Behavior Concerns:  [List Box]
+		no
+		yes
+		MCHAT completed
+		Vanderbilt completed
+		Conner completed
+
+	Vision/Hearing:  [List Box]
+		no concerns with vision
+		no concerns with hearing
+		concerns with vision
+		concerns with hearing
+		failed last vision screen
+		failed last hearing screen^no concerns with vision
+		no concerns with hearing
+
+	Violence:  [List Box]
+		home violence
+		victim of violent attack
+		neighborhood violence
+		gang membership
+		carries weapon
+		prior arrests
+		criminal convictions
+		juvenile detention
+
+	TB Risk Factors:  [List Box]
+		no
+		yes
+
+	CV Risk Assessment:  [List Box]
+
+	positive for  [Dropdown List]
+		no risk factors
+		FH CAD male <55 years
+		FH CAD female <65 years
+		mother w/high cholesterol
+		father w/high cholesterol
+		overweight
+		smoker
+		lack of exercise
+		high blood pressure
+		high cholesterol
+		diabetes
+
+	ANTICIPATORY GUIDANCE:  [List Box]
+		discussed with caregiver
+		verbalized understanding
+		reviewed
+		minimum 3 categories reviewed
+		handout(s) given^verbalized understanding
+		reviewed
+		minimum 3 categories reviewed
+
+	BARRIERS TO COUNSELING:  [List Box]
+		none
+		cognitive
+		visually impaired
+		hearing impaired
+		low literacy
+		English as a second language
+		physical
+		cultural diversity
+		interpreter required
+		interpreter utilized
+
+	NUTRITION:  [List Box]
+		healthy food choices
+		limit high fat/high sugar foods
+		skim milk
+		limit junk foods/soda/juice
+		dieting
+		eating disorders
+		vitamins/supplements
+		folic acid for females
+
+	SOCIAL COMPETENCE:  [List Box]
+		confidentiality
+		relationships
+		autonomy/independence
+		responsibility
+		discipline/limits
+		peer pressure
+		dependence vs. independence
+		establishing own values
+		social misconduct resulting from family dysfunctions
+		future plans
+		stay in school
+		love life
+		mood swings
+
+	PARENTING/FAMILY:  [List Box]
+		listen
+		open communication
+		show interest in school/activities
+		show affection-respect-love
+		praise and encourage
+		individual attention
+		reasonable expectations
+		increased autonomy in decisions
+		give allowance
+		assist in handling money
+
+	INJURY/ILLNESS PREVENT:  [List Box]
+		seat belt use
+		smoke detectors
+		fire extinguishers
+		safe driving
+		bike/scooter/skate safety
+		helmet use
+		sun safety
+		water safety
+		guns/violence
+		gangs
+		bullying
+		passive smoking
+
+	HEALTHY/SAFE HABITS:  [List Box]
+		age-appropriate book given
+		breast self exam
+		testicular self exam
+		smoke free home/car
+		adequate sleep
+		physical activity
+		limited TV/computer/video games
+		personal hygiene
+		avoid alcohol/tobacco/drugs/inhalants
+		use sunscreen
+		tick prevention
+
+	SEXUALITY ED:  [List Box]
+		pubertal changes
+		sexual identity/behavior/activity
+		sexual responsibility
+		contraception/pregnancy/STD awareness
+		prepare for physical changes
+		masturbation
+		modesty
+
+	SUBSTANCE USE:  [List Box]
+		documented above
+		no tobacco use
+		uses tobacco
+		no alcohol use
+		uses alcohol
+		no drug use
+		uses drugs
+
+	SCHOOL/ATHLETICS:  [List Box]
+		organized sports
+		protective equipment in sports
+		hobbies
+
+	IMMUNIZATIONS:  [List Box]
+		reviewed
+		up to date
+		counseled on risks and benefits
+		deferred due to illness
+		catch-up needed
+		refused-counseled on risks of refusal
+		refusal consent signed
+
+	SEAT BELT USED:  [List Box]
+		yes
+		no
+		counseled
+
+	HOME SAFETY:  [List Box]
+		smoke detector
+		no smoke detector
+		carbon monoxide monitor
+		no carbon monoxide monitor
+		fire extinguisher
+		no fire extinguisher
+		firearms in home-safety addressed
+
+	SELF EXAMS:  [List Box]
+		reviewed TSE
+		understands TSE
+		performs regular TSE
+
+
+Bright Futures-17-21 Years Female
+
+
+
+  HEALTH
+
+
+	Health Status:  [Dropdown List]
+		good
+		fair
+		poor
+
+	ER Visits:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		>5
+
+	Reason for ER visit:  [Dropdown List]
+		abdominal pain
+		asthma
+		coughing
+		dehydration
+		diarrhea
+		ear pain
+		fever
+		fracture
+		headache
+		ingestion
+		laceration
+		rash
+		seizure
+		shortness of breath
+		sore throat
+		trauma
+		URI
+		UTI
+		vomiting
+		wheezing
+
+	Hospitalizations:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		>5
+
+	Discharge Diagnosis:  [Dropdown List]
+		ALTE
+		appendicitis
+		asthma
+		bronchiolitis
+		dehydration
+		gastroenteritis
+		ingestion
+		pneumonia
+		pyelonephritis
+		trauma
+		rule out sepsis
+		seizure
+		surgery
+
+	Immunization Reaction:  [Dropdown List]
+		no reaction
+		reaction
+		fever
+		local reaction
+
+	Dental Visit-last 6 months  [Dropdown List]
+		yes
+		no
+
+	Brushing Teeth  [Dropdown List]
+		once a day
+		twice a day
+		after each meal
+		no
+
+	Flossing  [Dropdown List]
+		once a day
+		twice a day
+		after each meal
+		no
+
+
+  HOME/FAMILY
+
+
+	Lives with:  [Dropdown List]
+		mother
+		father
+		mother & father
+		grandmother
+		grandfather
+		grandparents
+		aunt
+		uncle
+		foster parents
+		adoptive parents
+		other:
+
+	Guardian:  [Dropdown List]
+		mother
+		father
+		mother & father
+		grandmother
+		grandfather
+		grandparents
+		aunt
+		uncle
+		foster parents
+		adoptive parents
+		other:
+
+	# of Siblings:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+
+	Lives In:  [Dropdown List]
+		apartment
+		house
+		shelter
+		homeless
+		other: 
+
+	# of Bedrooms:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		>6
+
+	Shares Bedroom:  [Dropdown List]
+		no
+		yes
+
+	Passive Smoke Exposure:  [Dropdown List]
+		yes
+		no
+
+	Passive Smoke Counseling:  [Dropdown List]
+		not indicated; no passive smoke exposure
+		to avoid passive smoke exposure
+		advised to quit smoking and to avoid smoke exposure
+
+	Caregiver Relationships:  [Dropdown List]
+		good with mother
+		poor with mother
+		mother not involved
+		good with father
+		poor with father
+		father not involved
+		in foster care
+
+	Father Involvement:  [Dropdown List]
+		involved
+		not involved
+		occasional involvement
+		where abouts unknown
+		incarcerated
+		deceased
+
+	Relationship with Siblings:  [Dropdown List]
+		good
+		fair
+		poor
+		only child
+
+	Discipline Type:  [Dropdown List]
+		verbal
+		time out
+		spanking
+		other: 
+
+	History of Abuse:  [Dropdown List]
+		no
+		yes
+		physical
+		emotional
+		sexual
+
+	History of Neglect:  [Dropdown List]
+		no
+		yes
+
+	Substance use exposure in home:  [Dropdown List]
+		yes: see Social History
+		no
+
+	Domestic Violence:  [Dropdown List]
+		no domestic violence
+		history of domestic violence
+		current domestic violence
+		unable to assess
+
+	CPS/DSS:  [Dropdown List]
+		no active case
+		active case
+		currently investigating
+		unfounded case
+		closed case
+		shelter care order in place
+
+	Foster Care:  [Dropdown List]
+		no
+		yes - since: 
+
+	# of Placements:  [Dropdown List]
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		>10
+
+	Parental Stress:  [Dropdown List]
+		no
+		yes
+		coping well
+
+	Pets in Home:  [Dropdown List]
+		yes
+		no
+
+	Type of Pets:  [Dropdown List]
+		cat
+		dog
+		rabbit
+		guinea pig
+		hamster
+		bird
+		reptile
+
+
+  SUBSTANCE USE
+
+
+	Tobacco Exposure:  [Dropdown List]
+		no tobacco use in home or friends
+		parent/guardian using tobacco
+		friends using tobacco
+		parents and friends using tobacco
+
+	Tobacco Use:  [Dropdown List]
+		never
+		current-occasional
+		current-frequent
+		current-daily
+		tried-not using
+		quit
+
+	Type of Tobacco:  [Dropdown List]
+		cigarettes
+		cigars
+		cloves
+		smokeless
+		chew
+		black and milds
+
+	Packs/Day (20 cigs./pack):  [Dropdown List]
+		1/4
+		1/2
+		1
+		>1
+
+	Age Started:  [Dropdown List]
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+
+	Tobacco Cessation Counseling:  [Dropdown List]
+
+	Alcohol Exposure:  [Dropdown List]
+		no alcohol use in home or friends
+		parent/guardian uses occasionally
+		parent/guardian using regularly
+		parent/guardian alcohol abuse
+		friends using alcohol
+
+	Alcohol Use:  [Dropdown List]
+		never used
+		tried-not currently using
+		weekend drinker
+		weekday drinker
+		binge drinker
+		daily
+
+	Drinks/Occ (1oz=1beer=3oz wine):  [Dropdown List]
+		1
+		2
+		3
+		4
+		5
+		6
+		>6
+
+	C-Felt need to cut down:  [Dropdown List]
+		yes
+		no
+
+	A-Been annoyed by complaints:  [Dropdown List]
+		yes
+		no
+
+	G-Felt guilty about drinking:  [Dropdown List]
+		yes
+		no
+
+	E-Needed eye opener in morning:  [Dropdown List]
+		yes
+		no
+
+	CAGE Assessment Results:  [Dropdown List]
+		0-no problem
+		1-suggests possible problem
+		2-high likelihood of problem
+		3-high likelihood of problem
+		4-high likelihood of problem
+
+	Alcohol Counseling:  [Dropdown List]
+		not indicated; patient does not drink
+		not indicated; use of alcohol is not excessive or problematic
+		to decrease amount and/or frequency of alcohol intake
+		to STOP drinking
+
+	Marijuana Exposure:  [Dropdown List]
+		no marijuana use in home or friends
+		parent/guardian using marijuana regularly
+		friends using marijuana
+		marijuana use in community
+
+	Marijuana Use:  [Dropdown List]
+		never used
+		tried-not currently using
+		occasional-gets from friends
+		occasional-buys
+		regular
+		daily
+		selling
+
+	Illicit Drug Exposure:  [Dropdown List]
+		no illicit drug use in home or friends
+		parent/guardian using illicit drug regularly
+		friends using illicit drug
+		illicit drug use in community
+
+	Illicit Drug Use:  [Dropdown List]
+		never used
+		tried-not currently using
+		occasional-gets from friends
+		occasional-buys
+		regular
+		daily
+		selling
+
+	Type of Drugs Used:  [Dropdown List]
+		cocaine
+		crack
+		prescription pills
+		Ritalin
+		methamphetamine
+		inhalants
+		PCP
+		mushrooms
+		LSD
+		Ecstasy
+		Ketamine
+		Rohypnol
+		cold medicines
+		heroin inhaled
+		heroin IV
+		stimulants (uppers-speed)
+		depressants (downers-barbiturates)
+		steroids
+		multiple:  
+
+
+  SEXUALITY
+
+
+	Exposure to Sex:  [Dropdown List]
+		no friends are sexually active
+		friends are sexually active
+		exposure to media sex
+		reads pornographic magazines
+		watches pornography
+
+	Sexually Active:  [Dropdown List]
+		no
+		yes
+		never had sexual contact
+		previous sexual contact but no current
+		yes-regular sexual contact
+		nonconsensual sex
+
+	Type of Sexual Practice:  [Dropdown List]
+		oral
+		vaginal
+		oral and vaginal
+		anal (receptive)
+		anal (insertive)
+		anal (insertive & receptive)
+		oral and anal (insertive)
+		oral and anal (receptive)
+		oral and anal (insertive & receptive)
+		oral-vaginal-anal (receptive)
+		oral-vaginal-anal (insertive)
+		oral-vaginal-anal (insertive & receptive)
+
+	Sexual Preference:  [Dropdown List]
+		men
+		women
+		both men and women
+
+	Age of first sexual contact:  [Dropdown List]
+		21
+		20
+		19
+		18
+		17
+		16
+		15
+		14
+		13
+		12
+		11
+
+	Lifetime Partners:  [Dropdown List]
+		0
+		1
+		2-5
+		6-10
+		11-15
+		>15
+
+	Condom Use:  [Dropdown List]
+		always
+		frequently
+		occasional
+		never
+
+	Pregnancy Prevention:  [Dropdown List]
+		abstinence
+		none
+		OCP
+		combination injections
+		Depo Provera
+		IUD
+		IUD-progestin
+		Levonorgestrel patch
+		barrier-condoms
+		barrier-diaphragm
+		barrier-cervical cap
+		rhythm method
+		spermicide
+		BTL
+		Norplant
+		emergency contraception
+		Mirena
+		Implanon
+		NuvaRing
+		vasectomy
+		natural family planning
+
+	History of STD:  [Dropdown List]
+		no
+		yes
+		yes-chlamydia
+		yes-gonorrhea
+		yes-trichomonas
+		yes-syphilis
+		yes-herpes
+		yes-HPV
+		yes-HIV
+		yes-multiple: 
+
+	High Risk Behavior:  [Dropdown List]
+		no
+		multiple sex partners
+		sex for money/trade
+		forced sex
+		anal sex
+		no condom use
+		group sex
+
+	LMP:  [Dropdown List]
+
+	Age of Menarche:  [Dropdown List]
+		premenarchal
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+
+	Menstrual Cycles:  [Dropdown List]
+		regular (monthly)
+		irregular
+
+	Menses Interval (days):  [Dropdown List]
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+
+	Menses Duration (days):  [Dropdown List]
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		>10
+
+	Menstrual Flow:  [Dropdown List]
+		spotting (pantie liner)
+		light (<2 pads/tampons/day)
+		medium (3-4 pads/tampons/day
+		heavy (>4 pads/tampons/day)
+
+	Menstrual Problems:  [Dropdown List]
+		no
+		dysmenorrhea
+		amenorrhea
+		menorrhagia
+
+	Feminine Products:  [Dropdown List]
+		tampons
+		pads
+		douche
+
+	Prior Pregnancies:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+
+	Pregnancy Outcomes:  [Dropdown List]
+		therapeutic abortion
+		spontaneous abortion
+		ectopic
+		preterm delivery
+		full term delivery
+
+	Children:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+
+	GAPS Screen:  [Dropdown List]
+		yes
+		no
+
+	Diet/Food:  [List Box]
+		all four food groups
+		not all four food groups
+		frequent fast food
+		frequent junk food
+		picky eater
+		good appetite
+
+	Milk:  [List Box]
+		whole Milk
+		2% Milk
+		1% Milk
+		Fat Free Milk
+		Soy Milk
+		adequate calcium intake
+		inadequate calcium intake
+
+	Drinks:  [List Box]
+		no juice
+		juice <8 oz/day
+		juice 8-16 oz/day
+		juice >16 oz/day
+		water
+
+	Carbonated/Caffeine Drinks:  [List Box]
+		no carbonated
+		yes carbonated
+		no caffeine
+		yes caffeine
+		<8 oz/day
+		8-16 oz/day
+		>16 oz/day
+
+	Elimination:  [List Box]
+		no problems or concerns
+		problems or concerns noted
+		enuresis
+		encopresis
+
+	Sleep:  [List Box]
+		<8hrs/night
+		8hrs or more/night
+		no problems
+		has problems
+		problem falling asleep
+		frequent awakenings
+		nightmares
+		co-bedding
+		no co-bedding
+		in own room
+		shares room
+		in parent's room
+
+	Exercise:  [List Box]
+		none
+		jumps rope
+		runs
+		jogs
+		rides bike
+		swims
+
+	Sports:  [List Box]
+		football
+		baseball
+		basketball
+		hockey
+		soccer
+		swimming
+		gymnastics
+		track & field
+		cross country
+		cheer leading
+		tennis
+		lacrosse
+		competitive
+		recreational
+
+	Activities:  [List Box]
+		plays instrument
+		band
+		clubs
+		in after-school programs
+		Boys and Girls Club
+		Boy Scouts
+		Girl Scouts
+		photography
+		art
+		drama
+
+	TV/Computer/Video:  [List Box]
+		>2 hours total/day
+		<2 hours total/day
+		has computer at home
+		has video games at home
+		content monitored
+		content not monitored
+		exposure to media violence
+		plays violent video games
+
+	Friends:  [List Box]
+		many friends
+		few friends
+		no friends
+		has someone to talk to with issues
+		no one to talk to with issues
+		positive role model
+		no positive role model
+
+	Mental Health:  [List Box]
+		high self esteem
+		low self esteem
+		positive body image
+		negative body image
+		suicidal ideation
+		homicidal ideation
+		feelings of sadness
+		feelings of loneliness
+		poor appetite
+		feeling blue/depressed
+		anxiety
+
+	School:  [List Box]
+		not in school
+		teacher with concerns
+		teacher without concerns
+		public
+		private
+		chartered
+		home school
+
+	Grade Level:  [List Box]
+		9
+		10
+		11
+		12
+		college
+
+	School Performance:  [List Box]
+		excellent
+		good
+		fair
+		poor
+		failing
+		delinquency
+		history of suspensions
+		multiple suspensions
+		not in school
+		IEP (Individualized Education Plan)
+		special education
+
+	Special Education:  [List Box]
+		no
+		yes
+		being evaluated
+		IEP requested
+		IEP in place
+
+	Future Career Goals:  [List Box]
+		work
+		college
+		military
+		associate degree
+
+	Behavior Concerns:  [List Box]
+		no
+		yes
+		MCHAT completed
+		Vanderbilt completed
+		Conner completed
+
+	Vision/Hearing:  [List Box]
+		no concerns with vision
+		no concerns with hearing
+		concerns with vision
+		concerns with hearing
+		failed last vision screen
+		failed last hearing screen^no concerns with vision
+		no concerns with hearing
+
+	Violence:  [List Box]
+		home violence
+		victim of violent attack
+		neighborhood violence
+		gang membership
+		carries weapon
+		prior arrests
+		criminal convictions
+		juvenile detention
+
+	TB Risk Factors:  [List Box]
+		no
+		yes
+
+	CV Risk Assessment:  [List Box]
+
+	positive for  [Dropdown List]
+		no risk factors
+		FH CAD male <55 years
+		FH CAD female <65 years
+		mother w/high cholesterol
+		father w/high cholesterol
+		overweight
+		smoker
+		lack of exercise
+		high blood pressure
+		high cholesterol
+		diabetes
+
+	ANTICIPATORY GUIDANCE:  [List Box]
+		discussed with caregiver
+		verbalized understanding
+		reviewed
+		minimum 3 categories reviewed
+		handout(s) given^verbalized understanding
+		reviewed
+		minimum 3 categories reviewed
+
+	BARRIERS TO COUNSELING:  [List Box]
+		none
+		cognitive
+		visually impaired
+		hearing impaired
+		low literacy
+		English as a second language
+		physical
+		cultural diversity
+		interpreter required
+		interpreter utilized
+
+	NUTRITION:  [List Box]
+		healthy food choices
+		limit high fat/high sugar foods
+		skim milk
+		limit junk foods/soda/juice
+		dieting
+		eating disorders
+		vitamins/supplements
+		folic acid for females
+
+	SOCIAL COMPETENCE:  [List Box]
+		confidentiality
+		relationships
+		autonomy/independence
+		responsibility
+		discipline/limits
+		peer pressure
+		dependence vs. independence
+		establishing own values
+		social misconduct resulting from family dysfunctions
+		future plans
+		stay in school
+		love life
+		mood swings
+
+	PARENTING/FAMILY:  [List Box]
+		listen
+		open communication
+		show interest in school/activities
+		show affection-respect-love
+		praise and encourage
+		individual attention
+		reasonable expectations
+		increased autonomy in decisions
+		give allowance
+		assist in handling money
+
+	INJURY/ILLNESS PREVENT:  [List Box]
+		seat belt use
+		smoke detectors
+		fire extinguishers
+		safe driving
+		bike/scooter/skate safety
+		helmet use
+		sun safety
+		water safety
+		guns/violence
+		gangs
+		bullying
+		passive smoking
+
+	HEALTHY/SAFE HABITS:  [List Box]
+		age-appropriate book given
+		breast self exam
+		testicular self exam
+		smoke free home/car
+		adequate sleep
+		physical activity
+		limited TV/computer/video games
+		personal hygiene
+		avoid alcohol/tobacco/drugs/inhalants
+		use sunscreen
+		tick prevention
+
+	SEXUALITY ED:  [List Box]
+		pubertal changes
+		sexual identity/behavior/activity
+		sexual responsibility
+		contraception/pregnancy/STD awareness
+		prepare for physical changes
+		masturbation
+		modesty
+
+	SUBSTANCE USE:  [List Box]
+		documented above
+		no tobacco use
+		uses tobacco
+		no alcohol use
+		uses alcohol
+		no drug use
+		uses drugs
+
+	SCHOOL/ATHLETICS:  [List Box]
+		organized sports
+		protective equipment in sports
+		hobbies
+
+	IMMUNIZATIONS:  [List Box]
+		reviewed
+		up to date
+		counseled on risks and benefits
+		deferred due to illness
+		catch-up needed
+		refused-counseled on risks of refusal
+		refusal consent signed
+
+	SEAT BELT USED:  [List Box]
+		yes
+		no
+		counseled
+
+	HOME SAFETY:  [List Box]
+		smoke detector
+		no smoke detector
+		carbon monoxide monitor
+		no carbon monoxide monitor
+		fire extinguisher
+		no fire extinguisher
+		firearms in home-safety addressed
+
+	SELF EXAMS:  [List Box]
+		reviewed BSE
+		understands BSE
+		performs regular BSE
+
+
+Asthma History
+
+
+	L_BOP  [Dropdown List]
+
+	P_IH  [Dropdown List]
+
+	OE_V  [Dropdown List]
+
+
+  Asthma PMH:
+
+
+	Age at onset of asthma (yrs):  [Dropdown List]
+
+	Family History of Asthma:  [Dropdown List]
+		no
+		yes
+
+	High Risk Indicators:  [Dropdown List]
+		>3 Hospitalizations in 1 year
+		ICU admission
+		intubation
+		non-compliance
+
+	# of days missed school/work:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		>10
+
+	# of ER visits:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		>10
+
+	# of hospitalizations:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		>10
+
+
+  Asthma Management History:
+
+
+	Has PEFR monitor:  [Dropdown List]
+		yes
+		no
+
+	Checking PEFR:  [Dropdown List]
+		yes
+		no
+
+	Compliance with AMP:  [Dropdown List]
+		yes
+		no
+		good
+		fair
+		poor
+		not at all
+
+	Understands AMP:  [Dropdown List]
+		yes
+		no
+
+	Problems with medication:  [Dropdown List]
+		no
+		yes
+
+	Steroid taper since last visit:  [Dropdown List]
+		no
+		yes
+
+	Average AMP zone since last visit:  [Dropdown List]
+		green
+		yellow
+		red
+
+	Asthma Education Program (AEP):  [Dropdown List]
+		yes
+		no
+		enrolled
+		completed
+		refused
+		NA
+
+	# of visits to AEP:  [Dropdown List]
+		0
+		1
+		2
+		3
+		4
+		5
+
+	Education provided to:  [Dropdown List]
+		patient
+		patient and parent(s)
+		patient and caretaker
+		patient and significant other
+		parent(s)
+		caretaker
+
+	Complains of  [List Box]
+
+	The patient presents with  [Dropdown List]
+		cough
+		shortness of breath
+		shortness of breath with exertion
+		wheezing
+		nocturnal awakenings
+		sinus symptoms
+		heartburn
+		history of GERD
+		nasal congestion
+		post nasal drip
+		sneezing
+		watery eyes
+		absenteeism
+		hemoptysis
+		weight loss
+		weight gain
+		edema
+		PND
+		orthopnea
+		chest pain
+		fatigue
+		anxiety
+		seasonal allergies
+
+	Denies  [List Box]
+
+	There is no history of  [Dropdown List]
+		cough
+		shortness of breath
+		shortness of breath with exertion
+		wheezing
+		nocturnal awakenings
+		sinus symptoms
+		heartburn
+		history of GERD
+		nasal congestion
+		post nasal drip
+		sneezing
+		watery eyes
+		absenteeism
+		hemoptysis
+		weight loss
+		weight gain
+		edema
+		PND
+		orthopnea
+		chest pain
+		fatigue
+		anxiety
+		seasonal allergies
+
+	Pattern-seasonal  [List Box]
+
+	Symptoms occur  [Dropdown List]
+		year round
+		year round but especially
+		in the winter
+		in the spring
+		in the summer
+		in the fall
+
+	Pattern-occurrence  [List Box]
+
+	Symptoms are  [Dropdown List]
+		continuous
+		episodic
+		worse at night
+		worse in the morning
+
+	Precipitating/Aggravating  [List Box]
+
+	Symptoms are precipitated and/or aggravated by  [Dropdown List]
+		viral respiratory infections
+		weather changes
+		cold air exposure
+		environmental allergens
+		home environment
+		school/work environment
+		smoking
+		exercise
+		environmental changes
+		irritants (smoke/odors/vapors)
+		emotions (crying/laughing)
+		stress (fear/anger/frustration)
+		medications
+		foods/food additives
+		sinus infections
+		rhinitis
+		GERD
+		menses
+		pregnancy
+		thyroid problems
+
+	Hx of Exacerbations  [List Box]
+
+	When exacerbations have occurred they have  [Dropdown List]
+		been sudden onset
+		been rapid onset
+		been gradual onset
+		
+
+	Risk Factors  [List Box]
+
+	Risk factors for asthma include  [Dropdown List]
+		BPD
+		pneumonia in childhood
+		passive smoke exposure
+		tobacco use
+		FH of asthma
+		FH of atopic disease
+		occupational exposures
+
+	Progression/Impact  [List Box]
+
+	The patient's asthma symptoms  [Dropdown List]
+		are getting worse
+		have improved
+		are unchanged
+		significantly impact patient/family
+		somewhat impact patient/family
+		do not impact patient/family
+
+	Last 4 Weeks-YES  [List Box]
+
+	In the past fours weeks (due to asthma) the patient HAS  [Dropdown List]
+		missed work
+		missed school
+		missed normal daily activities
+		awakened with symptoms
+		felt asthma not well controlled
+		used >12 puffs of SABA in a day
+
+	Last 4 Weeks-NO  [List Box]
+
+	In the past fours weeks (due to asthma) the patient HAS NOT  [Dropdown List]
+		missed work
+		missed school
+		missed normal daily activities
+		awakened with symptoms
+		felt asthma not well controlled
+		used >12 puffs of SABA in a day
+
+	Current Sx Control  [List Box]
+
+	Perception of the patient's current asthma control is  [Dropdown List]
+		well controlled
+		not well controlled
+		
+
+	Knowledge  [List Box]
+
+	The patient's/caretaker's understanding of asthma is  [Dropdown List]
+		excellent
+		good
+		fair
+		poor
+
+	Asthma Triggers  [List Box]
+
+	Specific asthma triggers include  [Dropdown List]
+		no known triggers
+		dust mites
+		pet dander
+		molds
+		grass
+		trees
+		weeds
+		cold/URI sx's
+		exercise
+		smoke exposure
+		odors
+		foods or drinks
+		weather changes
+		wood stove
+		heartburn or GERD
+		sinusitis
+		occupational exposure
+		insect bites
+
+	Prior Allergy Testing  [List Box]
+
+	Prior allergy testing  [Dropdown List]
+		has not been done
+		has been done
+		was positive
+		was negative
+
+	Home Environment  [List Box]
+
+	Patient currently lives in a  [Dropdown List]
+		new building
+		old building
+		single family home
+		multi-family home
+		apartment
+		is a rental
+		is owned
+
+	Heating/Air  [List Box]
+
+	The current dwelling contains  [Dropdown List]
+		steam heat
+		forced air heat
+		electric heat
+		space heater
+		working fireplace
+		wood stove
+		vaporizer
+		window air conditioning
+		central air conditioning
+		damp basement
+		dehumidifier
+		air purifier
+		humidifier
+
+	Other Exposures  [List Box]
+
+	Other exposures include  [Dropdown List]
+		smokers
+		waterbed
+		box spring and mattress
+		feather bedding
+		wall to wall carpets
+		visible mold-mildew
+		pet(s)
+
+	Work/School Exposures  [List Box]
+
+	Work (school) exposures include  [Dropdown List]
+		asbestos
+		visible mold-mildew
+		poor ventilation
+		smokers
+		chemicals
+		dusts
+		fumes
+		pet(s)
+		animals
+		livestock
