@@ -1,0 +1,651 @@
+
+// BEGIN Form Heading: Bright Futures-17-21 Years Male
+
+ccc_Exp_Hx_Exec("F_H","Bright Futures-17-21 Years Male","Family Medicine,Pediatrics,Family Practice,Medicine-Pediatrics,Adolescent Medicine","Well Child Check-17-21 Years||")
+ccc_Exp_Hx_Exec("F_HFMT","B,2","","1")
+ccc_Exp_Hx_Exec("D_LHFMT","B,U","1","1")
+ccc_Exp_Hx_Exec("D_LFMT","B","2","")
+ccc_Exp_Hx_Exec("L_BHFMT","B","","")
+ccc_Exp_Hx_Exec("L_BTFMT","L","2","Y")
+ccc_Exp_Hx_Exec("M_LEF","Questions or Concerns:^^^^^Comments:^^^^Comments:","Y^^^Y^^Y^^^^Y","^^^^^^^^^")
+ccc_Exp_Hx_Exec("M_LEFOBS","PARENTAL CON^^^^^COMMENTS^^^^COMMENTS2","^^^^^^^^^","")
+ccc_Exp_Hx_Exec("M_LEFFMT","","1","")
+ccc_Exp_Hx_Exec("L_BH1FMT","B,U","1","1")
+ccc_Exp_Hx_Exec("L_BHIND","","","2")
+ccc_Exp_Hx_Exec("L_B1H","SCHOOL/SCREENING^13^19^ANTICIPATORY GUIDANCE^23^36^CURRENT HISTORY^1^16","","")
+ccc_Exp_Hx_Exec("GO_TO_TAB","Health/Home/Family^Substance Use/Sex^Diet / Elimination^School/Screen/Risk^Anticipatory Guidance^Additional History","","")
+ccc_Exp_Hx_Exec("DEFAULT_LABELS","^NL Default^^^Neg Defaults^Neg Defaults^^All Normal^Minimum Due","","")
+
+// Dropdown List Column 1
+ccc_Exp_Hx_Exec("D_L","HEALTH","Y","")
+ccc_Exp_Hx_Exec("Health Status:","good,fair,poor^","HLTH STATUS","")
+ccc_Exp_Hx_Exec("ER Visits:","0,1,2,3,4,5,>5^","ER VISIT","")
+ccc_Exp_Hx_Exec("Reason for ER visit:","abdominal pain,asthma,coughing,dehydration,diarrhea,ear pain,fever,fracture,headache,ingestion,laceration,rash,seizure,shortness of breath,sore throat,trauma,URI,UTI,vomiting,wheezing","ERVISREAS","")
+ccc_Exp_Hx_Exec("Hospitalizations:","0,1,2,3,4,5,>5^","HOSPLASTVIST","")
+ccc_Exp_Hx_Exec("Discharge Diagnosis:","ALTE,appendicitis,asthma,bronchiolitis,dehydration,gastroenteritis,ingestion,pneumonia,pyelonephritis,trauma,rule out sepsis,seizure,surgery","HOSPREASADM","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Immunization Reaction:","no reaction,reaction,fever,local reaction^","VACCINERXN","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Dental Visit-last 6 months","yes,no^","DENTAL REV","")
+ccc_Exp_Hx_Exec("Brushing Teeth","once a day,twice a day,after each meal,no","BRUSHTEETH","")
+ccc_Exp_Hx_Exec("Flossing","once a day,twice a day,after each meal,no","FLOSS","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 2
+ccc_Exp_Hx_Exec("D_L","HOME/FAMILY","Y","")
+ccc_Exp_Hx_Exec("Lives with:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","LIVES WITH","")
+ccc_Exp_Hx_Exec("Guardian:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","GUARDIANNAME","")
+ccc_Exp_Hx_Exec("# of Siblings:","0,1,2,3,4,5,6,7,8,9,10","SIBLINGS","")
+ccc_Exp_Hx_Exec("Lives In:","apartment,house,shelter,homeless,other: ","HOUSING","")
+ccc_Exp_Hx_Exec("# of Bedrooms:","0,1,2,3,4,5,6,>6","#BEDROOMS","")
+ccc_Exp_Hx_Exec("Shares Bedroom:","no,yes","BEDROOMSHR","")
+ccc_Exp_Hx_Exec("Passive Smoke Exposure:","yes,no","PAS CIG SMOK","")
+ccc_Exp_Hx_Exec("Passive Smoke Counseling:","not indicated; no passive smoke exposure,to avoid passive smoke exposure,advised to quit smoking and to avoid smoke exposure","PASSMOKADVIC","")
+ccc_Exp_Hx_Exec("Caregiver Relationships:","good with mother,poor with mother,mother not involved,good with father,poor with father,father not involved,in foster care","DADMOMRELAT","")
+ccc_Exp_Hx_Exec("Father Involvement:","involved,not involved,occasional involvement,where abouts unknown,incarcerated,deceased","FOB INVOLVED","")
+ccc_Exp_Hx_Exec("Relationship with Siblings:","good,fair,poor,only child","SIBLINGRELAT","")
+ccc_Exp_Hx_Exec("Discipline Type:","verbal,time out,spanking,other: ","DISCOTHERMTH","")
+ccc_Exp_Hx_Exec("History of Abuse:","no,yes,physical,emotional,sexual","ABUSEHX","")
+ccc_Exp_Hx_Exec("History of Neglect:","no,yes","TRIGPFSNGLFU","")
+ccc_Exp_Hx_Exec("Substance use exposure in home:","yes: see Social History,no","FH SUB ABUSE","")
+ccc_Exp_Hx_Exec("Domestic Violence:","no domestic violence,history of domestic violence,current domestic violence,unable to assess","DVSCRN_COMPL","")
+ccc_Exp_Hx_Exec("CPS/DSS:","no active case,active case,currently investigating,unfounded case,closed case,shelter care order in place","SOCIAL SERVC","")
+ccc_Exp_Hx_Exec("Foster Care:","no,yes - since: ","FOSTER/GROUP","")
+ccc_Exp_Hx_Exec("# of Placements:","1,2,3,4,5,6,7,8,9,10,>10","FOSTER/PLACE","")
+ccc_Exp_Hx_Exec("Parental Stress:","no,yes,coping well","HM/FM ASSESS","")
+ccc_Exp_Hx_Exec("Pets in Home:","yes,no","PETS IN HOME","")
+ccc_Exp_Hx_Exec("Type of Pets:","cat,dog,rabbit,guinea pig,hamster,bird,reptile","PETS TYPE","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 3
+ccc_Exp_Hx_Exec("D_L","SUBSTANCE USE","Y","")
+ccc_Exp_Hx_Exec("Tobacco Exposure:","no tobacco use in home or friends,parent/guardian using tobacco,friends using tobacco,parents and friends using tobacco^","TOBACCOCOMM","")
+ccc_Exp_Hx_Exec("Tobacco Use:","never,current-occasional,current-frequent,current-daily,tried-not using,quit^","TOBACCO USE","")
+ccc_Exp_Hx_Exec("Type of Tobacco:","cigarettes,cigars,cloves,smokeless,chew,black and milds","TOBACCOTYPE","")
+ccc_Exp_Hx_Exec("Packs/Day (20 cigs./pack):","1/4,1/2,1,>1","SMOK HX PPD","")
+ccc_Exp_Hx_Exec("Age Started:","9,10,11,12,13,14,15,16,17,18,19,20,21","SMOKSTARTAGE","")
+ccc_Exp_Hx_Exec("Tobacco Cessation Counseling:","advised to quit","SMOK ADVICE","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Alcohol Exposure:","no alcohol use in home or friends,parent/guardian uses occasionally,parent/guardian using regularly,parent/guardian alcohol abuse,friends using alcohol^","ALCOHOL COMM","")
+ccc_Exp_Hx_Exec("Alcohol Use:","never used,tried-not currently using,weekend drinker,weekday drinker,binge drinker,daily^","ALCOHOL USE","")
+ccc_Exp_Hx_Exec("Drinks/Occ (1oz=1beer=3oz wine):","1,2,3,4,5,6,>6","ALC USE/WEEK","")
+ccc_Exp_Hx_Exec("C-Felt need to cut down:","yes,no","","")
+ccc_Exp_Hx_Exec("A-Been annoyed by complaints:","yes,no","","")
+ccc_Exp_Hx_Exec("G-Felt guilty about drinking:","yes,no","","")
+ccc_Exp_Hx_Exec("E-Needed eye opener in morning:","yes,no","","")
+ccc_Exp_Hx_Exec("CAGE Assessment Results:","0-no problem,1-suggests possible problem,2-high likelihood of problem,3-high likelihood of problem,4-high likelihood of problem","CAGE ASSESSM","")
+ccc_Exp_Hx_Exec("Alcohol Counseling:","not indicated; patient does not drink,not indicated; use of alcohol is not excessive or problematic,to decrease amount and/or frequency of alcohol intake,to STOP drinking","ALCOHOLCOUNS","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Marijuana Exposure:","no marijuana use in home or friends,parent/guardian using marijuana regularly,friends using marijuana,marijuana use in community^","MARIJUANACOM","")
+ccc_Exp_Hx_Exec("Marijuana Use:","never used,tried-not currently using,occasional-gets from friends,occasional-buys,regular,daily,selling^","MARIJUANFREQ","")
+ccc_Exp_Hx_Exec("Illicit Drug Exposure:","no illicit drug use in home or friends,parent/guardian using illicit drug regularly,friends using illicit drug,illicit drug use in community^","ILLDRUGUSECM","")
+ccc_Exp_Hx_Exec("Illicit Drug Use:","never used,tried-not currently using,occasional-gets from friends,occasional-buys,regular,daily,selling^","DRUGFREQ","")
+ccc_Exp_Hx_Exec("Type of Drugs Used:","cocaine,crack,prescription pills,Ritalin,methamphetamine,inhalants,PCP,mushrooms,LSD,Ecstasy,Ketamine,Rohypnol,cold medicines,heroin inhaled,heroin IV,stimulants (uppers-speed),depressants (downers-barbiturates),steroids,multiple:  ","DRUGOFCHOICE","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 4
+ccc_Exp_Hx_Exec("D_L","SEXUALITY","Y","")
+ccc_Exp_Hx_Exec("Exposure to Sex:","no friends are sexually active,friends are sexually active,exposure to media sex,reads pornographic magazines,watches pornography","SH SEXUAL","")
+ccc_Exp_Hx_Exec("Sexually Active:","no,yes,never had sexual contact,previous sexual contact but no current,yes-regular sexual contact,nonconsensual sex^","SEXUALLYACT","")
+ccc_Exp_Hx_Exec("Type of Sexual Practice:","oral,vaginal,oral and vaginal,anal (receptive),anal (insertive),anal (insertive & receptive),oral and anal (insertive),oral and anal (receptive),oral and anal (insertive & receptive),oral-vaginal-anal (receptive),oral-vaginal-anal (insertive),oral-vaginal-anal (insertive & receptive)","CHLDORALSEX","")
+ccc_Exp_Hx_Exec("Sexual Preference:","men,women,both men and women","SEXUAL ORIEN","")
+ccc_Exp_Hx_Exec("Age of first sexual contact:","21,20,19,18,17,16,15,14,13,12,11","AGE 1ST SEX","")
+ccc_Exp_Hx_Exec("Lifetime Partners:","0,1,2-5,6-10,11-15,>15","TOT# SEX PRT","")
+ccc_Exp_Hx_Exec("Condom Use:","always,frequently,occasional,never","CONDOM USE","")
+ccc_Exp_Hx_Exec("Pregnancy Prevention:","abstinence,none,OCP,combination injections,Depo Provera,IUD,IUD-progestin,Levonorgestrel patch,barrier-condoms,barrier-diaphragm,barrier-cervical cap,rhythm method,spermicide,BTL,Norplant,emergency contraception,Mirena,Implanon,NuvaRing,vasectomy,natural family planning","CONTRA METHD","")
+ccc_Exp_Hx_Exec("History of STD:","no,yes,yes-chlamydia,yes-gonorrhea,yes-trichomonas,yes-syphilis,yes-herpes,yes-HPV,yes-HIV,yes-multiple: ^","STD","")
+ccc_Exp_Hx_Exec("High Risk Behavior:","no,multiple sex partners,sex for money/trade,forced sex,anal sex,no condom use,group sex","HIGH RSK SEX","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Children:","0,1,2,3,4,5,6","LIVING","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("GAPS Screen","yes,no","GAPSCOMPLETE","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// List Box 1
+ccc_Exp_Hx_Exec("L_B","Diet/Food:","","")
+ccc_Exp_Hx_Exec("","all four food groups,not all four food groups,frequent fast food,frequent junk food,picky eater,good appetite","DIETCOMM","")
+
+// List Box 2
+ccc_Exp_Hx_Exec("L_B","Milk:","","")
+ccc_Exp_Hx_Exec("","whole Milk,2% Milk,1% Milk,Fat Free Milk,Soy Milk,adequate calcium intake,inadequate calcium intake","FORMULA","")
+
+// List Box 3
+ccc_Exp_Hx_Exec("L_B","Drinks:","","")
+ccc_Exp_Hx_Exec("","no juice,juice <8 oz/day,juice 8-16 oz/day,juice >16 oz/day,water","JUICE/DAY","")
+
+// List Box 4
+ccc_Exp_Hx_Exec("L_B","Carbonated/Caffeine Drinks:","","")
+ccc_Exp_Hx_Exec("","no carbonated,yes carbonated,no caffeine,yes caffeine,<8 oz/day,8-16 oz/day,>16 oz/day","CAFFEINE USE","")
+
+// List Box 5
+ccc_Exp_Hx_Exec("L_B","Elimination:","","")
+ccc_Exp_Hx_Exec("","no problems or concerns,problems or concerns noted,enuresis,encopresis","","")
+
+// List Box 6
+ccc_Exp_Hx_Exec("L_B","Sleep:","","")
+ccc_Exp_Hx_Exec("","<8hrs/night,8hrs or more/night,no problems,has problems,problem falling asleep,frequent awakenings,nightmares,co-bedding,no co-bedding,in own room,shares room,in parent's room","","")
+
+// List Box 7
+ccc_Exp_Hx_Exec("L_B","Exercise:","","")
+ccc_Exp_Hx_Exec("","none,jumps rope,runs,jogs,rides bike,swims","","")
+
+// List Box 8
+ccc_Exp_Hx_Exec("L_B","Sports:","","")
+ccc_Exp_Hx_Exec("","football,baseball,basketball,hockey,soccer,swimming,gymnastics,track & field,cross country,cheer leading,tennis,lacrosse,competitive,recreational","","")
+
+// List Box 9
+ccc_Exp_Hx_Exec("L_B","Activities:","","")
+ccc_Exp_Hx_Exec("","plays instrument,band,clubs,in after-school programs,Boys and Girls Club,Boy Scouts,Girl Scouts,photography,art,drama","","")
+
+// List Box 10
+ccc_Exp_Hx_Exec("L_B","TV/Computer/Video:","","")
+ccc_Exp_Hx_Exec("",">2 hours total/day,<2 hours total/day,has computer at home,has video games at home,content monitored,content not monitored,exposure to media violence,plays violent video games","","")
+
+// List Box 11
+ccc_Exp_Hx_Exec("L_B","Friends:","","")
+ccc_Exp_Hx_Exec("","many friends,few friends,no friends,has someone to talk to with issues,no one to talk to with issues,positive role model,no positive role model","","")
+
+// List Box 12
+ccc_Exp_Hx_Exec("L_B","Mental Health:","","")
+ccc_Exp_Hx_Exec("","high self esteem,low self esteem,positive body image,negative body image,suicidal ideation,homicidal ideation,feelings of sadness,feelings of loneliness,poor appetite,feeling blue/depressed,anxiety","MENTAL HLTH","")
+
+// List Box 13
+ccc_Exp_Hx_Exec("L_B","School:","","")
+ccc_Exp_Hx_Exec("","not in school,teacher with concerns,teacher without concerns,public,private,chartered,home school","SCHOOL","")
+
+// List Box 14
+ccc_Exp_Hx_Exec("L_B","Grade Level:","","")
+ccc_Exp_Hx_Exec("","9,10,11,12,college","SCHOOL GRADE","")
+
+// List Box 15
+ccc_Exp_Hx_Exec("L_B","School Performance:","","")
+ccc_Exp_Hx_Exec("","excellent,good,fair,poor,failing,delinquency,history of suspensions,multiple suspensions,not in school,IEP (Individualized Education Plan),special education","SCHOOL PERFM","")
+
+// List Box 16
+ccc_Exp_Hx_Exec("L_B","Special Education:","","")
+ccc_Exp_Hx_Exec("","no,yes,being evaluated,IEP requested,IEP in place","SPECIAL ED","")
+
+// List Box 17
+ccc_Exp_Hx_Exec("L_B","Future Career Goals:","","")
+ccc_Exp_Hx_Exec("","work,college,military,associate degree","CAREERPLAN","")
+
+// List Box 18
+ccc_Exp_Hx_Exec("L_B","Behavior Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,MCHAT completed,Vanderbilt completed,Conner completed^","","")
+
+// List Box 19
+ccc_Exp_Hx_Exec("L_B","Vision/Hearing:","","")
+ccc_Exp_Hx_Exec("","no concerns with vision,no concerns with hearing,concerns with vision,concerns with hearing,failed last vision screen,failed last hearing screen^no concerns with vision,no concerns with hearing","PARCONCVIS","")
+
+// List Box 20
+ccc_Exp_Hx_Exec("L_B","Violence:","","")
+ccc_Exp_Hx_Exec("","home violence,victim of violent attack,neighborhood violence,gang membership,carries weapon,prior arrests,criminal convictions,juvenile detention","PST VIOLENCE","")
+
+// List Box 21
+ccc_Exp_Hx_Exec("L_B","TB Risk Factors:","","")
+ccc_Exp_Hx_Exec("","no,yes^","TB RISK","")
+
+// List Box 22
+ccc_Exp_Hx_Exec("L_B","CV Risk Assessment:","","")
+ccc_Exp_Hx_Exec("positive for","no risk factors,FH CAD male <55 years,FH CAD female <65 years,mother w/high cholesterol,father w/high cholesterol,overweight,smoker,lack of exercise,high blood pressure,high cholesterol,diabetes^","CARDIC RISK","")
+
+// List Box 23
+ccc_Exp_Hx_Exec("L_B","ANTICIPATORY GUIDANCE:","","")
+ccc_Exp_Hx_Exec("","discussed with caregiver,verbalized understanding,reviewed,minimum 3 categories reviewed,handout(s) given^verbalized understanding,reviewed,minimum 3 categories reviewed","ANT GUID REV","")
+
+// List Box 24
+ccc_Exp_Hx_Exec("L_B","BARRIERS TO COUNSELING:","","")
+ccc_Exp_Hx_Exec("","none,cognitive,visually impaired,hearing impaired,low literacy,English as a second language,physical,cultural diversity,interpreter required,interpreter utilized^","LEARN BARIER","")
+
+// List Box 25
+ccc_Exp_Hx_Exec("L_B","NUTRITION:","","")
+ccc_Exp_Hx_Exec("","healthy food choices,limit high fat/high sugar foods,skim milk,limit junk foods/soda/juice,dieting,eating disorders,vitamins/supplements,folic acid for females^","NUTRITN GUID","")
+
+// List Box 26
+ccc_Exp_Hx_Exec("L_B","SOCIAL COMPETENCE:","","")
+ccc_Exp_Hx_Exec("","confidentiality,relationships,autonomy/independence,responsibility,discipline/limits,peer pressure,dependence vs. independence,establishing own values,social misconduct resulting from family dysfunctions,future plans,stay in school,love life,mood swings^","SOCIAL DEV","")
+
+// List Box 27
+ccc_Exp_Hx_Exec("L_B","PARENTING/FAMILY:","","")
+ccc_Exp_Hx_Exec("","listen,open communication,show interest in school/activities,show affection-respect-love,praise and encourage,individual attention,reasonable expectations,increased autonomy in decisions,give allowance,assist in handling money","YNG PRNT SKL","")
+
+// List Box 28
+ccc_Exp_Hx_Exec("L_B","INJURY/ILLNESS PREVENT:","","")
+ccc_Exp_Hx_Exec("","seat belt use,smoke detectors,fire extinguishers,safe driving,bike/scooter/skate safety,helmet use,sun safety,water safety,guns/violence,gangs,bullying,passive smoking^","SAFETY GUID","")
+
+// List Box 29
+ccc_Exp_Hx_Exec("L_B","HEALTHY/SAFE HABITS:","","")
+ccc_Exp_Hx_Exec("","age-appropriate book given,breast self exam,testicular self exam,smoke free home/car,adequate sleep,physical activity,limited TV/computer/video games,personal hygiene,avoid alcohol/tobacco/drugs/inhalants,use sunscreen,tick prevention","HLTHPROMGUID","")
+
+// List Box 30
+ccc_Exp_Hx_Exec("L_B","SEXUALITY ED:","","")
+ccc_Exp_Hx_Exec("","pubertal changes,sexual identity/behavior/activity,sexual responsibility,contraception/pregnancy/STD awareness,prepare for physical changes,masturbation,modesty","SEXUALGUIDNC","")
+
+// List Box 31
+ccc_Exp_Hx_Exec("L_B","SUBSTANCE USE:","","")
+ccc_Exp_Hx_Exec("","documented above,no tobacco use,uses tobacco,no alcohol use,uses alcohol,no drug use,uses drugs","CHEMICAL ED","")
+
+// List Box 32
+ccc_Exp_Hx_Exec("L_B","SCHOOL/ATHLETICS:","","")
+ccc_Exp_Hx_Exec("","organized sports,protective equipment in sports,hobbies","GROSSMTRDEV","")
+
+// List Box 33
+ccc_Exp_Hx_Exec("L_B","IMMUNIZATIONS:","","")
+ccc_Exp_Hx_Exec("","reviewed,up to date,counseled on risks and benefits,deferred due to illness,catch-up needed,refused-counseled on risks of refusal,refusal consent signed^","IMMUNIZ UTD","")
+
+// List Box 34
+ccc_Exp_Hx_Exec("L_B","SEAT BELT USED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled","CAR RESTRNTS","")
+
+// List Box 35
+ccc_Exp_Hx_Exec("L_B","HOME SAFETY:","","")
+ccc_Exp_Hx_Exec("","smoke detector,no smoke detector,carbon monoxide monitor,no carbon monoxide monitor,fire extinguisher,no fire extinguisher,firearms in home-safety addressed","HOMESAFETY","")
+
+// List Box 36
+ccc_Exp_Hx_Exec("L_B","SELF EXAMS:","","")
+ccc_Exp_Hx_Exec("","reviewed TSE,understands TSE,performs regular TSE","TEST SELF ED","")
+
+ccc_Exp_Hx_Exec("ENDL_B","","","")
+
+ccc_Exp_Hx_Exec("EN_D","","","")
+
+// END Form Heading: Bright Futures-17-21 Years Male
+
+
+// BEGIN Form Heading: Bright Futures-17-21 Years Female
+
+ccc_Exp_Hx_Exec("F_H","Bright Futures-17-21 Years Female","Family Medicine,Pediatrics,Family Practice,Medicine-Pediatrics,Adolescent Medicine","Well Child Check-17-21 Years||")
+ccc_Exp_Hx_Exec("F_HFMT","B,2","","1")
+ccc_Exp_Hx_Exec("D_LHFMT","B,U","1","1")
+ccc_Exp_Hx_Exec("D_LFMT","B","2","")
+ccc_Exp_Hx_Exec("L_BHFMT","B","","")
+ccc_Exp_Hx_Exec("L_BTFMT","L","2","Y")
+ccc_Exp_Hx_Exec("M_LEF","Questions or Concerns:^^^^^Comments:^^^^Comments:","Y^^^Y^^Y^^^^Y","^^^^^^^^^")
+ccc_Exp_Hx_Exec("M_LEFOBS","PARENTAL CON^^^^^COMMENTS^^^^COMMENTS2","^^^^^^^^^","")
+ccc_Exp_Hx_Exec("M_LEFFMT","","1","")
+ccc_Exp_Hx_Exec("L_BH1FMT","B,U","1","1")
+ccc_Exp_Hx_Exec("L_BHIND","","","2")
+ccc_Exp_Hx_Exec("L_B1H","SCHOOL/SCREENING^13^19^ANTICIPATORY GUIDANCE^23^36^CURRENT HISTORY^1^16","","")
+ccc_Exp_Hx_Exec("GO_TO_TAB","Health/Home/Family^Substance Use/Sex^Diet / Elimination^School/Screen/Risk^Anticipatory Guidance^Additional History","","")
+ccc_Exp_Hx_Exec("DEFAULT_LABELS","^NL Default^^^Neg Defaults^Neg Defaults^^All Normal^Minimum Due","","")
+
+// Dropdown List Column 1
+ccc_Exp_Hx_Exec("D_L","HEALTH","Y","")
+ccc_Exp_Hx_Exec("Health Status:","good,fair,poor^","HLTH STATUS","")
+ccc_Exp_Hx_Exec("ER Visits:","0,1,2,3,4,5,>5^","ER VISIT","")
+ccc_Exp_Hx_Exec("Reason for ER visit:","abdominal pain,asthma,coughing,dehydration,diarrhea,ear pain,fever,fracture,headache,ingestion,laceration,rash,seizure,shortness of breath,sore throat,trauma,URI,UTI,vomiting,wheezing","ERVISREAS","")
+ccc_Exp_Hx_Exec("Hospitalizations:","0,1,2,3,4,5,>5^","HOSPLASTVIST","")
+ccc_Exp_Hx_Exec("Discharge Diagnosis:","ALTE,appendicitis,asthma,bronchiolitis,dehydration,gastroenteritis,ingestion,pneumonia,pyelonephritis,trauma,rule out sepsis,seizure,surgery","HOSPREASADM","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Immunization Reaction:","no reaction,reaction,fever,local reaction^","VACCINERXN","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Dental Visit-last 6 months","yes,no^","DENTAL REV","")
+ccc_Exp_Hx_Exec("Brushing Teeth","once a day,twice a day,after each meal,no","BRUSHTEETH","")
+ccc_Exp_Hx_Exec("Flossing","once a day,twice a day,after each meal,no","FLOSS","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 2
+ccc_Exp_Hx_Exec("D_L","HOME/FAMILY","Y","")
+ccc_Exp_Hx_Exec("Lives with:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","LIVES WITH","")
+ccc_Exp_Hx_Exec("Guardian:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","GUARDIANNAME","")
+ccc_Exp_Hx_Exec("# of Siblings:","0,1,2,3,4,5,6,7,8,9,10","SIBLINGS","")
+ccc_Exp_Hx_Exec("Lives In:","apartment,house,shelter,homeless,other: ","HOUSING","")
+ccc_Exp_Hx_Exec("# of Bedrooms:","0,1,2,3,4,5,6,>6","#BEDROOMS","")
+ccc_Exp_Hx_Exec("Shares Bedroom:","no,yes","BEDROOMSHR","")
+ccc_Exp_Hx_Exec("Passive Smoke Exposure:","yes,no","PAS CIG SMOK","")
+ccc_Exp_Hx_Exec("Passive Smoke Counseling:","not indicated; no passive smoke exposure,to avoid passive smoke exposure,advised to quit smoking and to avoid smoke exposure","PASSMOKADVIC","")
+ccc_Exp_Hx_Exec("Caregiver Relationships:","good with mother,poor with mother,mother not involved,good with father,poor with father,father not involved,in foster care","DADMOMRELAT","")
+ccc_Exp_Hx_Exec("Father Involvement:","involved,not involved,occasional involvement,where abouts unknown,incarcerated,deceased","FOB INVOLVED","")
+ccc_Exp_Hx_Exec("Relationship with Siblings:","good,fair,poor,only child","SIBLINGRELAT","")
+ccc_Exp_Hx_Exec("Discipline Type:","verbal,time out,spanking,other: ","DISCOTHERMTH","")
+ccc_Exp_Hx_Exec("History of Abuse:","no,yes,physical,emotional,sexual","ABUSEHX","")
+ccc_Exp_Hx_Exec("History of Neglect:","no,yes","TRIGPFSNGLFU","")
+ccc_Exp_Hx_Exec("Substance use exposure in home:","yes: see Social History,no","FH SUB ABUSE","")
+ccc_Exp_Hx_Exec("Domestic Violence:","no domestic violence,history of domestic violence,current domestic violence,unable to assess","DVSCRN_COMPL","")
+ccc_Exp_Hx_Exec("CPS/DSS:","no active case,active case,currently investigating,unfounded case,closed case,shelter care order in place","SOCIAL SERVC","")
+ccc_Exp_Hx_Exec("Foster Care:","no,yes - since: ","FOSTER/GROUP","")
+ccc_Exp_Hx_Exec("# of Placements:","1,2,3,4,5,6,7,8,9,10,>10","FOSTER/PLACE","")
+ccc_Exp_Hx_Exec("Parental Stress:","no,yes,coping well","HM/FM ASSESS","")
+ccc_Exp_Hx_Exec("Pets in Home:","yes,no","PETS IN HOME","")
+ccc_Exp_Hx_Exec("Type of Pets:","cat,dog,rabbit,guinea pig,hamster,bird,reptile","PETS TYPE","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 3
+ccc_Exp_Hx_Exec("D_L","SUBSTANCE USE","Y","")
+ccc_Exp_Hx_Exec("Tobacco Exposure:","no tobacco use in home or friends,parent/guardian using tobacco,friends using tobacco,parents and friends using tobacco^","TOBACCOCOMM","")
+ccc_Exp_Hx_Exec("Tobacco Use:","never,current-occasional,current-frequent,current-daily,tried-not using,quit^","TOBACCO USE","")
+ccc_Exp_Hx_Exec("Type of Tobacco:","cigarettes,cigars,cloves,smokeless,chew,black and milds","TOBACCOTYPE","")
+ccc_Exp_Hx_Exec("Packs/Day (20 cigs./pack):","1/4,1/2,1,>1","SMOK HX PPD","")
+ccc_Exp_Hx_Exec("Age Started:","9,10,11,12,13,14,15,16,17,18,19,20,21","SMOKSTARTAGE","")
+ccc_Exp_Hx_Exec("Tobacco Cessation Counseling:","advised to quit","SMOK ADVICE","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Alcohol Exposure:","no alcohol use in home or friends,parent/guardian uses occasionally,parent/guardian using regularly,parent/guardian alcohol abuse,friends using alcohol^","ALCOHOL COMM","")
+ccc_Exp_Hx_Exec("Alcohol Use:","never used,tried-not currently using,weekend drinker,weekday drinker,binge drinker,daily^","ALCOHOL USE","")
+ccc_Exp_Hx_Exec("Drinks/Occ (1oz=1beer=3oz wine):","1,2,3,4,5,6,>6","ALC USE/WEEK","")
+ccc_Exp_Hx_Exec("C-Felt need to cut down:","yes,no","","")
+ccc_Exp_Hx_Exec("A-Been annoyed by complaints:","yes,no","","")
+ccc_Exp_Hx_Exec("G-Felt guilty about drinking:","yes,no","","")
+ccc_Exp_Hx_Exec("E-Needed eye opener in morning:","yes,no","","")
+ccc_Exp_Hx_Exec("CAGE Assessment Results:","0-no problem,1-suggests possible problem,2-high likelihood of problem,3-high likelihood of problem,4-high likelihood of problem","CAGE ASSESSM","")
+ccc_Exp_Hx_Exec("Alcohol Counseling:","not indicated; patient does not drink,not indicated; use of alcohol is not excessive or problematic,to decrease amount and/or frequency of alcohol intake,to STOP drinking","ALCOHOLCOUNS","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Marijuana Exposure:","no marijuana use in home or friends,parent/guardian using marijuana regularly,friends using marijuana,marijuana use in community^","MARIJUANACOM","")
+ccc_Exp_Hx_Exec("Marijuana Use:","never used,tried-not currently using,occasional-gets from friends,occasional-buys,regular,daily,selling^","MARIJUANFREQ","")
+ccc_Exp_Hx_Exec("Illicit Drug Exposure:","no illicit drug use in home or friends,parent/guardian using illicit drug regularly,friends using illicit drug,illicit drug use in community^","ILLDRUGUSECM","")
+ccc_Exp_Hx_Exec("Illicit Drug Use:","never used,tried-not currently using,occasional-gets from friends,occasional-buys,regular,daily,selling^","DRUGFREQ","")
+ccc_Exp_Hx_Exec("Type of Drugs Used:","cocaine,crack,prescription pills,Ritalin,methamphetamine,inhalants,PCP,mushrooms,LSD,Ecstasy,Ketamine,Rohypnol,cold medicines,heroin inhaled,heroin IV,stimulants (uppers-speed),depressants (downers-barbiturates),steroids,multiple:  ","DRUGOFCHOICE","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 4
+ccc_Exp_Hx_Exec("D_L","SEXUALITY","Y","")
+ccc_Exp_Hx_Exec("Exposure to Sex:","no friends are sexually active,friends are sexually active,exposure to media sex,reads pornographic magazines,watches pornography","SH SEXUAL","")
+ccc_Exp_Hx_Exec("Sexually Active:","no,yes,never had sexual contact,previous sexual contact but no current,yes-regular sexual contact,nonconsensual sex^","SEXUALLYACT","")
+ccc_Exp_Hx_Exec("Type of Sexual Practice:","oral,vaginal,oral and vaginal,anal (receptive),anal (insertive),anal (insertive & receptive),oral and anal (insertive),oral and anal (receptive),oral and anal (insertive & receptive),oral-vaginal-anal (receptive),oral-vaginal-anal (insertive),oral-vaginal-anal (insertive & receptive)","CHLDORALSEX","")
+ccc_Exp_Hx_Exec("Sexual Preference:","men,women,both men and women","SEXUAL ORIEN","")
+ccc_Exp_Hx_Exec("Age of first sexual contact:","21,20,19,18,17,16,15,14,13,12,11","AGE 1ST SEX","")
+ccc_Exp_Hx_Exec("Lifetime Partners:","0,1,2-5,6-10,11-15,>15","TOT# SEX PRT","")
+ccc_Exp_Hx_Exec("Condom Use:","always,frequently,occasional,never","CONDOM USE","")
+ccc_Exp_Hx_Exec("Pregnancy Prevention:","abstinence,none,OCP,combination injections,Depo Provera,IUD,IUD-progestin,Levonorgestrel patch,barrier-condoms,barrier-diaphragm,barrier-cervical cap,rhythm method,spermicide,BTL,Norplant,emergency contraception,Mirena,Implanon,NuvaRing,vasectomy,natural family planning","CONTRA METHD","")
+ccc_Exp_Hx_Exec("History of STD:","no,yes,yes-chlamydia,yes-gonorrhea,yes-trichomonas,yes-syphilis,yes-herpes,yes-HPV,yes-HIV,yes-multiple: ^","STD","")
+ccc_Exp_Hx_Exec("High Risk Behavior:","no,multiple sex partners,sex for money/trade,forced sex,anal sex,no condom use,group sex","HIGH RSK SEX","")
+ccc_Exp_Hx_Exec("LMP:","","LAST MP","")
+ccc_Exp_Hx_Exec("Age of Menarche:","premenarchal,9,10,11,12,13,14,15,16,17,18","MENARCHE","")
+ccc_Exp_Hx_Exec("Menstrual Cycles:","regular (monthly),irregular","MENSESPREDIC","")
+ccc_Exp_Hx_Exec("Menses Interval (days):","24,25,26,27,28,29,30,31,32","MENSTR FREQ","")
+ccc_Exp_Hx_Exec("Menses Duration (days):","2,3,4,5,6,7,8,9,10,>10","MENSTR DURAT","")
+ccc_Exp_Hx_Exec("Menstrual Flow:","spotting (pantie liner),light (<2 pads/tampons/day),medium (3-4 pads/tampons/day,heavy (>4 pads/tampons/day)","MENSTR FLOW","")
+ccc_Exp_Hx_Exec("Menstrual Problems:","no,dysmenorrhea,amenorrhea,menorrhagia^","MENSTRL COM","")
+ccc_Exp_Hx_Exec("Feminine Products:","tampons,pads,douche","PADSTAMPDAY","")
+ccc_Exp_Hx_Exec("Prior Pregnancies:","0,1,2,3,4,5,6","GRAVID","")
+ccc_Exp_Hx_Exec("Pregnancy Outcomes:","therapeutic abortion,spontaneous abortion,ectopic,preterm delivery,full term delivery","PREG OUTCOME","")
+ccc_Exp_Hx_Exec("Children:","0,1,2,3,4,5,6","LIVING","")
+ccc_Exp_Hx_Exec("GAPS Screen:","yes,no","GAPSCOMPLETE","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// List Box 1
+ccc_Exp_Hx_Exec("L_B","Diet/Food:","","")
+ccc_Exp_Hx_Exec("","all four food groups,not all four food groups,frequent fast food,frequent junk food,picky eater,good appetite","DIETCOMM","")
+
+// List Box 2
+ccc_Exp_Hx_Exec("L_B","Milk:","","")
+ccc_Exp_Hx_Exec("","whole Milk,2% Milk,1% Milk,Fat Free Milk,Soy Milk,adequate calcium intake,inadequate calcium intake","FORMULA","")
+
+// List Box 3
+ccc_Exp_Hx_Exec("L_B","Drinks:","","")
+ccc_Exp_Hx_Exec("","no juice,juice <8 oz/day,juice 8-16 oz/day,juice >16 oz/day,water","JUICE/DAY","")
+
+// List Box 4
+ccc_Exp_Hx_Exec("L_B","Carbonated/Caffeine Drinks:","","")
+ccc_Exp_Hx_Exec("","no carbonated,yes carbonated,no caffeine,yes caffeine,<8 oz/day,8-16 oz/day,>16 oz/day","CAFFEINE USE","")
+
+// List Box 5
+ccc_Exp_Hx_Exec("L_B","Elimination:","","")
+ccc_Exp_Hx_Exec("","no problems or concerns,problems or concerns noted,enuresis,encopresis","","")
+
+// List Box 6
+ccc_Exp_Hx_Exec("L_B","Sleep:","","")
+ccc_Exp_Hx_Exec("","<8hrs/night,8hrs or more/night,no problems,has problems,problem falling asleep,frequent awakenings,nightmares,co-bedding,no co-bedding,in own room,shares room,in parent's room","","")
+
+// List Box 7
+ccc_Exp_Hx_Exec("L_B","Exercise:","","")
+ccc_Exp_Hx_Exec("","none,jumps rope,runs,jogs,rides bike,swims","","")
+
+// List Box 8
+ccc_Exp_Hx_Exec("L_B","Sports:","","")
+ccc_Exp_Hx_Exec("","football,baseball,basketball,hockey,soccer,swimming,gymnastics,track & field,cross country,cheer leading,tennis,lacrosse,competitive,recreational","","")
+
+// List Box 9
+ccc_Exp_Hx_Exec("L_B","Activities:","","")
+ccc_Exp_Hx_Exec("","plays instrument,band,clubs,in after-school programs,Boys and Girls Club,Boy Scouts,Girl Scouts,photography,art,drama","","")
+
+// List Box 10
+ccc_Exp_Hx_Exec("L_B","TV/Computer/Video:","","")
+ccc_Exp_Hx_Exec("",">2 hours total/day,<2 hours total/day,has computer at home,has video games at home,content monitored,content not monitored,exposure to media violence,plays violent video games","","")
+
+// List Box 11
+ccc_Exp_Hx_Exec("L_B","Friends:","","")
+ccc_Exp_Hx_Exec("","many friends,few friends,no friends,has someone to talk to with issues,no one to talk to with issues,positive role model,no positive role model","","")
+
+// List Box 12
+ccc_Exp_Hx_Exec("L_B","Mental Health:","","")
+ccc_Exp_Hx_Exec("","high self esteem,low self esteem,positive body image,negative body image,suicidal ideation,homicidal ideation,feelings of sadness,feelings of loneliness,poor appetite,feeling blue/depressed,anxiety","MENTAL HLTH","")
+
+// List Box 13
+ccc_Exp_Hx_Exec("L_B","School:","","")
+ccc_Exp_Hx_Exec("","not in school,teacher with concerns,teacher without concerns,public,private,chartered,home school","SCHOOL","")
+
+// List Box 14
+ccc_Exp_Hx_Exec("L_B","Grade Level:","","")
+ccc_Exp_Hx_Exec("","9,10,11,12,college","SCHOOL GRADE","")
+
+// List Box 15
+ccc_Exp_Hx_Exec("L_B","School Performance:","","")
+ccc_Exp_Hx_Exec("","excellent,good,fair,poor,failing,delinquency,history of suspensions,multiple suspensions,not in school,IEP (Individualized Education Plan),special education","SCHOOL PERFM","")
+
+// List Box 16
+ccc_Exp_Hx_Exec("L_B","Special Education:","","")
+ccc_Exp_Hx_Exec("","no,yes,being evaluated,IEP requested,IEP in place","SPECIAL ED","")
+
+// List Box 17
+ccc_Exp_Hx_Exec("L_B","Future Career Goals:","","")
+ccc_Exp_Hx_Exec("","work,college,military,associate degree","CAREERPLAN","")
+
+// List Box 18
+ccc_Exp_Hx_Exec("L_B","Behavior Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,MCHAT completed,Vanderbilt completed,Conner completed^","","")
+
+// List Box 19
+ccc_Exp_Hx_Exec("L_B","Vision/Hearing:","","")
+ccc_Exp_Hx_Exec("","no concerns with vision,no concerns with hearing,concerns with vision,concerns with hearing,failed last vision screen,failed last hearing screen^no concerns with vision,no concerns with hearing","PARCONCVIS","")
+
+// List Box 20
+ccc_Exp_Hx_Exec("L_B","Violence:","","")
+ccc_Exp_Hx_Exec("","home violence,victim of violent attack,neighborhood violence,gang membership,carries weapon,prior arrests,criminal convictions,juvenile detention","PST VIOLENCE","")
+
+// List Box 21
+ccc_Exp_Hx_Exec("L_B","TB Risk Factors:","","")
+ccc_Exp_Hx_Exec("","no,yes^","TB RISK","")
+
+// List Box 22
+ccc_Exp_Hx_Exec("L_B","CV Risk Assessment:","","")
+ccc_Exp_Hx_Exec("positive for","no risk factors,FH CAD male <55 years,FH CAD female <65 years,mother w/high cholesterol,father w/high cholesterol,overweight,smoker,lack of exercise,high blood pressure,high cholesterol,diabetes^","CARDIC RISK","")
+
+// List Box 23
+ccc_Exp_Hx_Exec("L_B","ANTICIPATORY GUIDANCE:","","")
+ccc_Exp_Hx_Exec("","discussed with caregiver,verbalized understanding,reviewed,minimum 3 categories reviewed,handout(s) given^verbalized understanding,reviewed,minimum 3 categories reviewed","ANT GUID REV","")
+
+// List Box 24
+ccc_Exp_Hx_Exec("L_B","BARRIERS TO COUNSELING:","","")
+ccc_Exp_Hx_Exec("","none,cognitive,visually impaired,hearing impaired,low literacy,English as a second language,physical,cultural diversity,interpreter required,interpreter utilized^","LEARN BARIER","")
+
+// List Box 25
+ccc_Exp_Hx_Exec("L_B","NUTRITION:","","")
+ccc_Exp_Hx_Exec("","healthy food choices,limit high fat/high sugar foods,skim milk,limit junk foods/soda/juice,dieting,eating disorders,vitamins/supplements,folic acid for females^","NUTRITN GUID","")
+
+// List Box 26
+ccc_Exp_Hx_Exec("L_B","SOCIAL COMPETENCE:","","")
+ccc_Exp_Hx_Exec("","confidentiality,relationships,autonomy/independence,responsibility,discipline/limits,peer pressure,dependence vs. independence,establishing own values,social misconduct resulting from family dysfunctions,future plans,stay in school,love life,mood swings^","SOCIAL DEV","")
+
+// List Box 27
+ccc_Exp_Hx_Exec("L_B","PARENTING/FAMILY:","","")
+ccc_Exp_Hx_Exec("","listen,open communication,show interest in school/activities,show affection-respect-love,praise and encourage,individual attention,reasonable expectations,increased autonomy in decisions,give allowance,assist in handling money","YNG PRNT SKL","")
+
+// List Box 28
+ccc_Exp_Hx_Exec("L_B","INJURY/ILLNESS PREVENT:","","")
+ccc_Exp_Hx_Exec("","seat belt use,smoke detectors,fire extinguishers,safe driving,bike/scooter/skate safety,helmet use,sun safety,water safety,guns/violence,gangs,bullying,passive smoking^","SAFETY GUID","")
+
+// List Box 29
+ccc_Exp_Hx_Exec("L_B","HEALTHY/SAFE HABITS:","","")
+ccc_Exp_Hx_Exec("","age-appropriate book given,breast self exam,testicular self exam,smoke free home/car,adequate sleep,physical activity,limited TV/computer/video games,personal hygiene,avoid alcohol/tobacco/drugs/inhalants,use sunscreen,tick prevention","HLTHPROMGUID","")
+
+// List Box 30
+ccc_Exp_Hx_Exec("L_B","SEXUALITY ED:","","")
+ccc_Exp_Hx_Exec("","pubertal changes,sexual identity/behavior/activity,sexual responsibility,contraception/pregnancy/STD awareness,prepare for physical changes,masturbation,modesty","SEXUALGUIDNC","")
+
+// List Box 31
+ccc_Exp_Hx_Exec("L_B","SUBSTANCE USE:","","")
+ccc_Exp_Hx_Exec("","documented above,no tobacco use,uses tobacco,no alcohol use,uses alcohol,no drug use,uses drugs","CHEMICAL ED","")
+
+// List Box 32
+ccc_Exp_Hx_Exec("L_B","SCHOOL/ATHLETICS:","","")
+ccc_Exp_Hx_Exec("","organized sports,protective equipment in sports,hobbies","GROSSMTRDEV","")
+
+// List Box 33
+ccc_Exp_Hx_Exec("L_B","IMMUNIZATIONS:","","")
+ccc_Exp_Hx_Exec("","reviewed,up to date,counseled on risks and benefits,deferred due to illness,catch-up needed,refused-counseled on risks of refusal,refusal consent signed^","IMMUNIZ UTD","")
+
+// List Box 34
+ccc_Exp_Hx_Exec("L_B","SEAT BELT USED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled","CAR RESTRNTS","")
+
+// List Box 35
+ccc_Exp_Hx_Exec("L_B","HOME SAFETY:","","")
+ccc_Exp_Hx_Exec("","smoke detector,no smoke detector,carbon monoxide monitor,no carbon monoxide monitor,fire extinguisher,no fire extinguisher,firearms in home-safety addressed","HOMESAFETY","")
+
+// List Box 36
+ccc_Exp_Hx_Exec("L_B","SELF EXAMS:","","")
+ccc_Exp_Hx_Exec("","reviewed BSE,understands BSE,performs regular BSE","BR SELF EDUC","")
+
+ccc_Exp_Hx_Exec("ENDL_B","","","")
+
+ccc_Exp_Hx_Exec("EN_D","","","")
+
+// END Form Heading: Bright Futures-17-21 Years Female
+
+
+// BEGIN Form Heading: Asthma History
+
+ccc_Exp_Hx_Exec("F_H","Asthma History","Family Practice,Allergy,Family Medicine,Internal Medicine,Medicine-Pediatrics,Student Health,Pulmonary,Pediatrics,Care Management","")
+ccc_Exp_Hx_Exec("F_HFMT","B,2","","1")
+ccc_Exp_Hx_Exec("D_LHFMT","B","1","1")
+ccc_Exp_Hx_Exec("D_LFMT","","2","")
+ccc_Exp_Hx_Exec("L_BHFMT","","1","")
+ccc_Exp_Hx_Exec("L_BTFMT","N","2","N")
+ccc_Exp_Hx_Exec("L_BOP","1~2~9~10","","")
+ccc_Exp_Hx_Exec("P_IH","Y","10","")
+ccc_Exp_Hx_Exec("OE_V","Y","","")
+ccc_Exp_Hx_Exec("L_BH1FMT","B","1","1")
+ccc_Exp_Hx_Exec("L_B1H","Asthma HPI:^1^12^Triggers/Environmental History:^13^20","","")
+ccc_Exp_Hx_Exec("GO_TO_TAB","PMH/Mgmt Hx^^History/Patterns^Trigger Hx^^","","")
+ccc_Exp_Hx_Exec("A_BUTTON","GoToAsthmaHPI^ccc_SiteSpec_AB('EF','Enterprise\CCC~Asthma Q&E-HPI-CCC~AFTER_CURRENT~OPEN~~','Entry-CCC')^~~","","")
+ccc_Exp_Hx_Exec("A_BUTTON","GoToAsthmaPlan^ccc_SiteSpec_AB('EF','Enterprise\CCC~Asthma Q&E-A-P-CCC~AFTER_CURRENT~OPEN~~','Entry-CCC')^~~","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","GoToAsthmaHPI^ccc_SiteSpec_AB('EF','Enterprise\CCC~Asthma Q&E-HPI-CCC~AFTER_CURRENT~OPEN~~','Entry-CCC')^~~","","")
+ccc_Exp_Hx_Exec("A_BUTTON","GoToAsthmaPlan^ccc_SiteSpec_AB('EF','Enterprise\CCC~Asthma Q&E-A-P-CCC~AFTER_CURRENT~OPEN~~','Entry-CCC')^~~","","")
+ccc_Exp_Hx_Exec("A_BUTTON","GoToAsthmaHPI^ccc_SiteSpec_AB('EF','Enterprise\CCC~Asthma Q&E-HPI-CCC~AFTER_CURRENT~OPEN~~','Entry-CCC')^~~","","")
+ccc_Exp_Hx_Exec("A_BUTTON","GoToAsthmaPlan^ccc_SiteSpec_AB('EF','Enterprise\CCC~Asthma Q&E-A-P-CCC~AFTER_CURRENT~OPEN~~','Entry-CCC')^~~","","")
+
+// Dropdown List Column 1
+ccc_Exp_Hx_Exec("D_L","Asthma PMH:","Y","22")
+ccc_Exp_Hx_Exec("Age at onset of asthma (yrs):","","ASTHMA HX01A","")
+ccc_Exp_Hx_Exec("Family History of Asthma:","no,yes","FH ASTHMA","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("High Risk Indicators:",">3 Hospitalizations in 1 year,ICU admission,intubation,non-compliance","ASTH RSK IND","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("# of days missed school/work:","0,1,2,3,4,5,6,7,8,9,>10","ASTH MSD DYS","")
+ccc_Exp_Hx_Exec("# of ER visits:","0,1,2,3,4,5,6,7,8,9,>10","ASTH ER VSTS","")
+ccc_Exp_Hx_Exec("# of hospitalizations:","0,1,2,3,4,5,6,7,8,9,>10","ASTH HOSPITL","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 2
+ccc_Exp_Hx_Exec("D_L","Asthma Management History:","Y","21")
+ccc_Exp_Hx_Exec("Has PEFR monitor:","yes,no","PFM GIVEN","")
+ccc_Exp_Hx_Exec("Checking PEFR:","yes,no","PFM COMPLNCE","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Compliance with AMP:","yes,no,good,fair,poor,not at all","ASTHPLANCOMP","")
+ccc_Exp_Hx_Exec("Understands AMP:","yes,no","","")
+ccc_Exp_Hx_Exec("Problems with medication:","no,yes","","")
+ccc_Exp_Hx_Exec("Steroid taper since last visit:","no,yes","HOI/385.3","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Average AMP zone since last visit:","green,yellow,red","","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Asthma Education Program (AEP):","yes,no,enrolled,completed,refused,NA","ASTHEDENRLD","")
+ccc_Exp_Hx_Exec("# of visits to AEP:","0,1,2,3,4,5","ASTHEDVISITS","")
+ccc_Exp_Hx_Exec("Education provided to:","patient,patient and parent(s),patient and caretaker,patient and significant other,parent(s),caretaker","","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// List Box 1
+ccc_Exp_Hx_Exec("L_B","Complains of","1","")
+ccc_Exp_Hx_Exec("The patient presents with","cough,shortness of breath,shortness of breath with exertion,wheezing,nocturnal awakenings,sinus symptoms,heartburn,history of GERD,nasal congestion,post nasal drip,sneezing,watery eyes,absenteeism,hemoptysis,weight loss,weight gain,edema,PND,orthopnea,chest pain,fatigue,anxiety,seasonal allergies","","")
+
+// List Box 2
+ccc_Exp_Hx_Exec("L_B","Denies","2","")
+ccc_Exp_Hx_Exec("There is no history of","cough,shortness of breath,shortness of breath with exertion,wheezing,nocturnal awakenings,sinus symptoms,heartburn,history of GERD,nasal congestion,post nasal drip,sneezing,watery eyes,absenteeism,hemoptysis,weight loss,weight gain,edema,PND,orthopnea,chest pain,fatigue,anxiety,seasonal allergies","","")
+
+// List Box 3
+ccc_Exp_Hx_Exec("L_B","Pattern-seasonal","3","")
+ccc_Exp_Hx_Exec("Symptoms occur","year round,year round but especially,in the winter,in the spring,in the summer,in the fall","","")
+
+// List Box 4
+ccc_Exp_Hx_Exec("L_B","Pattern-occurrence","4","")
+ccc_Exp_Hx_Exec("Symptoms are","continuous,episodic,worse at night,worse in the morning","","")
+
+// List Box 5
+ccc_Exp_Hx_Exec("L_B","Precipitating/Aggravating","5","")
+ccc_Exp_Hx_Exec("Symptoms are precipitated and/or aggravated by","viral respiratory infections,weather changes,cold air exposure,environmental allergens,home environment,school/work environment,smoking,exercise,environmental changes,irritants (smoke/odors/vapors),emotions (crying/laughing),stress (fear/anger/frustration),medications,foods/food additives,sinus infections,rhinitis,GERD,menses,pregnancy,thyroid problems","","")
+
+// List Box 6
+ccc_Exp_Hx_Exec("L_B","Hx of Exacerbations","6","")
+ccc_Exp_Hx_Exec("When exacerbations have occurred they have","been sudden onset,been rapid onset,been gradual onset,","","")
+
+// List Box 7
+ccc_Exp_Hx_Exec("L_B","Risk Factors","7","")
+ccc_Exp_Hx_Exec("Risk factors for asthma include","BPD,pneumonia in childhood,passive smoke exposure,tobacco use,FH of asthma,FH of atopic disease,occupational exposures","","")
+
+// List Box 8
+ccc_Exp_Hx_Exec("L_B","Progression/Impact","8","")
+ccc_Exp_Hx_Exec("The patient's asthma symptoms","are getting worse,have improved,are unchanged,significantly impact patient/family,somewhat impact patient/family,do not impact patient/family","","")
+
+// List Box 9
+ccc_Exp_Hx_Exec("L_B","Last 4 Weeks-YES","9","")
+ccc_Exp_Hx_Exec("In the past fours weeks (due to asthma) the patient HAS","missed work,missed school,missed normal daily activities,awakened with symptoms,felt asthma not well controlled,used >12 puffs of SABA in a day","","")
+
+// List Box 10
+ccc_Exp_Hx_Exec("L_B","Last 4 Weeks-NO","10","")
+ccc_Exp_Hx_Exec("In the past fours weeks (due to asthma) the patient HAS NOT","missed work,missed school,missed normal daily activities,awakened with symptoms,felt asthma not well controlled,used >12 puffs of SABA in a day","","")
+
+// List Box 11
+ccc_Exp_Hx_Exec("L_B","Current Sx Control","11","")
+ccc_Exp_Hx_Exec("Perception of the patient's current asthma control is","well controlled,not well controlled,","","")
+
+// List Box 12
+ccc_Exp_Hx_Exec("L_B","Knowledge","12","")
+ccc_Exp_Hx_Exec("The patient's/caretaker's understanding of asthma is","excellent,good,fair,poor","","")
+
+// List Box 13
+ccc_Exp_Hx_Exec("L_B","Asthma Triggers","13","")
+ccc_Exp_Hx_Exec("Specific asthma triggers include","no known triggers,dust mites,pet dander,molds,grass,trees,weeds,cold/URI sx's,exercise,smoke exposure,odors,foods or drinks,weather changes,wood stove,heartburn or GERD,sinusitis,occupational exposure,insect bites","ASTH TRIGGRS","")
+
+// List Box 14
+ccc_Exp_Hx_Exec("L_B","Prior Allergy Testing","14","")
+ccc_Exp_Hx_Exec("Prior allergy testing","has not been done,has been done,was positive,was negative","ALLERGY TEST","")
+
+// List Box 15 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","15","")
+
+// List Box 16 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","16","")
+
+// List Box 17
+ccc_Exp_Hx_Exec("L_B","Home Environment","17","")
+ccc_Exp_Hx_Exec("Patient currently lives in a","new building,old building,single family home,multi-family home,apartment,is a rental,is owned","ENVIRN HX04A","")
+
+// List Box 18
+ccc_Exp_Hx_Exec("L_B","Heating/Air","18","")
+ccc_Exp_Hx_Exec("The current dwelling contains","steam heat,forced air heat,electric heat,space heater,working fireplace,wood stove,vaporizer,window air conditioning,central air conditioning,damp basement,dehumidifier,air purifier,humidifier","ENVIRN HX04D","")
+
+// List Box 19
+ccc_Exp_Hx_Exec("L_B","Other Exposures","19","")
+ccc_Exp_Hx_Exec("Other exposures include","smokers,waterbed,box spring and mattress,feather bedding,wall to wall carpets,visible mold-mildew,pet(s)","ENVIRN HX04I","")
+
+// List Box 20
+ccc_Exp_Hx_Exec("L_B","Work/School Exposures","20","")
+ccc_Exp_Hx_Exec("Work (school) exposures include","asbestos,visible mold-mildew,poor ventilation,smokers,chemicals,dusts,fumes,pet(s),animals,livestock","HAZ MAT EXP","")
+
+ccc_Exp_Hx_Exec("ENDL_B","","","")
+
+ccc_Exp_Hx_Exec("EN_D","","","")
+
+// END Form Heading: Asthma History
+

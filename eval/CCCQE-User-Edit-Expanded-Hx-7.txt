@@ -1,0 +1,623 @@
+
+// BEGIN Form Heading: Bright Futures-4 Years
+
+ccc_Exp_Hx_Exec("F_H","Bright Futures-4 Years","Family Medicine,Pediatrics,Family Practice,Medicine-Pediatrics","Well Child Check-4 Years||")
+ccc_Exp_Hx_Exec("F_HFMT","B,2","","1")
+ccc_Exp_Hx_Exec("D_LHFMT","B,U","1","1")
+ccc_Exp_Hx_Exec("D_LFMT","B","2","")
+ccc_Exp_Hx_Exec("L_BHFMT","B","","")
+ccc_Exp_Hx_Exec("L_BTFMT","L","2","Y")
+ccc_Exp_Hx_Exec("M_LEF","Questions or Concerns:^^^^^Comments:^^^^Comments:","Y^^^Y^^Y^^^^Y","^^^^^^^^^")
+ccc_Exp_Hx_Exec("M_LEFOBS","PARENTAL CON^^^^^COMMENTS^^^^COMMENTS2","^^^^^^^^^","")
+ccc_Exp_Hx_Exec("M_LEFFMT","","1","")
+ccc_Exp_Hx_Exec("L_BH1FMT","B,U","1","1")
+ccc_Exp_Hx_Exec("L_BHIND","","","2")
+ccc_Exp_Hx_Exec("L_B1H","DEVELOPMENT^17^20^ANTICIPATORY GUIDANCE^25^36^PARENTAL DEVELOPMENTAL ASSESSMENT^13^17^CURRENT HISTORY^1^16","","")
+ccc_Exp_Hx_Exec("GO_TO_TAB","Health/Home/Family^^Diet / Elimination^Development/Risk^Anticipatory Guidance^Additional History","","")
+ccc_Exp_Hx_Exec("DEFAULT_LABELS","^NL Default^^^^^^All Normal^Minimum Due","","")
+
+// Dropdown List Column 1
+ccc_Exp_Hx_Exec("D_L","HEALTH","Y","")
+ccc_Exp_Hx_Exec("Health Status:","good,fair,poor^","HLTH STATUS","")
+ccc_Exp_Hx_Exec("ER Visits:","0,1,2,3,4,5,>5^","ER VISIT","")
+ccc_Exp_Hx_Exec("Reason for ER visit:","abdominal pain,asthma,coughing,dehydration,diarrhea,ear pain,fever,fracture,headache,ingestion,laceration,rash,seizure,shortness of breath,sore throat,trauma,URI,UTI,vomiting,wheezing","ERVISREAS","")
+ccc_Exp_Hx_Exec("Hospitalizations:","0,1,2,3,4,5,>5^","HOSPLASTVIST","")
+ccc_Exp_Hx_Exec("Discharge Diagnosis:","ALTE,appendicitis,asthma,bronchiolitis,dehydration,gastroenteritis,ingestion,pneumonia,pyelonephritis,trauma,rule out sepsis,seizure,surgery","HOSPREASADM","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Immunization Reaction:","no reaction,reaction,fever,local reaction^","VACCINERXN","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Dental Visit-last 6 months","yes,no^","DENTAL REV","")
+ccc_Exp_Hx_Exec("Brushing Teeth","once a day,twice a day,after each meal,no","BRUSHTEETH","")
+ccc_Exp_Hx_Exec("Flossing","once a day,twice a day,after each meal,no","FLOSS","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 2
+ccc_Exp_Hx_Exec("D_L","HOME/FAMILY","Y","")
+ccc_Exp_Hx_Exec("Lives with:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","LIVES WITH","")
+ccc_Exp_Hx_Exec("Guardian:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","GUARDIANNAME","")
+ccc_Exp_Hx_Exec("# of Siblings:","0,1,2,3,4,5,6,7,8,9,10","SIBLINGS","")
+ccc_Exp_Hx_Exec("Lives In:","apartment,house,shelter,homeless,other: ","HOUSING","")
+ccc_Exp_Hx_Exec("# of Bedrooms:","0,1,2,3,4,5,6,>6","#BEDROOMS","")
+ccc_Exp_Hx_Exec("Shares Bedroom:","no,yes","BEDROOMSHR","")
+ccc_Exp_Hx_Exec("Passive Smoke Exposure:","yes,no","PAS CIG SMOK","")
+ccc_Exp_Hx_Exec("Passive Smoke Counseling:","not indicated; no passive smoke exposure,to avoid passive smoke exposure,advised to quit smoking and to avoid smoke exposure","PASSMOKADVIC","")
+ccc_Exp_Hx_Exec("Caregiver Relationships:","good with mother,poor with mother,mother not involved,good with father,poor with father,father not involved,in foster care","DADMOMRELAT","")
+ccc_Exp_Hx_Exec("Father Involvement:","involved,not involved,occasional involvement,where abouts unknown,incarcerated,deceased","FOB INVOLVED","")
+ccc_Exp_Hx_Exec("Relationship with Siblings:","good,fair,poor,only child","SIBLINGRELAT","")
+ccc_Exp_Hx_Exec("Discipline Type:","verbal,time out,spanking,other: ","DISCOTHERMTH","")
+ccc_Exp_Hx_Exec("History of Abuse:","no,yes,physical,emotional,sexual","ABUSEHX","")
+ccc_Exp_Hx_Exec("History of Neglect:","no,yes","TRIGPFSNGLFU","")
+ccc_Exp_Hx_Exec("Substance use exposure in home:","yes: see Social History,no","FH SUB ABUSE","")
+ccc_Exp_Hx_Exec("Domestic Violence:","no domestic violence,history of domestic violence,current domestic violence,unable to assess","DVSCRN_COMPL","")
+ccc_Exp_Hx_Exec("CPS/DSS:","no active case,active case,currently investigating,unfounded case,closed case,shelter care order in place","SOCIAL SERVC","")
+ccc_Exp_Hx_Exec("Foster Care:","no,yes - since: ","FOSTER/GROUP","")
+ccc_Exp_Hx_Exec("# of Placements:","1,2,3,4,5,6,7,8,9,10,>10","FOSTER/PLACE","")
+ccc_Exp_Hx_Exec("Parental Stress:","no,yes,coping well","HM/FM ASSESS","")
+ccc_Exp_Hx_Exec("Pets in Home:","yes,no","PETS IN HOME","")
+ccc_Exp_Hx_Exec("Type of Pets:","cat,dog,rabbit,guinea pig,hamster,bird,reptile","PETS TYPE","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// List Box 1
+ccc_Exp_Hx_Exec("L_B","Diet:","","")
+ccc_Exp_Hx_Exec("","all four food groups,not all four food groups,picky eater,good appetite,junk food,fast food/carryout","DIETCOMM","")
+
+// List Box 2
+ccc_Exp_Hx_Exec("L_B","Milk:","","")
+ccc_Exp_Hx_Exec("","whole Milk,2% Milk,1% Milk,Fat Free Milk,Soy Milk,adequate calcium intake,inadequate calcium intake,Cow's milk formula,Soy based formula,thickened with rice cereal,Lactose free,Hydrolyzed protein,WIC recipient","FORMULA","")
+
+// List Box 3
+ccc_Exp_Hx_Exec("L_B","Drinks:","","")
+ccc_Exp_Hx_Exec("","no juice,juice <8 oz/day,juice 8-16 oz/day,juice >16 oz/day,water","JUICE/DAY","")
+
+// List Box 4
+ccc_Exp_Hx_Exec("L_B","Carbonated/Caffeine Drinks:","","")
+ccc_Exp_Hx_Exec("","no carbonated,yes carbonated,no caffeine,yes caffeine,<8 oz/day,8-16 oz/day,>16 oz/day","CAFFEINE USE","")
+
+// List Box 5
+ccc_Exp_Hx_Exec("L_B","Elimination:","","")
+ccc_Exp_Hx_Exec("","regular,irregular,soft BM's,hard BM's,constipation,diarrhea,voiding normal,problems voiding","ELIMINATION","")
+
+// List Box 6
+ccc_Exp_Hx_Exec("L_B","Toilet Training:","","")
+ccc_Exp_Hx_Exec("","done,daytime only,in process,refusing,withholding,none,no concerns,has concerns","TOILETTRAIND","")
+
+// List Box 7
+ccc_Exp_Hx_Exec("L_B","Sleep:","","")
+ccc_Exp_Hx_Exec("","no problems,has problems,problem falling asleep,frequent awakenings,nightmares,co-bedding,no co-bedding,in own room,shares room,in parent's room","SLEEP BEHAV","")
+
+// List Box 8
+ccc_Exp_Hx_Exec("L_B","Activities:","","")
+ccc_Exp_Hx_Exec("","outdoor play,likes to be read to,playgroup","","")
+
+// List Box 9
+ccc_Exp_Hx_Exec("L_B","TV/Computer/Video:","","")
+ccc_Exp_Hx_Exec("",">2 hours total/day,<2 hours total/day,has computer at home,has video games at home,content monitored,content not monitored,exposure to media violence,plays violent video games","","")
+
+// List Box 10
+ccc_Exp_Hx_Exec("L_B","Friends:","","")
+ccc_Exp_Hx_Exec("","yes,no,many friends,few friends,no friends","","")
+
+// List Box 11
+ccc_Exp_Hx_Exec("L_B","School:","","")
+ccc_Exp_Hx_Exec("","not in school,IEP (Individualized Education Plan),special education,suspended,teacher with concerns,teacher without concerns,public,private,chartered,home school","SCHOOL","")
+
+// List Box 12
+ccc_Exp_Hx_Exec("L_B","Child Care:","","")
+ccc_Exp_Hx_Exec("","at home with parent/guardian,stays with kin,babysitter,daycare,early intervention","SCHOOL GRADE","")
+
+// List Box 13
+ccc_Exp_Hx_Exec("L_B","Developmental Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,formal assessment completed,ages & stages completed,Denver Developmental II completed^","DEVTASK NOTE","")
+
+// List Box 14
+ccc_Exp_Hx_Exec("L_B","Behavior Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,MCHAT completed,Vanderbilt completed,Conner completed^","","")
+
+// List Box 15
+ccc_Exp_Hx_Exec("L_B","Vision/Hearing:","","")
+ccc_Exp_Hx_Exec("","no concerns with vision,no concerns with hearing,concerns with vision,concerns with hearing,failed last vision screen,failed last hearing screen^no concerns with vision,no concerns with hearing","PARCONCVIS","")
+
+// List Box 16 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 17
+ccc_Exp_Hx_Exec("L_B","Gross Motor Assessment:","","")
+ccc_Exp_Hx_Exec("","hops,balances 2-3 secs.,heel-toe walk,catches bounced ball,^hops,balances 2-3 secs.,heel-toe walk,catches bounced ball,","GROSSMTRDEV","")
+
+// List Box 18
+ccc_Exp_Hx_Exec("L_B","Fine Motor Assessment:","","")
+ccc_Exp_Hx_Exec("","copies circle,copies square,draws person-3 to 6 parts,brushes teeth-no help,dresses self-no help,^copies circle,copies square,draws person-3 to 6 parts,brushes teeth-no help,dresses self-no help,","FINEMOTORDEV","")
+
+// List Box 19
+ccc_Exp_Hx_Exec("L_B","Communication:","","")
+ccc_Exp_Hx_Exec("","speech 100% understandable,names 4 colors,knows 3 adjectives,knows 4 actions,knows made of (spoon-shoe-door),knows 2-3 opposites (hot-cold/big-little)^speech 100% understandable,names 4 colors,knows 3 adjectives,knows 4 actions,knows made of (spoon-shoe-door),knows 2-3 opposites (hot-cold/big-little)","LANGUAGEDEV","")
+
+// List Box 20
+ccc_Exp_Hx_Exec("L_B","Social:","","")
+ccc_Exp_Hx_Exec("","plays games with rules,toilets alone,dresses self,plays in group,separates easily^plays games with rules,toilets alone,dresses self,plays in group,separates easily","SOCIAL DEV","")
+
+// List Box 21
+ccc_Exp_Hx_Exec("L_B","Lead Risk Factors:","","")
+ccc_Exp_Hx_Exec("","no,yes^","LEAD RISK","")
+
+// List Box 22
+ccc_Exp_Hx_Exec("L_B","TB Risk Factors:","","")
+ccc_Exp_Hx_Exec("","no,yes^","TB RISK","")
+
+// List Box 23
+ccc_Exp_Hx_Exec("L_B","CV Risk Assessment:","","")
+ccc_Exp_Hx_Exec("positive for","no risk factors,FH CAD male <55 years,FH CAD female <65 years,mother w/high cholesterol,father w/high cholesterol,overweight,smoker,lack of exercise,high blood pressure,high cholesterol,diabetes^","CARDIC RISK","")
+
+// List Box 24 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 25
+ccc_Exp_Hx_Exec("L_B","ANTICIPATORY GUIDANCE:","","")
+ccc_Exp_Hx_Exec("","discussed with caregiver,verbalized understanding,reviewed,minimum 3 categories reviewed,handout(s) given^discussed with caregiver,minimum 3 categories reviewed","ANT GUID REV","")
+
+// List Box 26
+ccc_Exp_Hx_Exec("L_B","BARRIERS TO COUNSELING:","","")
+ccc_Exp_Hx_Exec("","none,cognitive,visually impaired,hearing impaired,low literacy,English as a second language,physical,cultural diversity,interpreter required,interpreter utilized","LEARN BARIER","")
+
+// List Box 27
+ccc_Exp_Hx_Exec("L_B","INJURY/ILLNESS PREVENT:","","")
+ccc_Exp_Hx_Exec("","car seat/booster seat,crib safety,falls,burns,water heater/hot liquids,smoke detector/fire safety plan,sun safety,violence/guns,sharp/small objects,child proofing,poison control #,electrical outlets/cords,falls,stairs,no walkers,water safety,lead risks^","SAFETY GUID","")
+
+// List Box 28
+ccc_Exp_Hx_Exec("L_B","HEALTHY/SAFE HABITS:","","")
+ccc_Exp_Hx_Exec("","age-appropriate book given,good sleep habits,passive smoking,skin care,limit TV,reading,bedwetting,nightmares,leg aches,fears,normal sexual curiosity-simple answers,masturbation,Oedipal complex,use sunscreen,tick prevention,second hand smoke","HLTHPROMGUID","")
+
+// List Box 29
+ccc_Exp_Hx_Exec("L_B","NUTRITION:","","")
+ccc_Exp_Hx_Exec("","healthy food choice,limit carbonated beverages,limit caffeine,limit fat,limit fast foods,elimination/toileting,WIC status^","NUTRITN GUID","")
+
+// List Box 30
+ccc_Exp_Hx_Exec("L_B","SCHOOL READINESS:","","")
+ccc_Exp_Hx_Exec("","school readiness,enrolled in Pre-K/K,school avoidance,management of aggression,promote self-help skills,caution with strangers/animals^","BEHAVIORGUID","")
+
+// List Box 31
+ccc_Exp_Hx_Exec("L_B","PARENTING:","","")
+ccc_Exp_Hx_Exec("","family relationships,discipline/limits,stranger anxiety,praise and encourage,autonomy,avoid spanking/slapping,allow separation,promote initiative/creativity,awareness of ADD/learning disabilities","YNG PRNT SKL","")
+
+// List Box 32
+ccc_Exp_Hx_Exec("L_B","ORAL HEALTH:","","")
+ccc_Exp_Hx_Exec("","clean teeth,teeth brushing,dentist every 6 months,fluoride in water^clean teeth,teeth brushing,dentist every 6 months","DENT OHI DTE","")
+
+// List Box 33
+ccc_Exp_Hx_Exec("L_B","IMMUNIZATIONS:","","")
+ccc_Exp_Hx_Exec("","reviewed,up to date,counseled on risks and benefits,deferred due to illness,catch-up needed,refused-counseled on risks of refusal,refusal consent signed^","IMMUNIZ UTD","")
+
+// List Box 34
+ccc_Exp_Hx_Exec("L_B","HOME CHILDPROOFED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled","CHLDPROOFHOM","")
+
+// List Box 35
+ccc_Exp_Hx_Exec("L_B","CAR SEAT USED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled,car seat,booster seat","CAR RESTRNTS","")
+
+// List Box 36
+ccc_Exp_Hx_Exec("L_B","HOME SAFETY:","","")
+ccc_Exp_Hx_Exec("","smoke detector,no smoke detector,carbon monoxide monitor,no carbon monoxide monitor,fire extinguisher,no fire extinguisher,firearms in home-safety addressed","HOMESAFETY","")
+
+ccc_Exp_Hx_Exec("ENDL_B","","","")
+
+ccc_Exp_Hx_Exec("EN_D","","","")
+
+// END Form Heading: Bright Futures-4 Years
+
+
+// BEGIN Form Heading: Bright Futures-5 Years
+
+ccc_Exp_Hx_Exec("F_H","Bright Futures-5 Years","Family Medicine,Pediatrics,Family Practice,Medicine-Pediatrics","Well Child Check-5 Years||")
+ccc_Exp_Hx_Exec("F_HFMT","B,2","","1")
+ccc_Exp_Hx_Exec("D_LHFMT","B,U","1","1")
+ccc_Exp_Hx_Exec("D_LFMT","B","2","")
+ccc_Exp_Hx_Exec("L_BHFMT","B","","")
+ccc_Exp_Hx_Exec("L_BTFMT","L","2","Y")
+ccc_Exp_Hx_Exec("M_LEF","Questions or Concerns:^^^^^Comments:^^^^Comments:","Y^^^Y^^Y^^^^Y","^^^^^^^^^")
+ccc_Exp_Hx_Exec("M_LEFOBS","PARENTAL CON^^^^^COMMENTS^^^^COMMENTS2","^^^^^^^^^","")
+ccc_Exp_Hx_Exec("M_LEFFMT","","1","")
+ccc_Exp_Hx_Exec("L_BH1FMT","B,U","1","1")
+ccc_Exp_Hx_Exec("L_BHIND","","","2")
+ccc_Exp_Hx_Exec("L_B1H","DEVELOPMENT^17^20^ANTICIPATORY GUIDANCE^25^36^PARENTAL DEVELOPMENTAL ASSESSMENT^13^17^CURRENT HISTORY^1^16","","")
+ccc_Exp_Hx_Exec("GO_TO_TAB","Health/Home/Family^^Diet / Elimination^Development/Risk^Anticipatory Guidance^Additional History","","")
+ccc_Exp_Hx_Exec("DEFAULT_LABELS","^NL Default^^^^^^All Normal^Minimum Due","","")
+
+// Dropdown List Column 1
+ccc_Exp_Hx_Exec("D_L","HEALTH","Y","")
+ccc_Exp_Hx_Exec("Health Status:","good,fair,poor^","HLTH STATUS","")
+ccc_Exp_Hx_Exec("ER Visits:","0,1,2,3,4,5,>5^","ER VISIT","")
+ccc_Exp_Hx_Exec("Reason for ER visit:","abdominal pain,asthma,coughing,dehydration,diarrhea,ear pain,fever,fracture,headache,ingestion,laceration,rash,seizure,shortness of breath,sore throat,trauma,URI,UTI,vomiting,wheezing","ERVISREAS","")
+ccc_Exp_Hx_Exec("Hospitalizations:","0,1,2,3,4,5,>5^","HOSPLASTVIST","")
+ccc_Exp_Hx_Exec("Discharge Diagnosis:","ALTE,appendicitis,asthma,bronchiolitis,dehydration,gastroenteritis,ingestion,pneumonia,pyelonephritis,trauma,rule out sepsis,seizure,surgery","HOSPREASADM","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Immunization Reaction:","no reaction,reaction,fever,local reaction^","VACCINERXN","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Dental Visit-last 6 months","yes,no^","DENTAL REV","")
+ccc_Exp_Hx_Exec("Brushing Teeth","once a day,twice a day,after each meal,no","BRUSHTEETH","")
+ccc_Exp_Hx_Exec("Flossing","once a day,twice a day,after each meal,no","FLOSS","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 2
+ccc_Exp_Hx_Exec("D_L","HOME/FAMILY","Y","")
+ccc_Exp_Hx_Exec("Lives with:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","LIVES WITH","")
+ccc_Exp_Hx_Exec("Guardian:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","GUARDIANNAME","")
+ccc_Exp_Hx_Exec("# of Siblings:","0,1,2,3,4,5,6,7,8,9,10","SIBLINGS","")
+ccc_Exp_Hx_Exec("Lives In:","apartment,house,shelter,homeless,other: ","HOUSING","")
+ccc_Exp_Hx_Exec("# of Bedrooms:","0,1,2,3,4,5,6,>6","#BEDROOMS","")
+ccc_Exp_Hx_Exec("Shares Bedroom:","no,yes","BEDROOMSHR","")
+ccc_Exp_Hx_Exec("Passive Smoke Exposure:","yes,no","PAS CIG SMOK","")
+ccc_Exp_Hx_Exec("Passive Smoke Counseling:","not indicated; no passive smoke exposure,to avoid passive smoke exposure,advised to quit smoking and to avoid smoke exposure","PASSMOKADVIC","")
+ccc_Exp_Hx_Exec("Caregiver Relationships:","good with mother,poor with mother,mother not involved,good with father,poor with father,father not involved,in foster care","DADMOMRELAT","")
+ccc_Exp_Hx_Exec("Father Involvement:","involved,not involved,occasional involvement,where abouts unknown,incarcerated,deceased","FOB INVOLVED","")
+ccc_Exp_Hx_Exec("Relationship with Siblings:","good,fair,poor,only child","SIBLINGRELAT","")
+ccc_Exp_Hx_Exec("Discipline Type:","verbal,time out,spanking,other: ","DISCOTHERMTH","")
+ccc_Exp_Hx_Exec("History of Abuse:","no,yes,physical,emotional,sexual","ABUSEHX","")
+ccc_Exp_Hx_Exec("History of Neglect:","no,yes","TRIGPFSNGLFU","")
+ccc_Exp_Hx_Exec("Substance use exposure in home:","yes: see Social History,no","FH SUB ABUSE","")
+ccc_Exp_Hx_Exec("Domestic Violence:","no domestic violence,history of domestic violence,current domestic violence,unable to assess","DVSCRN_COMPL","")
+ccc_Exp_Hx_Exec("CPS/DSS:","no active case,active case,currently investigating,unfounded case,closed case,shelter care order in place","SOCIAL SERVC","")
+ccc_Exp_Hx_Exec("Foster Care:","no,yes - since: ","FOSTER/GROUP","")
+ccc_Exp_Hx_Exec("# of Placements:","1,2,3,4,5,6,7,8,9,10,>10","FOSTER/PLACE","")
+ccc_Exp_Hx_Exec("Parental Stress:","no,yes,coping well","HM/FM ASSESS","")
+ccc_Exp_Hx_Exec("Pets in Home:","yes,no","PETS IN HOME","")
+ccc_Exp_Hx_Exec("Type of Pets:","cat,dog,rabbit,guinea pig,hamster,bird,reptile","PETS TYPE","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// List Box 1
+ccc_Exp_Hx_Exec("L_B","Diet:","","")
+ccc_Exp_Hx_Exec("","all four food groups,not all four food groups,picky eater,good appetite,junk food,fast food/carryout","DIETCOMM","")
+
+// List Box 2
+ccc_Exp_Hx_Exec("L_B","Milk:","","")
+ccc_Exp_Hx_Exec("","whole Milk,2% Milk,1% Milk,Fat Free Milk,Soy Milk,adequate calcium intake,inadequate calcium intake","FORMULA","")
+
+// List Box 3
+ccc_Exp_Hx_Exec("L_B","Drinks:","","")
+ccc_Exp_Hx_Exec("","no juice,juice <8 oz/day,juice 8-16 oz/day,juice >16 oz/day,water","JUICE/DAY","")
+
+// List Box 4
+ccc_Exp_Hx_Exec("L_B","Carbonated/Caffeine Drinks:","","")
+ccc_Exp_Hx_Exec("","no carbonated,yes carbonated,no caffeine,yes caffeine,<8 oz/day,8-16 oz/day,>16 oz/day","CAFFEINE USE","")
+
+// List Box 5
+ccc_Exp_Hx_Exec("L_B","Elimination:","","")
+ccc_Exp_Hx_Exec("","regular,irregular,soft BM's,hard BM's,constipation,diarrhea,voiding normal,problems voiding","ELIMINATION","")
+
+// List Box 6
+ccc_Exp_Hx_Exec("L_B","Toilet Training:","","")
+ccc_Exp_Hx_Exec("","done,daytime only,in process,refusing,withholding,none,no concerns,has concerns","TOILETTRAIND","")
+
+// List Box 7
+ccc_Exp_Hx_Exec("L_B","Sleep:","","")
+ccc_Exp_Hx_Exec("","no problems,has problems,problem falling asleep,frequent awakenings,nightmares,co-bedding,no co-bedding,in own room,shares room,in parent's room","SLEEP BEHAV","")
+
+// List Box 8
+ccc_Exp_Hx_Exec("L_B","Activities:","","")
+ccc_Exp_Hx_Exec("","outdoor play,likes to be read to,playgroup,sports,dance,gymnastics,music,art,likes to read","","")
+
+// List Box 9
+ccc_Exp_Hx_Exec("L_B","TV/Computer/Video:","","")
+ccc_Exp_Hx_Exec("",">2 hours total/day,<2 hours total/day,has computer at home,has video games at home,content monitored,content not monitored,exposure to media violence,plays violent video games","","")
+
+// List Box 10
+ccc_Exp_Hx_Exec("L_B","Friends:","","")
+ccc_Exp_Hx_Exec("","yes,no,many friends,few friends,no friends","","")
+
+// List Box 11
+ccc_Exp_Hx_Exec("L_B","School:","","")
+ccc_Exp_Hx_Exec("","not in school,IEP (Individualized Education Plan),special education,suspended,teacher with concerns,teacher without concerns,public,private,chartered,home school","SCHOOL","")
+
+// List Box 12
+ccc_Exp_Hx_Exec("L_B","Grade Level:","","")
+ccc_Exp_Hx_Exec("","daycare,pre-K,ready for school,Head Start,Early Childhood Intervention","SCHOOL GRADE","")
+
+// List Box 13
+ccc_Exp_Hx_Exec("L_B","School Performance:","","")
+ccc_Exp_Hx_Exec("","good,fair,poor,IEP (Individualized Education Plan),special education","SCHOOL PERFM","")
+
+// List Box 14
+ccc_Exp_Hx_Exec("L_B","Developmental Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,formal assessment completed,ages & stages completed,Denver Developmental II completed^","DEVTASK NOTE","")
+
+// List Box 15
+ccc_Exp_Hx_Exec("L_B","Behavior Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,MCHAT completed,Vanderbilt completed,Conner completed^","","")
+
+// List Box 16
+ccc_Exp_Hx_Exec("L_B","Vision/Hearing:","","")
+ccc_Exp_Hx_Exec("","no concerns with vision,no concerns with hearing,concerns with vision,concerns with hearing,failed last vision screen,failed last hearing screen^no concerns with vision,no concerns with hearing","PARCONCVIS","")
+
+// List Box 17
+ccc_Exp_Hx_Exec("L_B","Gross Motor Assessment:","","")
+ccc_Exp_Hx_Exec("","balances 4-5 seconds,heel-toe walk,hops,catches bounced ball^balances 4-5 seconds,heel-toe walk,hops,catches bounced ball","GROSSMTRDEV","")
+
+// List Box 18
+ccc_Exp_Hx_Exec("L_B","Fine Motor Assessment:","","")
+ccc_Exp_Hx_Exec("","copies circle,copies square,draws person-6 parts,brushes teeth-no help,dresses self-no help^copies circle,copies square,draws person-6 parts,brushes teeth-no help,dresses self-no help","FINEMOTORDEV","")
+
+// List Box 19
+ccc_Exp_Hx_Exec("L_B","Communication:","","")
+ccc_Exp_Hx_Exec("","fluent sentences,counts 5 blocks,names 4 colors,knows 3 adjectives,knows 4 actions,knows made of (spoon-shoe-door),knows 2-3 opposites (hot-cold/big-little)^fluent sentences,counts 5 blocks,names 4 colors,knows 3 adjectives,knows 4 actions,knows made of (spoon-shoe-door),knows 2-3 opposites (hot-cold/big-little)","LANGUAGEDEV","")
+
+// List Box 20
+ccc_Exp_Hx_Exec("L_B","Social:","","")
+ccc_Exp_Hx_Exec("","prepares cereal,follows rules,toilets alone,dresses self,plays in group,separates easily^prepares cereal,follows rules,toilets alone,dresses self,plays in group,separates easily","SOCIAL DEV","")
+
+// List Box 21
+ccc_Exp_Hx_Exec("L_B","Lead Risk Factors:","","")
+ccc_Exp_Hx_Exec("","no,yes^","LEAD RISK","")
+
+// List Box 22
+ccc_Exp_Hx_Exec("L_B","TB Risk Factors:","","")
+ccc_Exp_Hx_Exec("","no,yes^","TB RISK","")
+
+// List Box 23
+ccc_Exp_Hx_Exec("L_B","CV Risk Assessment:","","")
+ccc_Exp_Hx_Exec("positive for","no risk factors,FH CAD male <55 years,FH CAD female <65 years,mother w/high cholesterol,father w/high cholesterol,overweight,smoker,lack of exercise,high blood pressure,high cholesterol,diabetes^","CARDIC RISK","")
+
+// List Box 24 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 25
+ccc_Exp_Hx_Exec("L_B","ANTICIPATORY GUIDANCE:","","")
+ccc_Exp_Hx_Exec("","discussed with caregiver,verbalized understanding,reviewed,minimum 3 categories reviewed,handout(s) given^discussed with caregiver,minimum 3 categories reviewed","ANT GUID REV","")
+
+// List Box 26
+ccc_Exp_Hx_Exec("L_B","BARRIERS TO COUNSELING:","","")
+ccc_Exp_Hx_Exec("","none,cognitive,visually impaired,hearing impaired,low literacy,English as a second language,physical,cultural diversity,interpreter required,interpreter utilized^","LEARN BARIER","")
+
+// List Box 27
+ccc_Exp_Hx_Exec("L_B","INJURY/ILLNESS PREVENT:","","")
+ccc_Exp_Hx_Exec("","car seat/booster seat,falls,burns,water heater/hot liquids,smoke detector/fire safety plan,sun safety,violence/guns,sharp/small objects,child proofing,poison control #,electrical outlets/cords,falls,stairs,no walkers,water safety,lead risks^","SAFETY GUID","")
+
+// List Box 28
+ccc_Exp_Hx_Exec("L_B","HEALTHY/SAFE HABITS:","","")
+ccc_Exp_Hx_Exec("","age-appropriate book given,good sleep habits,passive smoking,skin care,limit TV,reading,bedwetting,nightmares,leg aches,fears,normal sexual curiosity-simple answers,masturbation,Oedipal complex,use sunscreen,tick prevention,second hand smoke","HLTHPROMGUID","")
+
+// List Box 29
+ccc_Exp_Hx_Exec("L_B","NUTRITION:","","")
+ccc_Exp_Hx_Exec("","healthy food choice,limit carbonated beverages,limit caffeine,limit fat,limit fast foods,elimination/toileting,WIC status^","NUTRITN GUID","")
+
+// List Box 30
+ccc_Exp_Hx_Exec("L_B","SCHOOL READINESS:","","")
+ccc_Exp_Hx_Exec("","school readiness,enrolled in Pre-K/K,school avoidance,management of aggression,promote self-help skills,caution with strangers/animals","BEHAVIORGUID","")
+
+// List Box 31
+ccc_Exp_Hx_Exec("L_B","PARENTING:","","")
+ccc_Exp_Hx_Exec("","family relationships,discipline/limits,stranger anxiety,praise and encourage,autonomy,avoid spanking/slapping,allow separation,promote initiative/creativity,awareness of ADD/learning disabilities","YNG PRNT SKL","")
+
+// List Box 32
+ccc_Exp_Hx_Exec("L_B","ORAL HEALTH:","","")
+ccc_Exp_Hx_Exec("","clean teeth,teeth brushing,dentist every 6 months,fluoride in water^clean teeth,teeth brushing,dentist every 6 months","DENT OHI DTE","")
+
+// List Box 33
+ccc_Exp_Hx_Exec("L_B","IMMUNIZATIONS:","","")
+ccc_Exp_Hx_Exec("","reviewed,up to date,counseled on risks and benefits,deferred due to illness,catch-up needed,refused-counseled on risks of refusal,refusal consent signed^","IMMUNIZ UTD","")
+
+// List Box 34
+ccc_Exp_Hx_Exec("L_B","HOME CHILDPROOFED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled","CHLDPROOFHOM","")
+
+// List Box 35
+ccc_Exp_Hx_Exec("L_B","CAR SEAT USED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled,car seat,booster seat","CAR RESTRNTS","")
+
+// List Box 36
+ccc_Exp_Hx_Exec("L_B","HOME SAFETY:","","")
+ccc_Exp_Hx_Exec("","smoke detector,no smoke detector,carbon monoxide monitor,no carbon monoxide monitor,fire extinguisher,no fire extinguisher,firearms in home-safety addressed","HOMESAFETY","")
+
+ccc_Exp_Hx_Exec("ENDL_B","","","")
+
+ccc_Exp_Hx_Exec("EN_D","","","")
+
+// END Form Heading: Bright Futures-5 Years
+
+
+// BEGIN Form Heading: Bright Futures-6-10 Years
+
+ccc_Exp_Hx_Exec("F_H","Bright Futures-6-10 Years","Family Medicine,Pediatrics,Family Practice,Medicine-Pediatrics","Well Child Check-6-10 Years||")
+ccc_Exp_Hx_Exec("F_HFMT","B,2","","1")
+ccc_Exp_Hx_Exec("D_LHFMT","B,U","1","1")
+ccc_Exp_Hx_Exec("D_LFMT","B","2","")
+ccc_Exp_Hx_Exec("L_BHFMT","B","","")
+ccc_Exp_Hx_Exec("L_BTFMT","L","2","Y")
+ccc_Exp_Hx_Exec("M_LEF","Questions or Concerns:^^^^^Comments:^^^^Comments:","Y^^^Y^^Y^^^^Y","^^^^^^^^^")
+ccc_Exp_Hx_Exec("M_LEFOBS","PARENTAL CON^^^^^COMMENTS^^^^COMMENTS2","^^^^^^^^^","")
+ccc_Exp_Hx_Exec("M_LEFFMT","","1","")
+ccc_Exp_Hx_Exec("L_BH1FMT","B,U","1","1")
+ccc_Exp_Hx_Exec("L_BHIND","","","2")
+ccc_Exp_Hx_Exec("L_B1H","SCHOOL/SCREENING^13^19^ANTICIPATORY GUIDANCE^23^36^CURRENT HISTORY^1^16","","")
+ccc_Exp_Hx_Exec("GO_TO_TAB","Health/Home/Family^^Diet / Elimination^School/Screen/Risk^Anticipatory Guidance^Additional History","","")
+ccc_Exp_Hx_Exec("DEFAULT_LABELS","^NL Default^^^^^^All Normal^Minimum Due","","")
+
+// Dropdown List Column 1
+ccc_Exp_Hx_Exec("D_L","HEALTH","Y","")
+ccc_Exp_Hx_Exec("Health Status:","good,fair,poor^","HLTH STATUS","")
+ccc_Exp_Hx_Exec("ER Visits:","0,1,2,3,4,5,>5^","ER VISIT","")
+ccc_Exp_Hx_Exec("Reason for ER visit:","abdominal pain,asthma,coughing,dehydration,diarrhea,ear pain,fever,fracture,headache,ingestion,laceration,rash,seizure,shortness of breath,sore throat,trauma,URI,UTI,vomiting,wheezing","ERVISREAS","")
+ccc_Exp_Hx_Exec("Hospitalizations:","0,1,2,3,4,5,>5^","HOSPLASTVIST","")
+ccc_Exp_Hx_Exec("Discharge Diagnosis:","ALTE,appendicitis,asthma,bronchiolitis,dehydration,gastroenteritis,ingestion,pneumonia,pyelonephritis,trauma,rule out sepsis,seizure,surgery","HOSPREASADM","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Immunization Reaction:","no reaction,reaction,fever,local reaction^","VACCINERXN","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Dental Visit-last 6 months","yes,no^","DENTAL REV","")
+ccc_Exp_Hx_Exec("Brushing Teeth","once a day,twice a day,after each meal,no","BRUSHTEETH","")
+ccc_Exp_Hx_Exec("Flossing","once a day,twice a day,after each meal,no","FLOSS","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 2
+ccc_Exp_Hx_Exec("D_L","HOME/FAMILY","Y","")
+ccc_Exp_Hx_Exec("Lives with:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","LIVES WITH","")
+ccc_Exp_Hx_Exec("Guardian:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","GUARDIANNAME","")
+ccc_Exp_Hx_Exec("# of Siblings:","0,1,2,3,4,5,6,7,8,9,10","SIBLINGS","")
+ccc_Exp_Hx_Exec("Lives In:","apartment,house,shelter,homeless,other: ","HOUSING","")
+ccc_Exp_Hx_Exec("# of Bedrooms:","0,1,2,3,4,5,6,>6","#BEDROOMS","")
+ccc_Exp_Hx_Exec("Shares Bedroom:","no,yes","BEDROOMSHR","")
+ccc_Exp_Hx_Exec("Passive Smoke Exposure:","yes,no","PAS CIG SMOK","")
+ccc_Exp_Hx_Exec("Passive Smoke Counseling:","not indicated; no passive smoke exposure,to avoid passive smoke exposure,advised to quit smoking and to avoid smoke exposure","PASSMOKADVIC","")
+ccc_Exp_Hx_Exec("Caregiver Relationships:","good with mother,poor with mother,mother not involved,good with father,poor with father,father not involved,in foster care","DADMOMRELAT","")
+ccc_Exp_Hx_Exec("Father Involvement:","involved,not involved,occasional involvement,where abouts unknown,incarcerated,deceased","FOB INVOLVED","")
+ccc_Exp_Hx_Exec("Relationship with Siblings:","good,fair,poor,only child","SIBLINGRELAT","")
+ccc_Exp_Hx_Exec("Discipline Type:","verbal,time out,spanking,other: ","DISCOTHERMTH","")
+ccc_Exp_Hx_Exec("History of Abuse:","no,yes,physical,emotional,sexual","ABUSEHX","")
+ccc_Exp_Hx_Exec("History of Neglect:","no,yes","TRIGPFSNGLFU","")
+ccc_Exp_Hx_Exec("Substance use exposure in home:","yes: see Social History,no","FH SUB ABUSE","")
+ccc_Exp_Hx_Exec("Domestic Violence:","no domestic violence,history of domestic violence,current domestic violence,unable to assess","DVSCRN_COMPL","")
+ccc_Exp_Hx_Exec("CPS/DSS:","no active case,active case,currently investigating,unfounded case,closed case,shelter care order in place","SOCIAL SERVC","")
+ccc_Exp_Hx_Exec("Foster Care:","no,yes - since: ","FOSTER/GROUP","")
+ccc_Exp_Hx_Exec("# of Placements:","1,2,3,4,5,6,7,8,9,10,>10","FOSTER/PLACE","")
+ccc_Exp_Hx_Exec("Parental Stress:","no,yes,coping well","HM/FM ASSESS","")
+ccc_Exp_Hx_Exec("Pets in Home:","yes,no","PETS IN HOME","")
+ccc_Exp_Hx_Exec("Type of Pets:","cat,dog,rabbit,guinea pig,hamster,bird,reptile","PETS TYPE","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// List Box 1
+ccc_Exp_Hx_Exec("L_B","Diet/Food:","","")
+ccc_Exp_Hx_Exec("","all four food groups,not all four food groups,frequent fast food,frequent junk food,picky eater,good appetite","DIETCOMM","")
+
+// List Box 2
+ccc_Exp_Hx_Exec("L_B","Milk:","","")
+ccc_Exp_Hx_Exec("","whole Milk,2% Milk,1% Milk,Fat Free Milk,Soy Milk,adequate calcium intake,inadequate calcium intake","FORMULA","")
+
+// List Box 3
+ccc_Exp_Hx_Exec("L_B","Drinks:","","")
+ccc_Exp_Hx_Exec("","no juice,juice <8 oz/day,juice 8-16 oz/day,juice >16 oz/day,water","JUICE/DAY","")
+
+// List Box 4
+ccc_Exp_Hx_Exec("L_B","Carbonated/Caffeine Drinks:","","")
+ccc_Exp_Hx_Exec("","no carbonated,yes carbonated,no caffeine,yes caffeine,<8 oz/day,8-16 oz/day,>16 oz/day","CAFFEINE USE","")
+
+// List Box 5
+ccc_Exp_Hx_Exec("L_B","Elimination:","","")
+ccc_Exp_Hx_Exec("","no problems or concerns,problems or concerns noted,enuresis,encopresis","","")
+
+// List Box 6
+ccc_Exp_Hx_Exec("L_B","Sleep:","","")
+ccc_Exp_Hx_Exec("","<8hrs/night,8hrs or more/night,no problems,has problems,problem falling asleep,frequent awakenings,nightmares,co-bedding,no co-bedding,in own room,shares room,in parent's room","","")
+
+// List Box 7
+ccc_Exp_Hx_Exec("L_B","Exercise:","","")
+ccc_Exp_Hx_Exec("","none,jumps rope,runs,jogs,rides bike,swims","","")
+
+// List Box 8
+ccc_Exp_Hx_Exec("L_B","Sports:","","")
+ccc_Exp_Hx_Exec("","football,baseball,basketball,hockey,soccer,swimming,gymnastics,track & field,cross country,cheerleading,tennis,lacrosse,competitive,recreational","","")
+
+// List Box 9
+ccc_Exp_Hx_Exec("L_B","Activities:","","")
+ccc_Exp_Hx_Exec("","plays instrument,band,clubs,in after-school programs,Boys and Girls Club,Boy Scouts,Girl Scouts,photography,art,drama","","")
+
+// List Box 10
+ccc_Exp_Hx_Exec("L_B","TV/Computer/Video:","","")
+ccc_Exp_Hx_Exec("",">2 hours total/day,<2 hours total/day,has computer at home,has video games at home,content monitored,content not monitored,exposure to media violence,plays violent video games","","")
+
+// List Box 11
+ccc_Exp_Hx_Exec("L_B","Friends:","","")
+ccc_Exp_Hx_Exec("","many friends,few friends,no friends,has someone to talk to with issues,no one to talk to with issues,positive role model,no positive role model","","")
+
+// List Box 12
+ccc_Exp_Hx_Exec("L_B","Mental Health:","","")
+ccc_Exp_Hx_Exec("","high self esteem,low self esteem,positive body image,negative body image,suicidal ideation,homicidal ideation,feelings of sadness,feelings of loneliness,poor appetite,feeling blue/depressed,anxiety","","")
+
+// List Box 13
+ccc_Exp_Hx_Exec("L_B","School:","","")
+ccc_Exp_Hx_Exec("","not in school,teacher with concerns,teacher without concerns,public,private,chartered,home school","SCHOOL","")
+
+// List Box 14
+ccc_Exp_Hx_Exec("L_B","Grade Level:","","")
+ccc_Exp_Hx_Exec("","kindergarten,1,2,3,4,5,6,pre-K,readiness","SCHOOL GRADE","")
+
+// List Box 15
+ccc_Exp_Hx_Exec("L_B","School Performance:","","")
+ccc_Exp_Hx_Exec("","excellent,good,fair,poor,failing,delinquency,history of suspensions,multiple suspensions,not in school,IEP (Individualized Education Plan),special education","SCHOOL PERFM","")
+
+// List Box 16
+ccc_Exp_Hx_Exec("L_B","Special Education:","","")
+ccc_Exp_Hx_Exec("","no,yes,being evaluated,IEP requested,IEP in place","SPECIAL ED","")
+
+// List Box 17
+ccc_Exp_Hx_Exec("L_B","Future Career Goals:","","")
+ccc_Exp_Hx_Exec("","work,college,military,associate degree","CAREERPLAN","")
+
+// List Box 18
+ccc_Exp_Hx_Exec("L_B","Behavior Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,MCHAT completed,Vanderbilt completed,Conner completed^","","")
+
+// List Box 19
+ccc_Exp_Hx_Exec("L_B","Vision/Hearing:","","")
+ccc_Exp_Hx_Exec("","no concerns with vision,no concerns with hearing,concerns with vision,concerns with hearing,failed last vision screen,failed last hearing screen^no concerns with vision,no concerns with hearing","PARCONCVIS","")
+
+// List Box 20 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 21
+ccc_Exp_Hx_Exec("L_B","TB Risk Factors:","","")
+ccc_Exp_Hx_Exec("","no,yes^","TB RISK","")
+
+// List Box 22
+ccc_Exp_Hx_Exec("L_B","CV Risk Assessment:","","")
+ccc_Exp_Hx_Exec("positive for","no risk factors,FH CAD male <55 years,FH CAD female <65 years,mother w/high cholesterol,father w/high cholesterol,overweight,smoker,lack of exercise,high blood pressure,high cholesterol,diabetes^","CARDIC RISK","")
+
+// List Box 23
+ccc_Exp_Hx_Exec("L_B","ANTICIPATORY GUIDANCE:","","")
+ccc_Exp_Hx_Exec("","discussed with caregiver,verbalized understanding,reviewed,minimum 3 categories reviewed,handout(s) given^discussed with caregiver,minimum 3 categories reviewed","ANT GUID REV","")
+
+// List Box 24
+ccc_Exp_Hx_Exec("L_B","BARRIERS TO COUNSELING:","","")
+ccc_Exp_Hx_Exec("","none,cognitive,visually impaired,hearing impaired,low literacy,English as a second language,physical,cultural diversity,interpreter required,interpreter utilized^","LEARN BARIER","")
+
+// List Box 25
+ccc_Exp_Hx_Exec("L_B","NUTRITION:","","")
+ccc_Exp_Hx_Exec("","family meals,healthy food choices,limit high fat/high sugar foods,choose foods from food guide pyramid^","NUTRITN GUID","")
+
+// List Box 26
+ccc_Exp_Hx_Exec("L_B","SOCIAL COMPETENCE:","","")
+ccc_Exp_Hx_Exec("","reading,hobbies,family time,limits-consequences,family rules,respect of authority,conflict/anger resolution,friendships,team/group activities,positive adult interactions,responsibility for self,responsibility for school,family vs. peer activities,caution with strangers/animals,teach address and phone number,competitiveness^","SOCIAL DEV","")
+
+// List Box 27
+ccc_Exp_Hx_Exec("L_B","COMMUNITY:","","")
+ccc_Exp_Hx_Exec("","resources and referrals,school & community involvement,safe after school care,discussing current events,social responsibility","FINEMOTORDEV","")
+
+// List Box 28
+ccc_Exp_Hx_Exec("L_B","PARENTING/FAMILY:","","")
+ccc_Exp_Hx_Exec("","listen,open communication,show interest in school/activities,show affection-respect-love,praise and encourage,individual attention,reasonable expectations,increased autonomy in decisions,give allowance,assist in handling money","YNG PRNT SKL","")
+
+// List Box 29
+ccc_Exp_Hx_Exec("L_B","INJURY/ILLNESS PREVENT:","","")
+ccc_Exp_Hx_Exec("","booster seat,seat belts,front seat/air bag dangers,rear seat until age 12,water safety,bike-skating safety,helmet use,sun safety,home safety,smoke alarms/fire extinguishers,gun safety,stranger safety,increased risk taking,neighborhood safety,matches,poisoning/poison control #,fall prevention","SAFETY GUID","")
+
+// List Box 30
+ccc_Exp_Hx_Exec("L_B","HEALTHY/SAFE HABITS:","","")
+ccc_Exp_Hx_Exec("","age-appropriate book given,smoke free home/car,adequate sleep,physical activity,limited TV/computer/video games,personal hygiene,supervise activities with friends,avoid alcohol/tobacco/drugs/inhalants,use sunscreen,tick prevention","HLTHPROMGUID","")
+
+// List Box 31
+ccc_Exp_Hx_Exec("L_B","SEXUALITY ED:","","")
+ccc_Exp_Hx_Exec("","books about sexuality,sex education,delaying sexual activity,prepare for physical changes,masturbation,modesty","SEXUALGUIDNC","")
+
+// List Box 32
+ccc_Exp_Hx_Exec("L_B","PLAY/COMMUNICATION:","","")
+ccc_Exp_Hx_Exec("","organized sports,protective equipment in sports,hobbies","GROSSMTRDEV","")
+
+// List Box 33
+ccc_Exp_Hx_Exec("L_B","ORAL HEALTH:","","")
+ccc_Exp_Hx_Exec("","clean teeth,teeth brushing,flossing,dentist every 6 months,fluoride in water^clean teeth,teeth brushing,flossing,dentist every 6 months","DENT OHI DTE","")
+
+// List Box 34
+ccc_Exp_Hx_Exec("L_B","IMMUNIZATIONS:","","")
+ccc_Exp_Hx_Exec("","reviewed,up to date,counseled on risks and benefits,deferred due to illness,catch-up needed,refused-counseled on risks of refusal,refusal consent signed^","IMMUNIZ UTD","")
+
+// List Box 35
+ccc_Exp_Hx_Exec("L_B","CAR RESTRAINT USED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled,car seat,booster seat,seat belt","CAR RESTRNTS","")
+
+// List Box 36
+ccc_Exp_Hx_Exec("L_B","HOME SAFETY:","","")
+ccc_Exp_Hx_Exec("","smoke detector,no smoke detector,carbon monoxide monitor,no carbon monoxide monitor,fire extinguisher,no fire extinguisher,firearms in home-safety addressed","HOMESAFETY","")
+
+ccc_Exp_Hx_Exec("ENDL_B","","","")
+
+ccc_Exp_Hx_Exec("EN_D","","","")
+
+// END Form Heading: Bright Futures-6-10 Years
+

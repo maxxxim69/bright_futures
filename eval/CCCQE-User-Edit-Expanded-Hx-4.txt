@@ -1,0 +1,769 @@
+
+// BEGIN Form Heading: Bright Futures-2 Months
+
+ccc_Exp_Hx_Exec("F_H","Bright Futures-2 Months","Family Medicine,Pediatrics,Family Practice,Medicine-Pediatrics","Well Child Check-2 Months||")
+ccc_Exp_Hx_Exec("F_HFMT","B,2","","1")
+ccc_Exp_Hx_Exec("D_LHFMT","B,U","1","1")
+ccc_Exp_Hx_Exec("D_LFMT","B","2","")
+ccc_Exp_Hx_Exec("L_BHFMT","B","","")
+ccc_Exp_Hx_Exec("L_BTFMT","L","2","Y")
+ccc_Exp_Hx_Exec("M_LEF","Questions or Concerns:^^^Newborn Hospital Course:^^Comments:^^^^Comments:","Y^^^Y^^Y^^^^Y","^^^^^^^^^")
+ccc_Exp_Hx_Exec("M_LEFOBS","PARENTAL CON^^^NBHOSPCOMNTS^^COMMENTS^^^^COMMENTS2","^^^^^^^^^","")
+ccc_Exp_Hx_Exec("M_LEFFMT","","1","")
+ccc_Exp_Hx_Exec("L_BH1FMT","B,U","1","1")
+ccc_Exp_Hx_Exec("L_BHIND","","","2")
+ccc_Exp_Hx_Exec("L_B1H","DEVELOPMENT^17^20^ANTICIPATORY GUIDANCE^25^36^PARENTAL DEVELOPMENTAL ASSESSMENT^13^17^CURRENT HISTORY^1^16","","")
+ccc_Exp_Hx_Exec("GO_TO_TAB","Health/Home/Family^Prenatal / Birth^Diet / Elimination^Developmental^Anticipatory Guidance^Additional History","","")
+ccc_Exp_Hx_Exec("DEFAULT_LABELS","^NL Default^^^Default^^^All Normal^Minimum Due","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","HANDOUTS^ccc_Fx_extr('handouts_2M')^MLEF~11~","","")
+
+// Dropdown List Column 1
+ccc_Exp_Hx_Exec("D_L","HEALTH","Y","")
+ccc_Exp_Hx_Exec("Health Status:","good,fair,poor^","HLTH STATUS","")
+ccc_Exp_Hx_Exec("ER Visits:","0,1,2,3,4,5,>5^","ER VISIT","")
+ccc_Exp_Hx_Exec("Reason for ER visit:","abdominal pain,asthma,coughing,dehydration,diarrhea,ear pain,fever,fracture,headache,ingestion,laceration,rash,seizure,shortness of breath,sore throat,trauma,URI,UTI,vomiting,wheezing","ERVISREAS","")
+ccc_Exp_Hx_Exec("Hospitalizations:","0,1,2,3,4,5,>5^","HOSPLASTVIST","")
+ccc_Exp_Hx_Exec("Discharge Diagnosis:","ALTE,appendicitis,asthma,bronchiolitis,dehydration,gastroenteritis,ingestion,pneumonia,pyelonephritis,trauma,rule out sepsis,seizure,surgery","HOSPREASADM","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Immunization Reaction:","no reaction,reaction,fever,local reaction^","VACCINERXN","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 2
+ccc_Exp_Hx_Exec("D_L","HOME/FAMILY","Y","")
+ccc_Exp_Hx_Exec("Lives with:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","LIVES WITH","")
+ccc_Exp_Hx_Exec("Guardian:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","GUARDIANNAME","")
+ccc_Exp_Hx_Exec("# of Siblings:","0,1,2,3,4,5,6,7,8,9,10","SIBLINGS","")
+ccc_Exp_Hx_Exec("Lives In:","apartment,house,shelter,homeless,other: ","HOUSING","")
+ccc_Exp_Hx_Exec("# of Bedrooms:","0,1,2,3,4,5,6,>6","#BEDROOMS","")
+ccc_Exp_Hx_Exec("Shares Bedroom:","no,yes","BEDROOMSHR","")
+ccc_Exp_Hx_Exec("Passive Smoke Exposure:","yes,no","PAS CIG SMOK","")
+ccc_Exp_Hx_Exec("Passive Smoke Counseling:","not indicated; no passive smoke exposure,to avoid passive smoke exposure,advised to quit smoking and to avoid smoke exposure","PASSMOKADVIC","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Discipline Type:","verbal,time out,spanking,other: ","DISCOTHERMTH","")
+ccc_Exp_Hx_Exec("History of Abuse:","no,yes,physical,emotional,sexual","ABUSEHX","")
+ccc_Exp_Hx_Exec("History of Neglect:","no,yes","TRIGPFSNGLFU","")
+ccc_Exp_Hx_Exec("Substance use exposure in home:","yes: see Social History,no","FH SUB ABUSE","")
+ccc_Exp_Hx_Exec("Domestic Violence:","no domestic violence,history of domestic violence,current domestic violence,unable to assess","DVSCRN_COMPL","")
+ccc_Exp_Hx_Exec("CPS/DSS:","no active case,active case,currently investigating,unfounded case,closed case,shelter care order in place","SOCIAL SERVC","")
+ccc_Exp_Hx_Exec("Foster Care:","no,yes - since: ","FOSTER/GROUP","")
+ccc_Exp_Hx_Exec("# of Placements:","1,2,3,4,5,6,7,8,9,10,>10","FOSTER/PLACE","")
+ccc_Exp_Hx_Exec("Maternal post partum depression:","no,yes,treated,untreated","PMH POSTP DP","")
+ccc_Exp_Hx_Exec("EPDS Score:","0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20","EPDS","")
+ccc_Exp_Hx_Exec("Parental Stress:","no,yes,coping well","HM/FM ASSESS","")
+ccc_Exp_Hx_Exec("Pets in Home:","yes,no","PETS IN HOME","")
+ccc_Exp_Hx_Exec("Type of Pets:","cat,dog,rabbit,guinea pig,hamster,bird,reptile","PETS TYPE","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 3
+ccc_Exp_Hx_Exec("D_L","Prenatal History","Y","")
+ccc_Exp_Hx_Exec("Mother's age at delivery:","13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40","MOM AGE","")
+ccc_Exp_Hx_Exec("Number of Pregnancies:","1,2,3,4,5,6,7","MOB#GRAVIDA","")
+ccc_Exp_Hx_Exec("Previous Miscarriages:","0,1,2,3,4,5,6,7,8,9,10","MISCARRIAGES","")
+ccc_Exp_Hx_Exec("Previous Abortions:","0,1,2,3,4,5,6,7,8,9,10","MOB#SAB/TAB","")
+ccc_Exp_Hx_Exec("Living Children:","0,1,2,3,4,5,6,7,8,9,10","MOB#LIVCHILD","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Group B strep results:","negative,positive,unknown^","MOBSTRPMRSK","")
+ccc_Exp_Hx_Exec("Maternal HepBsAg Status:","negative,positive-infant given HBIG/HBV,positive-infant given HBV,unknown^","HEPBSAGMOM","")
+ccc_Exp_Hx_Exec("Maternal rubella:","immune,non-immune,equivocal,unknown^","MAT RUB","")
+ccc_Exp_Hx_Exec("Maternal gonorrhea::","negative,positive-treated,positive-not treated,unknown^","MAT GC","")
+ccc_Exp_Hx_Exec("Maternal chlamydia:","negative,positive-treated,positive-not treated,unknown^","MAT CHLAM","")
+ccc_Exp_Hx_Exec("Maternal RPR:","negative,positive,unknown^","MAT RPR","")
+ccc_Exp_Hx_Exec("Maternal HSV:","no history,positive history,active lesion during labor,negative,positive-treated with acyclovir,positive-not treated,unknown^","MAT HSV","")
+ccc_Exp_Hx_Exec("Maternal HIV:","negative,positive,declined,positive-under treatment,positive-treated during pregnancy,positive-treated,unknown^","MAT HIV","")
+ccc_Exp_Hx_Exec("Mother's blood type:","A+,A-,B+,B-,O+,O-,AB+,AB-,unknown","BLDTYPE-MOM","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Prenatal Ultrasound?:","normal,abnormal,not performed,unknown^","OTHER ABNORM","")
+ccc_Exp_Hx_Exec("Infections during pregnancy?:","no,yes,UTI-antibiotics,STD,viral infections^","PERSISTINFEC","")
+ccc_Exp_Hx_Exec("Substance use?:","no,yes,alcohol occasionally,illicit drugs,methadone,Suboxone,prescription drugs^","RECDRUGSPREG","")
+ccc_Exp_Hx_Exec("Maternal smoking?:","no,yes,< 1/4 ppd,1/4 ppd,1/2 ppd,1 ppd,> 1 ppd^","MOB SMOKER","")
+ccc_Exp_Hx_Exec("Maternal medical problems:","none,depression,anemia,asthma,gestational diabetes diet controlled,gestational diabetes insulin dependant^","HX PREG PROB","")
+ccc_Exp_Hx_Exec("Antibiotics during delivery?","no,yes^","MOB ANTIBIOT","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 4
+ccc_Exp_Hx_Exec("D_L","Birth History","Y","")
+ccc_Exp_Hx_Exec("Presentation at delivery?","cephalic,breech,transverse","PRES VERTEX","")
+ccc_Exp_Hx_Exec("Hospital:","Franklin Square Hospital,Greater Baltimore Medical Center,GUH,GWU,Harbor Hospital,Howard,Johns Hopkins Hospital,Johns Hopkins Bayview,Maryland General Hospital,Mercy Hospital,Sibley,Sinai Hospital,St. Agnes Hospital,St. Joseph's Hospital,United Medical Center,University of Maryland Hospital,Upper Chesapeake Hospital,WHC","HOSPITALBORN","")
+ccc_Exp_Hx_Exec("Delivery type:","vaginal delivery,vacuum assist vaginal delivery,forceps assisted vaginal delivery,VBAC,breech delivery,C-section","DELIV TYPE","")
+ccc_Exp_Hx_Exec("Indication for C-sect:","repeat,breech,failure to progress,multiple births,placenta previa,cephalopelvic disproportion,maternal herpes,LGA","C-SECREASN1","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Gestational age (wks):","term,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24","GESTAGEBIRTH","")
+ccc_Exp_Hx_Exec("Birth weight (kg):","","BIRTH WT KG","")
+ccc_Exp_Hx_Exec("Birth weight (pounds):","4,5,6,7,8,9,10","BIRTH POUNDS","")
+ccc_Exp_Hx_Exec("Birth weight (ounces):","1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0","BIRTH WEIGHT","")
+ccc_Exp_Hx_Exec("Birth length (cms):","","BIRTHLGTH CM","")
+ccc_Exp_Hx_Exec("Birth length (inches):","15,16,17,18,19,20,21,22,23","BIRTH LENGTH","")
+ccc_Exp_Hx_Exec("Birth Head Circ (cms):","","BIRTHFOCCM","")
+ccc_Exp_Hx_Exec("Birth Head Circ (inches):","12,13,14,15,16,17,18,19,20,21,22,23,24,26","BIRTHFOC IN","")
+ccc_Exp_Hx_Exec("APGAR at 1 minute:","unknown,10,9,8,7,6,5,4,3,2,1,0","APGAR 1 MIN","")
+ccc_Exp_Hx_Exec("APGAR at 5 minutes:","unknown,10,9,8,7,6,5,4,3,2,1,0","APGAR 5 MIN","")
+ccc_Exp_Hx_Exec("Baby's blood type:","A+,A-,B+,B-,O+,O-,AB+,AB-,unknown","BLDTYPE-BABY","")
+ccc_Exp_Hx_Exec("Coombs:","negative,positive,unknown","COOMBS DIREC","")
+ccc_Exp_Hx_Exec("Passed hearing screen?:","yes,no,unknown","NBHRNGSCRNG","")
+ccc_Exp_Hx_Exec("Date of discharge:","","DCHRGE DATE","")
+ccc_Exp_Hx_Exec("Discharge weight (kg):","","BABY DISC WT","")
+ccc_Exp_Hx_Exec("Problems during delivery","no,yes: see PMH","BIRTH HX 11D","")
+ccc_Exp_Hx_Exec("Problems after delivery:","no,yes: see PMH,yes: NICU-see PMH","PED NEOCOMM","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// List Box 1
+ccc_Exp_Hx_Exec("L_B","Feeding:","","")
+ccc_Exp_Hx_Exec("","breast feeding,formula feeding,difficulty nursing,emesis after feeding,supplementing formula after breast feeding,pumping and bottle feeding,lactation consultation in place","DIETCOMM","")
+
+// List Box 2
+ccc_Exp_Hx_Exec("L_B","Solid Food:","","")
+ccc_Exp_Hx_Exec("","not recommended until 4-6 months,has already started-cautioned cereal in bottle,cereal from spoon,vegetables,fruits,meats,junk food,fast food/carryout,no reactions,reactions","SOLID FD USE","")
+
+// List Box 3
+ccc_Exp_Hx_Exec("L_B","Breast Feeding:","","")
+ccc_Exp_Hx_Exec("","well,poorly,< 10 mins,10 mins per side,15 mins per side,20 mins per side,30 mins per side,>30 mins,alternating sides","BRFEEDING","")
+
+// List Box 4
+ccc_Exp_Hx_Exec("L_B","Formula Type:","","")
+ccc_Exp_Hx_Exec("","Similac brand,Enfamil brand,Cow's Milk based,Soy based,Lactose free,thickened with rice cereal,Premature Infant Formula,Partially hydrolyzed protein,Hydrolyzed protein,Amino Acid: elemental formula,Powdered,Concentrated,ready to feed,mixing correctly,WIC recipient","FORMULA","")
+
+// List Box 5
+ccc_Exp_Hx_Exec("L_B","Bottle Feeding Volume:","","")
+ccc_Exp_Hx_Exec("","1 oz,2 oz,3 oz,4 oz,5 oz,6 oz,7 oz,8 oz,> 8 oz ","INFFORMULA24","")
+
+// List Box 6
+ccc_Exp_Hx_Exec("L_B","Feeding Frequency:","","")
+ccc_Exp_Hx_Exec("","every hour,every 2 hours,every 3 hours,every 4 hours,every 5 hours,> every 5 hours","FEEDING","")
+
+// List Box 7
+ccc_Exp_Hx_Exec("L_B","Elimination Stool:","","")
+ccc_Exp_Hx_Exec("","BM every feed,BM 4 times daily,BM 3 times daily,BM 2 times daily,BM daily,BM every other day,BM every 3 days,soft BM,hard BM,straining with BM,lots of gas","ELIMINATION","")
+
+// List Box 8
+ccc_Exp_Hx_Exec("L_B","Elimination Urine:","","")
+ccc_Exp_Hx_Exec("","urine > 5 times daily,urine 5 times daily,urine < 5 times daily,decreased urination","TOT URN OUT","")
+
+// List Box 9
+ccc_Exp_Hx_Exec("L_B","Sleep/Position:","","")
+ccc_Exp_Hx_Exec("","supine (back),side,prone (stomach),SIDS risk discussed,crib,bassinet,co-bedding,no co-bedding,parent's room,infants room","SLEEP BEHAV","")
+
+// List Box 10
+ccc_Exp_Hx_Exec("L_B","Temperament:","","")
+ccc_Exp_Hx_Exec("","easy,colicky,demanding,cries when hungry or with needs,fussy all the time,fussy at night,fussy but consolable","INFTEMPERMNT","")
+
+// List Box 11 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 12 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 13
+ccc_Exp_Hx_Exec("L_B","Developmental Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,formal assessment completed,ages & stages completed,Denver Developmental II completed^","DEVTASK NOTE","")
+
+// List Box 14
+ccc_Exp_Hx_Exec("L_B","Behavior Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,MCHAT completed,Vanderbilt completed,Conner completed^","","")
+
+// List Box 15
+ccc_Exp_Hx_Exec("L_B","Vision/Hearing:","","")
+ccc_Exp_Hx_Exec("","no concerns with vision,no concerns with hearing,concerns with vision,concerns with hearing,failed last vision screen,failed last hearing screen^no concerns with vision,no concerns with hearing","PARCONCVIS","")
+
+// List Box 16 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 17
+ccc_Exp_Hx_Exec("L_B","Gross Motor Assessment:","","")
+ccc_Exp_Hx_Exec("","lifts head when prone,equal movements^lifts head when prone,equal movements","GROSSMTRDEV","")
+
+// List Box 18
+ccc_Exp_Hx_Exec("L_B","Fine Motor Assessment:","","")
+ccc_Exp_Hx_Exec("","follows object with eyes^follows object with eyes","FINEMOTORDEV","")
+
+// List Box 19
+ccc_Exp_Hx_Exec("L_B","Communication:","","")
+ccc_Exp_Hx_Exec("","vocalizes,responds to stimuli^vocalizes,responds to stimuli","LANGUAGEDEV","")
+
+// List Box 20
+ccc_Exp_Hx_Exec("L_B","Social:","","")
+ccc_Exp_Hx_Exec("","smiles spontaneously,looks at face^smiles spontaneously,looks at face","SOCIAL DEV","")
+
+// List Box 21 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 22 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 23 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 24 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 25
+ccc_Exp_Hx_Exec("L_B","ANTICIPATORY GUIDANCE:","","")
+ccc_Exp_Hx_Exec("","discussed with caregiver,verbalized understanding,reviewed,minimum 3 categories reviewed,handout(s) given^discussed with caregiver,minimum 3 categories reviewed","ANT GUID REV","")
+
+// List Box 26
+ccc_Exp_Hx_Exec("L_B","BARRIERS TO COUNSELING:","","")
+ccc_Exp_Hx_Exec("","none,cognitive,visually impaired,hearing impaired,low literacy,English as a second language,physical,cultural diversity,interpreter required,interpreter utilized^","LEARN BARIER","")
+
+// List Box 27
+ccc_Exp_Hx_Exec("L_B","INJURY/ILLNESS PREVENT:","","")
+ccc_Exp_Hx_Exec("","crib safety,back to sleep,rear seat/rear facing,falls,burns,water heater,smoke detector,sun safety,violence/guns,poison control #,hot liquids,don't leave unattended,water safety,co-bedding discouraged^crib safety,back to sleep,rear seat/rear facing","SAFETY GUID","")
+
+// List Box 28
+ccc_Exp_Hx_Exec("L_B","HEALTHY/SAFE HABITS:","","")
+ccc_Exp_Hx_Exec("","passive smoking,never shake baby,sneezing,hiccoughs,soft spot protection,head and neck protection","HLTHPROMGUID","")
+
+// List Box 29
+ccc_Exp_Hx_Exec("L_B","NUTRITION:","","")
+ccc_Exp_Hx_Exec("","breastfeeding,formula,no solid food until 4-6 mos.,no free water needed,no honey,WIC status","NUTRITN GUID","")
+
+// List Box 30
+ccc_Exp_Hx_Exec("L_B","INFANT CARE:","","")
+ccc_Exp_Hx_Exec("","skin care,bathing,thermometer use,fever management,good sleep habits^skin care,bathing,thermometer use,fever management","BEHAVIORGUID","")
+
+// List Box 31
+ccc_Exp_Hx_Exec("L_B","PARENTING:","","")
+ccc_Exp_Hx_Exec("","parental depression,talk/read/sing to baby,holding/cuddling,temperament,time out for parent,sibling rivalry","YNG PRNT SKL","")
+
+// List Box 32
+ccc_Exp_Hx_Exec("L_B","ORAL HEALTH:","","")
+ccc_Exp_Hx_Exec("","no bottle in crib^","DENT OHI DTE","")
+
+// List Box 33
+ccc_Exp_Hx_Exec("L_B","IMMUNIZATIONS:","","")
+ccc_Exp_Hx_Exec("","reviewed,up to date,counseled on risks and benefits,deferred due to illness,catch-up needed,refused-counseled on risks of refusal,refusal consent signed^","IMMUNIZ UTD","")
+
+// List Box 34
+ccc_Exp_Hx_Exec("L_B","HOME CHILDPROOFED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled^counseled","CHLDPROOFHOM","")
+
+// List Box 35
+ccc_Exp_Hx_Exec("L_B","CAR SEAT USED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled^counseled","CAR RESTRNTS","")
+
+// List Box 36
+ccc_Exp_Hx_Exec("L_B","HOME SAFETY:","","")
+ccc_Exp_Hx_Exec("","smoke detector,no smoke detector,carbon monoxide monitor,no carbon monoxide monitor,fire extinguisher,no fire extinguisher,firearms in home-safety addressed","HOMESAFETY","")
+
+ccc_Exp_Hx_Exec("ENDL_B","","","")
+
+ccc_Exp_Hx_Exec("EN_D","","","")
+
+// END Form Heading: Bright Futures-2 Months
+
+
+// BEGIN Form Heading: Bright Futures-4 Months
+
+ccc_Exp_Hx_Exec("F_H","Bright Futures-4 Months","Family Medicine,Pediatrics,Family Practice,Medicine-Pediatrics","Well Child Check-4 Months||")
+ccc_Exp_Hx_Exec("F_HFMT","B,2","","1")
+ccc_Exp_Hx_Exec("D_LHFMT","B,U","1","1")
+ccc_Exp_Hx_Exec("D_LFMT","B","2","")
+ccc_Exp_Hx_Exec("L_BHFMT","B","","")
+ccc_Exp_Hx_Exec("L_BTFMT","L","2","Y")
+ccc_Exp_Hx_Exec("M_LEF","Questions or Concerns:^^^Newborn Hospital Course:^^Comments:^^^^Comments:","Y^^^Y^^Y^^^^Y","^^^^^^^^^")
+ccc_Exp_Hx_Exec("M_LEFOBS","PARENTAL CON^^^NBHOSPCOMNTS^^COMMENTS^^^^COMMENTS2","^^^^^^^^^","")
+ccc_Exp_Hx_Exec("M_LEFFMT","","1","")
+ccc_Exp_Hx_Exec("L_BH1FMT","B,U","1","1")
+ccc_Exp_Hx_Exec("L_BHIND","","","2")
+ccc_Exp_Hx_Exec("L_B1H","DEVELOPMENT^17^20^ANTICIPATORY GUIDANCE^25^36^PARENTAL DEVELOPMENTAL ASSESSMENT^13^17^CURRENT HISTORY^1^16","","")
+ccc_Exp_Hx_Exec("GO_TO_TAB","Health/Home/Family^Prenatal / Birth^Diet / Elimination^Developmental^Anticipatory Guidance^Additional History","","")
+ccc_Exp_Hx_Exec("DEFAULT_LABELS","^NL Default^^^Default^^^All Normal^Minimum Due","","")
+
+// Dropdown List Column 1
+ccc_Exp_Hx_Exec("D_L","HEALTH","Y","")
+ccc_Exp_Hx_Exec("Health Status:","good,fair,poor^","HLTH STATUS","")
+ccc_Exp_Hx_Exec("ER Visits:","0,1,2,3,4,5,>5^","ER VISIT","")
+ccc_Exp_Hx_Exec("Reason for ER visit:","abdominal pain,asthma,coughing,dehydration,diarrhea,ear pain,fever,fracture,headache,ingestion,laceration,rash,seizure,shortness of breath,sore throat,trauma,URI,UTI,vomiting,wheezing","ERVISREAS","")
+ccc_Exp_Hx_Exec("Hospitalizations:","0,1,2,3,4,5,>5^","HOSPLASTVIST","")
+ccc_Exp_Hx_Exec("Discharge Diagnosis:","ALTE,appendicitis,asthma,bronchiolitis,dehydration,gastroenteritis,ingestion,pneumonia,pyelonephritis,trauma,rule out sepsis,seizure,surgery","HOSPREASADM","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Immunization Reaction:","no reaction,reaction,fever,local reaction^","VACCINERXN","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 2
+ccc_Exp_Hx_Exec("D_L","HOME/FAMILY","Y","")
+ccc_Exp_Hx_Exec("Lives with:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","LIVES WITH","")
+ccc_Exp_Hx_Exec("Guardian:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","GUARDIANNAME","")
+ccc_Exp_Hx_Exec("# of Siblings:","0,1,2,3,4,5,6,7,8,9,10","SIBLINGS","")
+ccc_Exp_Hx_Exec("Lives In:","apartment,house,shelter,homeless,other: ","HOUSING","")
+ccc_Exp_Hx_Exec("# of Bedrooms:","0,1,2,3,4,5,6,>6","#BEDROOMS","")
+ccc_Exp_Hx_Exec("Shares Bedroom:","no,yes","BEDROOMSHR","")
+ccc_Exp_Hx_Exec("Passive Smoke Exposure:","yes,no","PAS CIG SMOK","")
+ccc_Exp_Hx_Exec("Passive Smoke Counseling:","not indicated; no passive smoke exposure,to avoid passive smoke exposure,advised to quit smoking and to avoid smoke exposure","PASSMOKADVIC","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Discipline Type:","verbal,time out,spanking,other: ","DISCOTHERMTH","")
+ccc_Exp_Hx_Exec("History of Abuse:","no,yes,physical,emotional,sexual","ABUSEHX","")
+ccc_Exp_Hx_Exec("History of Neglect:","no,yes","TRIGPFSNGLFU","")
+ccc_Exp_Hx_Exec("Substance use exposure in home:","yes: see Social History,no","FH SUB ABUSE","")
+ccc_Exp_Hx_Exec("Domestic Violence:","no domestic violence,history of domestic violence,current domestic violence,unable to assess","DVSCRN_COMPL","")
+ccc_Exp_Hx_Exec("CPS/DSS:","no active case,active case,currently investigating,unfounded case,closed case,shelter care order in place","SOCIAL SERVC","")
+ccc_Exp_Hx_Exec("Foster Care:","no,yes - since: ","FOSTER/GROUP","")
+ccc_Exp_Hx_Exec("# of Placements:","1,2,3,4,5,6,7,8,9,10,>10","FOSTER/PLACE","")
+ccc_Exp_Hx_Exec("Maternal post partum depression:","no,yes,treated,untreated","PMH POSTP DP","")
+ccc_Exp_Hx_Exec("EPDS Score:","0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20","EPDS","")
+ccc_Exp_Hx_Exec("Parental Stress:","no,yes,coping well","HM/FM ASSESS","")
+ccc_Exp_Hx_Exec("Pets in Home:","yes,no","PETS IN HOME","")
+ccc_Exp_Hx_Exec("Type of Pets:","cat,dog,rabbit,guinea pig,hamster,bird,reptile","PETS TYPE","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 3
+ccc_Exp_Hx_Exec("D_L","Prenatal History","Y","")
+ccc_Exp_Hx_Exec("Mother's age at delivery:","13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40","MOM AGE","")
+ccc_Exp_Hx_Exec("Number of Pregnancies:","1,2,3,4,5,6,7","MOB#GRAVIDA","")
+ccc_Exp_Hx_Exec("Previous Miscarriages:","0,1,2,3,4,5,6,7,8,9,10","MISCARRIAGES","")
+ccc_Exp_Hx_Exec("Previous Abortions:","0,1,2,3,4,5,6,7,8,9,10","MOB#SAB/TAB","")
+ccc_Exp_Hx_Exec("Living Children:","0,1,2,3,4,5,6,7,8,9,10","MOB#LIVCHILD","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Group B strep results:","negative,positive,unknown^","MOBSTRPMRSK","")
+ccc_Exp_Hx_Exec("Maternal HepBsAg Status:","negative,positive-infant given HBIG/HBV,positive-infant given HBV,unknown^","HEPBSAGMOM","")
+ccc_Exp_Hx_Exec("Maternal rubella:","immune,non-immune,equivocal,unknown^","MAT RUB","")
+ccc_Exp_Hx_Exec("Maternal gonorrhea::","negative,positive-treated,positive-not treated,unknown^","MAT GC","")
+ccc_Exp_Hx_Exec("Maternal chlamydia:","negative,positive-treated,positive-not treated,unknown^","MAT CHLAM","")
+ccc_Exp_Hx_Exec("Maternal RPR:","negative,positive,unknown^","MAT RPR","")
+ccc_Exp_Hx_Exec("Maternal HSV:","no history,positive history,active lesion during labor,negative,positive-treated with acyclovir,positive-not treated,unknown^","MAT HSV","")
+ccc_Exp_Hx_Exec("Maternal HIV:","negative,positive,declined,positive-under treatment,positive-treated during pregnancy,positive-treated,unknown^","MAT HIV","")
+ccc_Exp_Hx_Exec("Mother's blood type:","A+,A-,B+,B-,O+,O-,AB+,AB-,unknown","BLDTYPE-MOM","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Prenatal Ultrasound?:","normal,abnormal,not performed,unknown^","OTHER ABNORM","")
+ccc_Exp_Hx_Exec("Infections during pregnancy?:","no,yes,UTI-antibiotics,STD,viral infections^","PERSISTINFEC","")
+ccc_Exp_Hx_Exec("Substance use?:","no,yes,alcohol occasionally,illicit drugs,methadone,Suboxone,prescription drugs^","RECDRUGSPREG","")
+ccc_Exp_Hx_Exec("Maternal smoking?:","no,yes,< 1/4 ppd,1/4 ppd,1/2 ppd,1 ppd,> 1 ppd^","MOB SMOKER","")
+ccc_Exp_Hx_Exec("Maternal medical problems:","none,depression,anemia,asthma,gestational diabetes diet controlled,gestational diabetes insulin dependant^","HX PREG PROB","")
+ccc_Exp_Hx_Exec("Antibiotics during delivery?","no,yes^","MOB ANTIBIOT","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 4
+ccc_Exp_Hx_Exec("D_L","Birth History","Y","")
+ccc_Exp_Hx_Exec("Presentation at delivery?","cephalic,breech,transverse","PRES VERTEX","")
+ccc_Exp_Hx_Exec("Hospital:","Franklin Square Hospital,Greater Baltimore Medical Center,GUH,GWU,Harbor Hospital,Howard,Johns Hopkins Hospital,Johns Hopkins Bayview,Maryland General Hospital,Mercy Hospital,Sibley,Sinai Hospital,St. Agnes Hospital,St. Joseph's Hospital,United Medical Center,University of Maryland Hospital,Upper Chesapeake Hospital,WHC","HOSPITALBORN","")
+ccc_Exp_Hx_Exec("Delivery type:","vaginal delivery,vacuum assist vaginal delivery,forceps assisted vaginal delivery,VBAC,breech delivery,C-section","DELIV TYPE","")
+ccc_Exp_Hx_Exec("Indication for C-sect:","repeat,breech,failure to progress,multiple births,placenta previa,cephalopelvic disproportion,maternal herpes,LGA","C-SECREASN1","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Gestational age (wks):","term,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24","GESTAGEBIRTH","")
+ccc_Exp_Hx_Exec("Birth weight (kg):","","BIRTH WT KG","")
+ccc_Exp_Hx_Exec("Birth weight (pounds):","4,5,6,7,8,9,10","BIRTH POUNDS","")
+ccc_Exp_Hx_Exec("Birth weight (ounces):","1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0","BIRTH WEIGHT","")
+ccc_Exp_Hx_Exec("Birth length (cms):","","BIRTHLGTH CM","")
+ccc_Exp_Hx_Exec("Birth length (inches):","15,16,17,18,19,20,21,22,23","BIRTH LENGTH","")
+ccc_Exp_Hx_Exec("Birth Head Circ (cms):","","BIRTHFOCCM","")
+ccc_Exp_Hx_Exec("Birth Head Circ (inches):","12,13,14,15,16,17,18,19,20,21,22,23,24,26","BIRTHFOC IN","")
+ccc_Exp_Hx_Exec("APGAR at 1 minute:","unknown,10,9,8,7,6,5,4,3,2,1,0","APGAR 1 MIN","")
+ccc_Exp_Hx_Exec("APGAR at 5 minutes:","unknown,10,9,8,7,6,5,4,3,2,1,0","APGAR 5 MIN","")
+ccc_Exp_Hx_Exec("Baby's blood type:","A+,A-,B+,B-,O+,O-,AB+,AB-,unknown","BLDTYPE-BABY","")
+ccc_Exp_Hx_Exec("Coombs:","negative,positive,unknown","COOMBS DIREC","")
+ccc_Exp_Hx_Exec("Passed hearing screen?:","yes,no,unknown","NBHRNGSCRNG","")
+ccc_Exp_Hx_Exec("Date of discharge:","","DCHRGE DATE","")
+ccc_Exp_Hx_Exec("Discharge weight (kg):","","BABY DISC WT","")
+ccc_Exp_Hx_Exec("Problems during delivery","no,yes: see PMH","BIRTH HX 11D","")
+ccc_Exp_Hx_Exec("Problems after delivery:","no,yes: see PMH,yes: NICU-see PMH","PED NEOCOMM","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// List Box 1
+ccc_Exp_Hx_Exec("L_B","Feeding:","","")
+ccc_Exp_Hx_Exec("","breast feeding,formula feeding,difficulty nursing,emesis after feeding,supplementing formula after breast feeding,pumping and bottle feeding,lactation consultation in place","DIETCOMM","")
+
+// List Box 2
+ccc_Exp_Hx_Exec("L_B","Breast Feeding:","","")
+ccc_Exp_Hx_Exec("","well,poorly,< 10 mins,10 mins per side,15 mins per side,20 mins per side,30 mins per side,>30 mins,alternating sides","BRFEEDING","")
+
+// List Box 3
+ccc_Exp_Hx_Exec("L_B","Formula Type:","","")
+ccc_Exp_Hx_Exec("","Similac brand,Enfamil brand,Cow's Milk based,Soy based,Lactose free,thickened with rice cereal,Premature Infant Formula,Partially hydrolyzed protein,Hydrolyzed protein,Amino Acid: elemental formula,Powdered,Concentrated,ready to feed,mixing correctly,WIC recipient","FORMULA","")
+
+// List Box 4
+ccc_Exp_Hx_Exec("L_B","Bottle Feeding Volume:","","")
+ccc_Exp_Hx_Exec("","1 oz,2 oz,3 oz,4 oz,5 oz,6 oz,7 oz,8 oz,> 8 oz ","INFFORMULA24","")
+
+// List Box 5
+ccc_Exp_Hx_Exec("L_B","Feeding Frequency:","","")
+ccc_Exp_Hx_Exec("","every hour,every 2 hours,every 3 hours,every 4 hours,every 5 hours,> every 5 hours","FEEDING","")
+
+// List Box 6
+ccc_Exp_Hx_Exec("L_B","Juice:","","")
+ccc_Exp_Hx_Exec("","no,yes,1 oz daily,2 oz daily,4 oz daily,6 oz daily,8 oz daily,>8 oz daily","JUICE/DAY","")
+
+// List Box 7
+ccc_Exp_Hx_Exec("L_B","Solid Food:","","")
+ccc_Exp_Hx_Exec("","cereal from spoon,vegetables,fruits,meats,junk food,fast food/carryout,no reactions,reactions","SOLID FD USE","")
+
+// List Box 8
+ccc_Exp_Hx_Exec("L_B","Elimination Stool:","","")
+ccc_Exp_Hx_Exec("","BM every feed,BM 4 times daily,BM 3 times daily,BM 2 times daily,BM daily,BM every other day,BM every 3 days,soft BM,hard BM,straining with BM,lots of gas","ELIMINATION","")
+
+// List Box 9
+ccc_Exp_Hx_Exec("L_B","Elimination Urine:","","")
+ccc_Exp_Hx_Exec("","urine > 5 times daily,urine 5 times daily,urine < 5 times daily,decreased urination","TOT URN OUT","")
+
+// List Box 10
+ccc_Exp_Hx_Exec("L_B","Sleep/Position:","","")
+ccc_Exp_Hx_Exec("","supine (back),side,prone (stomach),SIDS risk discussed,crib,bassinet,co-bedding,no co-bedding,parent's room,infants room","SLEEP BEHAV","")
+
+// List Box 11
+ccc_Exp_Hx_Exec("L_B","Temperament:","","")
+ccc_Exp_Hx_Exec("","easy,colicky,demanding,cries when hungry or with needs,fussy all the time,fussy at night,fussy but consolable","INFTEMPERMNT","")
+
+// List Box 12 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 13
+ccc_Exp_Hx_Exec("L_B","Developmental Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,formal assessment completed,ages & stages completed,Denver Developmental II completed^","DEVTASK NOTE","")
+
+// List Box 14
+ccc_Exp_Hx_Exec("L_B","Behavior Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,MCHAT completed,Vanderbilt completed,Conner completed^","","")
+
+// List Box 15
+ccc_Exp_Hx_Exec("L_B","Vision/Hearing:","","")
+ccc_Exp_Hx_Exec("","no concerns with vision,no concerns with hearing,concerns with vision,concerns with hearing,failed last vision screen,failed last hearing screen^no concerns with vision,no concerns with hearing","PARCONCVIS","")
+
+// List Box 16 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 17
+ccc_Exp_Hx_Exec("L_B","Gross Motor Assessment:","","")
+ccc_Exp_Hx_Exec("","pulls to sit,raise body when prone,roll front to back,sit head steady,bear weight^pulls to sit,raise body when prone,roll front to back,sit head steady,bear weight","GROSSMTRDEV","")
+
+// List Box 18
+ccc_Exp_Hx_Exec("L_B","Fine Motor Assessment:","","")
+ccc_Exp_Hx_Exec("","grasps objects,bring hands together,follows objects to 180 degrees^grasps objects,bring hands together,follows objects to 180 degrees","FINEMOTORDEV","")
+
+// List Box 19
+ccc_Exp_Hx_Exec("L_B","Communication:","","")
+ccc_Exp_Hx_Exec("","laughs,squeals,vocalizes^laughs,squeals,vocalizes","LANGUAGEDEV","")
+
+// List Box 20
+ccc_Exp_Hx_Exec("L_B","Social:","","")
+ccc_Exp_Hx_Exec("","regards hands,smiles spontaneously,seeks eye contact^regards hands,smiles spontaneously,seeks eye contact","SOCIAL DEV","")
+
+// List Box 21 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 22 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 23 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 24 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 25
+ccc_Exp_Hx_Exec("L_B","ANTICIPATORY GUIDANCE:","","")
+ccc_Exp_Hx_Exec("","discussed with caregiver,verbalized understanding,reviewed,minimum 3 categories reviewed,handout(s) given^discussed with caregiver,minimum 3 categories reviewed","ANT GUID REV","")
+
+// List Box 26
+ccc_Exp_Hx_Exec("L_B","BARRIERS TO COUNSELING:","","")
+ccc_Exp_Hx_Exec("","none,cognitive,visually impaired,hearing impaired,low literacy,English as a second language,physical,cultural diversity,interpreter required,interpreter utilized^","LEARN BARIER","")
+
+// List Box 27
+ccc_Exp_Hx_Exec("L_B","INJURY/ILLNESS PREVENT:","","")
+ccc_Exp_Hx_Exec("","rear riding/rear facing car seat,crib safety,back to sleep,child safety seat,falls,burns,water heater,smoke detector,sun safety,violence/guns,poison control #,hot liquids,don't leave unattended,water safety,lead risks^","SAFETY GUID","")
+
+// List Box 28
+ccc_Exp_Hx_Exec("L_B","HEALTHY/SAFE HABITS:","","")
+ccc_Exp_Hx_Exec("","passive smoking,never shake baby,sneezing-hiccoughs-soft spot,rashes,diarrhea^","HLTHPROMGUID","")
+
+// List Box 29
+ccc_Exp_Hx_Exec("L_B","NUTRITION:","","")
+ccc_Exp_Hx_Exec("","breastfeeding,vitamins,formula,no honey/juice,1 new solid food/week,safe foods-avoid choking,WIC status","NUTRITN GUID","")
+
+// List Box 30
+ccc_Exp_Hx_Exec("L_B","INFANT CARE:","","")
+ccc_Exp_Hx_Exec("","skin care,bathing,thermometer use,fever management,good sleep habits","BEHAVIORGUID","")
+
+// List Box 31
+ccc_Exp_Hx_Exec("L_B","PARENTING:","","")
+ccc_Exp_Hx_Exec("","parental depression,talk/read/sing to baby,holding/cuddling,temperament,time out for parent,sibling rivalry,establish routines,sitter","YNG PRNT SKL","")
+
+// List Box 32
+ccc_Exp_Hx_Exec("L_B","ORAL HEALTH:","","")
+ccc_Exp_Hx_Exec("","no bottle in crib,clean teeth,teething^no bottle in crib,clean teeth,teething","DENT OHI DTE","")
+
+// List Box 33
+ccc_Exp_Hx_Exec("L_B","IMMUNIZATIONS:","","")
+ccc_Exp_Hx_Exec("","reviewed,up to date,counseled on risks and benefits,deferred due to illness,catch-up needed,refused-counseled on risks of refusal,refusal consent signed^","IMMUNIZ UTD","")
+
+// List Box 34
+ccc_Exp_Hx_Exec("L_B","HOME CHILDPROOFED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled","CHLDPROOFHOM","")
+
+// List Box 35
+ccc_Exp_Hx_Exec("L_B","CAR SEAT USED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled","CAR RESTRNTS","")
+
+// List Box 36
+ccc_Exp_Hx_Exec("L_B","HOME SAFETY:","","")
+ccc_Exp_Hx_Exec("","smoke detector,no smoke detector,carbon monoxide monitor,no carbon monoxide monitor,fire extinguisher,no fire extinguisher,firearms in home-safety addressed","HOMESAFETY","")
+
+ccc_Exp_Hx_Exec("ENDL_B","","","")
+
+ccc_Exp_Hx_Exec("EN_D","","","")
+
+// END Form Heading: Bright Futures-4 Months
+
+
+// BEGIN Form Heading: Bright Futures-6 Months
+
+ccc_Exp_Hx_Exec("F_H","Bright Futures-6 Months","Family Medicine,Pediatrics,Family Practice,Medicine-Pediatrics","Well Child Check-6 Months||||")
+ccc_Exp_Hx_Exec("F_HFMT","B,2","","1")
+ccc_Exp_Hx_Exec("D_LHFMT","B,U","1","1")
+ccc_Exp_Hx_Exec("D_LFMT","B","2","")
+ccc_Exp_Hx_Exec("L_BHFMT","B","","")
+ccc_Exp_Hx_Exec("L_BTFMT","L","2","Y")
+ccc_Exp_Hx_Exec("M_LEF","Questions or Concerns:^^^Newborn Hospital Course:^^Comments:^^^^Comments:","Y^^^Y^^Y^^^^Y","^^^^^^^^^")
+ccc_Exp_Hx_Exec("M_LEFOBS","PARENTAL CON^^^NBHOSPCOMNTS^^COMMENTS^^^^COMMENTS2","^^^^^^^^^","")
+ccc_Exp_Hx_Exec("M_LEFFMT","","1","")
+ccc_Exp_Hx_Exec("L_BH1FMT","B,U","1","1")
+ccc_Exp_Hx_Exec("L_BHIND","","","2")
+ccc_Exp_Hx_Exec("L_B1H","DEVELOPMENT^17^20^ANTICIPATORY GUIDANCE^25^36^PARENTAL DEVELOPMENTAL ASSESSMENT^13^17^CURRENT HISTORY^1^16","","")
+ccc_Exp_Hx_Exec("GO_TO_TAB","Health/Home/Family^Prenatal / Birth^Diet / Elimination^Developmental^Anticipatory Guidance^Additional History","","")
+ccc_Exp_Hx_Exec("DEFAULT_LABELS","^NL Default^^^Default^^^All Normal^Minimum Due","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","","","")
+ccc_Exp_Hx_Exec("A_BUTTON","RISK ASSESS^ccc_cdss_extract('SB')^~~","","")
+ccc_Exp_Hx_Exec("A_BUTTON","HANDOUTS^ccc_Peds_Patient_Instr_Handout()^~~","","")
+
+// Dropdown List Column 1
+ccc_Exp_Hx_Exec("D_L","HEALTH","Y","")
+ccc_Exp_Hx_Exec("Health Status:","good,fair,poor^","HLTH STATUS","")
+ccc_Exp_Hx_Exec("ER Visits:","0,1,2,3,4,5,>5^","ER VISIT","")
+ccc_Exp_Hx_Exec("Reason for ER visit:","abdominal pain,asthma,coughing,dehydration,diarrhea,ear pain,fever,fracture,headache,ingestion,laceration,rash,seizure,shortness of breath,sore throat,trauma,URI,UTI,vomiting,wheezing","ERVISREAS","")
+ccc_Exp_Hx_Exec("Hospitalizations:","0,1,2,3,4,5,>5^","HOSPLASTVIST","")
+ccc_Exp_Hx_Exec("Discharge Diagnosis:","ALTE,appendicitis,asthma,bronchiolitis,dehydration,gastroenteritis,ingestion,pneumonia,pyelonephritis,trauma,rule out sepsis,seizure,surgery","HOSPREASADM","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Immunization Reaction:","no reaction,reaction,fever,local reaction^","VACCINERXN","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 2
+ccc_Exp_Hx_Exec("D_L","HOME/FAMILY","Y","")
+ccc_Exp_Hx_Exec("Lives with:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","LIVES WITH","")
+ccc_Exp_Hx_Exec("Guardian:","mother,father,mother & father,grandmother,grandfather,grandparents,aunt,uncle,foster parents,adoptive parents,other:","GUARDIANNAME","")
+ccc_Exp_Hx_Exec("# of Siblings:","0,1,2,3,4,5,6,7,8,9,10","SIBLINGS","")
+ccc_Exp_Hx_Exec("Lives In:","apartment,house,shelter,homeless,other: ","HOUSING","")
+ccc_Exp_Hx_Exec("# of Bedrooms:","0,1,2,3,4,5,6,>6","#BEDROOMS","")
+ccc_Exp_Hx_Exec("Shares Bedroom:","no,yes","BEDROOMSHR","")
+ccc_Exp_Hx_Exec("Passive Smoke Exposure:","yes,no","PAS CIG SMOK","")
+ccc_Exp_Hx_Exec("Passive Smoke Counseling:","not indicated; no passive smoke exposure,to avoid passive smoke exposure,advised to quit smoking and to avoid smoke exposure","PASSMOKADVIC","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Discipline Type:","verbal,time out,spanking,other: ","DISCOTHERMTH","")
+ccc_Exp_Hx_Exec("History of Abuse:","no,yes,physical,emotional,sexual","ABUSEHX","")
+ccc_Exp_Hx_Exec("History of Neglect:","no,yes","TRIGPFSNGLFU","")
+ccc_Exp_Hx_Exec("Substance use exposure in home:","yes: see Social History,no","FH SUB ABUSE","")
+ccc_Exp_Hx_Exec("Domestic Violence:","no domestic violence,history of domestic violence,current domestic violence,unable to assess","DVSCRN_COMPL","")
+ccc_Exp_Hx_Exec("CPS/DSS:","no active case,active case,currently investigating,unfounded case,closed case,shelter care order in place","SOCIAL SERVC","")
+ccc_Exp_Hx_Exec("Foster Care:","no,yes - since: ","FOSTER/GROUP","")
+ccc_Exp_Hx_Exec("# of Placements:","1,2,3,4,5,6,7,8,9,10,>10","FOSTER/PLACE","")
+ccc_Exp_Hx_Exec("Maternal post partum depression:","no,yes,treated,untreated","PMH POSTP DP","")
+ccc_Exp_Hx_Exec("EPDS Score:","0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20","EPDS","")
+ccc_Exp_Hx_Exec("Parental Stress:","no,yes,coping well","HM/FM ASSESS","")
+ccc_Exp_Hx_Exec("Pets in Home:","yes,no","PETS IN HOME","")
+ccc_Exp_Hx_Exec("Type of Pets:","cat,dog,rabbit,guinea pig,hamster,bird,reptile","PETS TYPE","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 3
+ccc_Exp_Hx_Exec("D_L","Prenatal History","Y","")
+ccc_Exp_Hx_Exec("Mother's age at delivery:","13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40","MOM AGE","")
+ccc_Exp_Hx_Exec("Number of Pregnancies:","1,2,3,4,5,6,7","MOB#GRAVIDA","")
+ccc_Exp_Hx_Exec("Previous Miscarriages:","0,1,2,3,4,5,6,7,8,9,10","MISCARRIAGES","")
+ccc_Exp_Hx_Exec("Previous Abortions:","0,1,2,3,4,5,6,7,8,9,10","MOB#SAB/TAB","")
+ccc_Exp_Hx_Exec("Living Children:","0,1,2,3,4,5,6,7,8,9,10","MOB#LIVCHILD","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Group B strep results:","negative,positive,unknown^","MOBSTRPMRSK","")
+ccc_Exp_Hx_Exec("Maternal HepBsAg Status:","negative,positive-infant given HBIG/HBV,positive-infant given HBV,unknown^","HEPBSAGMOM","")
+ccc_Exp_Hx_Exec("Maternal rubella:","immune,non-immune,equivocal,unknown^","MAT RUB","")
+ccc_Exp_Hx_Exec("Maternal gonorrhea::","negative,positive-treated,positive-not treated,unknown^","MAT GC","")
+ccc_Exp_Hx_Exec("Maternal chlamydia:","negative,positive-treated,positive-not treated,unknown^","MAT CHLAM","")
+ccc_Exp_Hx_Exec("Maternal RPR:","negative,positive,unknown^","MAT RPR","")
+ccc_Exp_Hx_Exec("Maternal HSV:","no history,positive history,active lesion during labor,negative,positive-treated with acyclovir,positive-not treated,unknown^","MAT HSV","")
+ccc_Exp_Hx_Exec("Maternal HIV:","negative,positive,declined,positive-under treatment,positive-treated during pregnancy,positive-treated,unknown^","MAT HIV","")
+ccc_Exp_Hx_Exec("Mother's blood type:","A+,A-,B+,B-,O+,O-,AB+,AB-,unknown","BLDTYPE-MOM","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Prenatal Ultrasound?:","normal,abnormal,not performed,unknown^","OTHER ABNORM","")
+ccc_Exp_Hx_Exec("Infections during pregnancy?:","no,yes,UTI-antibiotics,STD,viral infections^","PERSISTINFEC","")
+ccc_Exp_Hx_Exec("Substance use?:","no,yes,alcohol occasionally,illicit drugs,methadone,Suboxone,prescription drugs^","RECDRUGSPREG","")
+ccc_Exp_Hx_Exec("Maternal smoking?:","no,yes,< 1/4 ppd,1/4 ppd,1/2 ppd,1 ppd,> 1 ppd^","MOB SMOKER","")
+ccc_Exp_Hx_Exec("Maternal medical problems:","none,depression,anemia,asthma,gestational diabetes diet controlled,gestational diabetes insulin dependant^","HX PREG PROB","")
+ccc_Exp_Hx_Exec("Antibiotics during delivery?","no,yes^","MOB ANTIBIOT","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// Dropdown List Column 4
+ccc_Exp_Hx_Exec("D_L","Birth History","Y","")
+ccc_Exp_Hx_Exec("Presentation at delivery?","cephalic,breech,transverse","PRES VERTEX","")
+ccc_Exp_Hx_Exec("Hospital:","Franklin Square Hospital,Greater Baltimore Medical Center,GUH,GWU,Harbor Hospital,Howard,Johns Hopkins Hospital,Johns Hopkins Bayview,Maryland General Hospital,Mercy Hospital,Sibley,Sinai Hospital,St. Agnes Hospital,St. Joseph's Hospital,United Medical Center,University of Maryland Hospital,Upper Chesapeake Hospital,WHC","HOSPITALBORN","")
+ccc_Exp_Hx_Exec("Delivery type:","vaginal delivery,vacuum assist vaginal delivery,forceps assisted vaginal delivery,VBAC,breech delivery,C-section","DELIV TYPE","")
+ccc_Exp_Hx_Exec("Indication for C-sect:","repeat,breech,failure to progress,multiple births,placenta previa,cephalopelvic disproportion,maternal herpes,LGA","C-SECREASN1","")
+ccc_Exp_Hx_Exec("","","","")
+ccc_Exp_Hx_Exec("Gestational age (wks):","term,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24","GESTAGEBIRTH","")
+ccc_Exp_Hx_Exec("Birth weight (kg):","","BIRTH WT KG","")
+ccc_Exp_Hx_Exec("Birth weight (pounds):","4,5,6,7,8,9,10","BIRTH POUNDS","")
+ccc_Exp_Hx_Exec("Birth weight (ounces):","1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0","BIRTH WEIGHT","")
+ccc_Exp_Hx_Exec("Birth length (cms):","","BIRTHLGTH CM","")
+ccc_Exp_Hx_Exec("Birth length (inches):","15,16,17,18,19,20,21,22,23","BIRTH LENGTH","")
+ccc_Exp_Hx_Exec("Birth Head Circ (cms):","","BIRTHFOCCM","")
+ccc_Exp_Hx_Exec("Birth Head Circ (inches):","12,13,14,15,16,17,18,19,20,21,22,23,24,26","BIRTHFOC IN","")
+ccc_Exp_Hx_Exec("APGAR at 1 minute:","unknown,10,9,8,7,6,5,4,3,2,1,0","APGAR 1 MIN","")
+ccc_Exp_Hx_Exec("APGAR at 5 minutes:","unknown,10,9,8,7,6,5,4,3,2,1,0","APGAR 5 MIN","")
+ccc_Exp_Hx_Exec("Baby's blood type:","A+,A-,B+,B-,O+,O-,AB+,AB-,unknown","BLDTYPE-BABY","")
+ccc_Exp_Hx_Exec("Coombs:","negative,positive,unknown","COOMBS DIREC","")
+ccc_Exp_Hx_Exec("Passed hearing screen?:","yes,no,unknown","NBHRNGSCRNG","")
+ccc_Exp_Hx_Exec("Date of discharge:","","DCHRGE DATE","")
+ccc_Exp_Hx_Exec("Discharge weight (kg):","","BABY DISC WT","")
+ccc_Exp_Hx_Exec("Problems during delivery","no,yes: see PMH","BIRTH HX 11D","")
+ccc_Exp_Hx_Exec("Problems after delivery:","no,yes: see PMH,yes: NICU-see PMH","PED NEOCOMM","")
+ccc_Exp_Hx_Exec("ENDD_L","","","")
+
+// List Box 1
+ccc_Exp_Hx_Exec("L_B","Feeding:","","")
+ccc_Exp_Hx_Exec("","breast feeding,formula feeding,early introduction of solid baby food,emesis after feeds,supplementing formula after breast feeding,pumping and bottle feeding","DIETCOMM","")
+
+// List Box 2
+ccc_Exp_Hx_Exec("L_B","Formula Type:","","")
+ccc_Exp_Hx_Exec("","Similac Brand,Enfamil Brand,Nestle Brand,Cow's milk based,Soy protein based,thickened with rice cereal,Lactose free,Hydrolyzed protein,WIC recipient","FORMULA","")
+
+// List Box 3
+ccc_Exp_Hx_Exec("L_B","Feeding Frequency:","","")
+ccc_Exp_Hx_Exec("","every 2 hrs.,every 3 hrs.,every 4 hrs.,every 5 hrs.,every 6 hrs.","FEEDING","")
+
+// List Box 4
+ccc_Exp_Hx_Exec("L_B","Bottle Feeding Volume:","","")
+ccc_Exp_Hx_Exec("","4 oz,5 oz,6 oz,7 oz,8 oz,> 8 oz","INFFORMULA24","")
+
+// List Box 5
+ccc_Exp_Hx_Exec("L_B","Using Cup:","","")
+ccc_Exp_Hx_Exec("","uses cup,uses bottle only,uses both bottle & cup","CUP USE","")
+
+// List Box 6
+ccc_Exp_Hx_Exec("L_B","Juice:","","")
+ccc_Exp_Hx_Exec("","no juice,drinks juice,4 oz/day,6 oz/day,8 oz/day,10 oz/day,>=12 oz/day","","")
+
+// List Box 7
+ccc_Exp_Hx_Exec("L_B","Solids:","","")
+ccc_Exp_Hx_Exec("","no solids,cereal,vegetables,fruits,meats,junk food,fast food/carryout,no reactions,reactions","SOLID FD USE","")
+
+// List Box 8
+ccc_Exp_Hx_Exec("L_B","Elimination:","","")
+ccc_Exp_Hx_Exec("","regular,irregular,soft BM's,hard BM's,constipation,diarrhea,voiding normal,problems voiding","ELIMINATION","")
+
+// List Box 9
+ccc_Exp_Hx_Exec("L_B","Sleep/Position:","","")
+ccc_Exp_Hx_Exec("","through night,wakes to feed,wakes once,wakes twice,wakes three times,supine (back),side,prone (stomach),SIDS risk discussed,crib,bassinet,co-bedding,no co-bedding,parent's room,infants room","SLEEP BEHAV","")
+
+// List Box 10
+ccc_Exp_Hx_Exec("L_B","Temperament:","","")
+ccc_Exp_Hx_Exec("","easy,colicky,demanding,cries when hungry or with needs,fussy all the time,fussy at night,fussy but consolable","INFTEMPERMNT","")
+
+// List Box 11 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 12 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 13
+ccc_Exp_Hx_Exec("L_B","Developmental Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,formal assessment completed,ages & stages completed,Denver Developmental II completed^","DEVTASK NOTE","")
+
+// List Box 14
+ccc_Exp_Hx_Exec("L_B","Behavior Concerns:","","")
+ccc_Exp_Hx_Exec("","no,yes,MCHAT completed,Vanderbilt completed,Conner completed^","","")
+
+// List Box 15
+ccc_Exp_Hx_Exec("L_B","Vision/Hearing:","","")
+ccc_Exp_Hx_Exec("","no concerns with vision,no concerns with hearing,concerns with vision,concerns with hearing,failed last vision screen,failed last hearing screen^no concerns with vision,no concerns with hearing","PARCONCVIS","")
+
+// List Box 16 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 17
+ccc_Exp_Hx_Exec("L_B","Gross Motor Assessment:","","")
+ccc_Exp_Hx_Exec("","sits briefly,rolls back to front,stands holding on,no head lag-pull to sit^sits briefly,rolls back to front,stands holding on,no head lag-pull to sit","GROSSMTRDEV","")
+
+// List Box 18
+ccc_Exp_Hx_Exec("L_B","Fine Motor Assessment:","","")
+ccc_Exp_Hx_Exec("","reaches for objects,transfers toy hand to hand,feeds self cracker^reaches for objects,transfers toy hand to hand,feeds self cracker","FINEMOTORDEV","")
+
+// List Box 19
+ccc_Exp_Hx_Exec("L_B","Communication:","","")
+ccc_Exp_Hx_Exec("","babbles,turns to voice,imitates sounds^babbles,turns to voice,imitates sounds","LANGUAGEDEV","")
+
+// List Box 20
+ccc_Exp_Hx_Exec("L_B","Social:","","")
+ccc_Exp_Hx_Exec("","feeds self,works for toy,shy with strangers^feeds self,works for toy,shy with strangers","SOCIAL DEV","")
+
+// List Box 21
+ccc_Exp_Hx_Exec("L_B","***RISK ASSESSMENT***","","")
+ccc_Exp_Hx_Exec("","****NOTE: ,Click the 'RISK ASSESS',Button below,VVVVVVVVVVVVVV,VVVVVVVVVVVVVV,VVVVVVVVVVVVVV","","")
+
+// List Box 22 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 23 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 24 (Empty space)
+ccc_Exp_Hx_Exec("L_B","","","")
+
+// List Box 25
+ccc_Exp_Hx_Exec("L_B","ANTICIPATORY GUIDANCE:","","")
+ccc_Exp_Hx_Exec("","discussed with caregiver,verbalized understanding,reviewed,minimum 3 categories reviewed,handout(s) given^discussed with caregiver,minimum 3 categories reviewed","ANT GUID REV","")
+
+// List Box 26
+ccc_Exp_Hx_Exec("L_B","BARRIERS TO COUNSELING:","","")
+ccc_Exp_Hx_Exec("","none,cognitive,visually impaired,hearing impaired,low literacy,English as a second language,physical,cultural diversity,interpreter required,interpreter utilized^","LEARN BARIER","")
+
+// List Box 27
+ccc_Exp_Hx_Exec("L_B","INJURY/ILLNESS PREVENT:","","")
+ccc_Exp_Hx_Exec("","rear riding/rear facing car seat,crib safety,falls,burns,water heater,smoke detector,sun safety,violence/guns,child proofing,poison control #,electrical outlets/cords,no walkers,back to sleep,hot liquids,don't leave unattended,water safety,lead risks,limit TV^","SAFETY GUID","")
+
+// List Box 28
+ccc_Exp_Hx_Exec("L_B","HEALTHY/SAFE HABITS:","","")
+ccc_Exp_Hx_Exec("","age-appropriate book given,passive smoking,never shake baby,sneezing-hiccoughs-soft spot,rashes,diarrhea","HLTHPROMGUID","")
+
+// List Box 29
+ccc_Exp_Hx_Exec("L_B","NUTRITION:","","")
+ccc_Exp_Hx_Exec("","breastfeeding,vitamins,formula,solids/finger foods,start rice cereal,1 new solid food/week,safe foods-avoid choking,WIC status^solids/finger foods,safe foods-avoid choking","NUTRITN GUID","")
+
+// List Box 30
+ccc_Exp_Hx_Exec("L_B","INFANT CARE:","","")
+ccc_Exp_Hx_Exec("","skin care,bathing,thermometer use,fever management,good sleep habits","BEHAVIORGUID","")
+
+// List Box 31
+ccc_Exp_Hx_Exec("L_B","PARENTING:","","")
+ccc_Exp_Hx_Exec("","parental depression,talk/read/sing to baby,holding/cuddling,temperament,family relationships,sibling rivalry,simple rules/limits,stranger anxiety,separation anxiety,temper tantrums,establish routines,sitter","YNG PRNT SKL","")
+
+// List Box 32
+ccc_Exp_Hx_Exec("L_B","ORAL HEALTH:","","")
+ccc_Exp_Hx_Exec("","no bottle in crib,clean teeth,fluoride in water,teething^no bottle in crib,clean teeth,fluoride in water,teething","DENT OHI DTE","")
+
+// List Box 33
+ccc_Exp_Hx_Exec("L_B","IMMUNIZATIONS:","","")
+ccc_Exp_Hx_Exec("","reviewed,up to date,counseled on risks and benefits,deferred due to illness,catch-up needed,refused-counseled on risks of refusal,refusal consent signed^","IMMUNIZ UTD","")
+
+// List Box 34
+ccc_Exp_Hx_Exec("L_B","HOME CHILDPROOFED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled","CHLDPROOFHOM","")
+
+// List Box 35
+ccc_Exp_Hx_Exec("L_B","CAR SEAT USED:","","")
+ccc_Exp_Hx_Exec("","yes,no,counseled","CAR RESTRNTS","")
+
+// List Box 36
+ccc_Exp_Hx_Exec("L_B","HOME SAFETY:","","")
+ccc_Exp_Hx_Exec("","smoke detector,no smoke detector,carbon monoxide monitor,no carbon monoxide monitor,fire extinguisher,no fire extinguisher,firearms in home-safety addressed","HOMESAFETY","")
+
+ccc_Exp_Hx_Exec("ENDL_B","","","")
+
+ccc_Exp_Hx_Exec("EN_D","","","")
+
+// END Form Heading: Bright Futures-6 Months
+
